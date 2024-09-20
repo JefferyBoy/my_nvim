@@ -1,0 +1,2344 @@
+{
+  "LOCAL_2ND_ARCH_VAR_PREFIX": {
+    "prefix": "LOCAL_2ND_ARCH_VAR_PREFIX",
+    "body": ["LOCAL_2ND_ARCH_VAR_PREFIX"],
+    "description": "LOCAL_2ND_ARCH_VAR_PREFIX"
+  },
+  "LOCAL_32_BIT_ONLY": {
+    "prefix": "LOCAL_32_BIT_ONLY",
+    "body": ["LOCAL_32_BIT_ONLY"],
+    "description": "LOCAL_32_BIT_ONLY"
+  },
+  "LOCAL_AAPT2_ONLY": {
+    "prefix": "LOCAL_AAPT2_ONLY",
+    "body": ["LOCAL_AAPT2_ONLY"],
+    "description": "LOCAL_AAPT2_ONLY"
+  },
+  "LOCAL_AAPT_FLAGS": {
+    "prefix": "LOCAL_AAPT_FLAGS",
+    "body": ["LOCAL_AAPT_FLAGS"],
+    "description": "LOCAL_AAPT_FLAGS"
+  },
+  "LOCAL_AAPT_INCLUDE_ALL_RESOURCES": {
+    "prefix": "LOCAL_AAPT_INCLUDE_ALL_RESOURCES",
+    "body": ["LOCAL_AAPT_INCLUDE_ALL_RESOURCES"],
+    "description": "LOCAL_AAPT_INCLUDE_ALL_RESOURCES"
+  },
+  "LOCAL_AAPT_NAMESPACES": {
+    "prefix": "LOCAL_AAPT_NAMESPACES",
+    "body": ["LOCAL_AAPT_NAMESPACES"],
+    "description": "LOCAL_AAPT_NAMESPACES"
+  },
+  "LOCAL_ADDITIONAL_CERTIFICATES": {
+    "prefix": "LOCAL_ADDITIONAL_CERTIFICATES",
+    "body": ["LOCAL_ADDITIONAL_CERTIFICATES"],
+    "description": "LOCAL_ADDITIONAL_CERTIFICATES"
+  },
+  "LOCAL_ADDITIONAL_CHECKED_MODULE": {
+    "prefix": "LOCAL_ADDITIONAL_CHECKED_MODULE",
+    "body": ["LOCAL_ADDITIONAL_CHECKED_MODULE"],
+    "description": "LOCAL_ADDITIONAL_CHECKED_MODULE"
+  },
+  "LOCAL_ADDITIONAL_DEPENDENCIES": {
+    "prefix": "LOCAL_ADDITIONAL_DEPENDENCIES",
+    "body": ["LOCAL_ADDITIONAL_DEPENDENCIES"],
+    "description": "LOCAL_ADDITIONAL_DEPENDENCIES"
+  },
+  "LOCAL_ADDITIONAL_HTML_DIR": {
+    "prefix": "LOCAL_ADDITIONAL_HTML_DIR",
+    "body": ["LOCAL_ADDITIONAL_HTML_DIR"],
+    "description": "LOCAL_ADDITIONAL_HTML_DIR"
+  },
+  "LOCAL_ADDITIONAL_JAVA_DIR": {
+    "prefix": "LOCAL_ADDITIONAL_JAVA_DIR",
+    "body": ["LOCAL_ADDITIONAL_JAVA_DIR"],
+    "description": "LOCAL_ADDITIONAL_JAVA_DIR"
+  },
+  "LOCAL_AIDL_INCLUDES": {
+    "prefix": "LOCAL_AIDL_INCLUDES",
+    "body": ["LOCAL_AIDL_INCLUDES"],
+    "description": "LOCAL_AIDL_INCLUDES"
+  },
+  "LOCAL_ALLOW_UNDEFINED_SYMBOLS": {
+    "prefix": "LOCAL_ALLOW_UNDEFINED_SYMBOLS",
+    "body": ["LOCAL_ALLOW_UNDEFINED_SYMBOLS"],
+    "description": "LOCAL_ALLOW_UNDEFINED_SYMBOLS"
+  },
+  "LOCAL_ANNOTATION_PROCESSORS": {
+    "prefix": "LOCAL_ANNOTATION_PROCESSORS",
+    "body": ["LOCAL_ANNOTATION_PROCESSORS"],
+    "description": "LOCAL_ANNOTATION_PROCESSORS"
+  },
+  "LOCAL_ANNOTATION_PROCESSOR_CLASSES": {
+    "prefix": "LOCAL_ANNOTATION_PROCESSOR_CLASSES",
+    "body": ["LOCAL_ANNOTATION_PROCESSOR_CLASSES"],
+    "description": "LOCAL_ANNOTATION_PROCESSOR_CLASSES"
+  },
+  "LOCAL_APIDIFF_NEWAPI": {
+    "prefix": "LOCAL_APIDIFF_NEWAPI",
+    "body": ["LOCAL_APIDIFF_NEWAPI"],
+    "description": "LOCAL_APIDIFF_NEWAPI"
+  },
+  "LOCAL_APIDIFF_OLDAPI": {
+    "prefix": "LOCAL_APIDIFF_OLDAPI",
+    "body": ["LOCAL_APIDIFF_OLDAPI"],
+    "description": "LOCAL_APIDIFF_OLDAPI"
+  },
+  "LOCAL_APK_LIBRARIES": {
+    "prefix": "LOCAL_APK_LIBRARIES",
+    "body": ["LOCAL_APK_LIBRARIES"],
+    "description": "LOCAL_APK_LIBRARIES"
+  },
+  "LOCAL_APK_SET_INSTALL_FILE": {
+    "prefix": "LOCAL_APK_SET_INSTALL_FILE",
+    "body": ["LOCAL_APK_SET_INSTALL_FILE"],
+    "description": "LOCAL_APK_SET_INSTALL_FILE"
+  },
+  "LOCAL_APKCERTS_FILE": {
+    "prefix": "LOCAL_APKCERTS_FILE",
+    "body": ["LOCAL_APKCERTS_FILE"],
+    "description": "LOCAL_APKCERTS_FILE"
+  },
+  "LOCAL_ARM_MODE": {
+    "prefix": "LOCAL_ARM_MODE",
+    "body": ["LOCAL_ARM_MODE"],
+    "description": "LOCAL_ARM_MODE"
+  },
+  "LOCAL_ASFLAGS": {
+    "prefix": "LOCAL_ASFLAGS",
+    "body": ["LOCAL_ASFLAGS"],
+    "description": "LOCAL_ASFLAGS"
+  },
+  "LOCAL_ASSET_DIR": {
+    "prefix": "LOCAL_ASSET_DIR",
+    "body": ["LOCAL_ASSET_DIR"],
+    "description": "LOCAL_ASSET_DIR"
+  },
+  "LOCAL_BUILT_MODULE": {
+    "prefix": "LOCAL_BUILT_MODULE",
+    "body": ["LOCAL_BUILT_MODULE"],
+    "description": "LOCAL_BUILT_MODULE"
+  },
+  "LOCAL_BUILT_MODULE_STEM": {
+    "prefix": "LOCAL_BUILT_MODULE_STEM",
+    "body": ["LOCAL_BUILT_MODULE_STEM"],
+    "description": "LOCAL_BUILT_MODULE_STEM"
+  },
+  "LOCAL_CC": {
+    "prefix": "LOCAL_CC",
+    "body": ["LOCAL_CC"],
+    "description": "LOCAL_CC"
+  },
+  "LOCAL_CERTIFICATE": {
+    "prefix": "LOCAL_CERTIFICATE",
+    "body": ["LOCAL_CERTIFICATE"],
+    "description": "LOCAL_CERTIFICATE"
+  },
+  "LOCAL_CFLAGS": {
+    "prefix": "LOCAL_CFLAGS",
+    "body": ["LOCAL_CFLAGS"],
+    "description": "LOCAL_CFLAGS"
+  },
+  "LOCAL_CHECK_SAME_VNDK_VARIANTS": {
+    "prefix": "LOCAL_CHECK_SAME_VNDK_VARIANTS",
+    "body": ["LOCAL_CHECK_SAME_VNDK_VARIANTS"],
+    "description": "LOCAL_CHECK_SAME_VNDK_VARIANTS"
+  },
+  "LOCAL_CHECKED_MODULE": {
+    "prefix": "LOCAL_CHECKED_MODULE",
+    "body": ["LOCAL_CHECKED_MODULE"],
+    "description": "LOCAL_CHECKED_MODULE"
+  },
+  "LOCAL_C_INCLUDES": {
+    "prefix": "LOCAL_C_INCLUDES",
+    "body": ["LOCAL_C_INCLUDES"],
+    "description": "LOCAL_C_INCLUDES"
+  },
+  "LOCAL_CLANG": {
+    "prefix": "LOCAL_CLANG",
+    "body": ["LOCAL_CLANG"],
+    "description": "LOCAL_CLANG"
+  },
+  "LOCAL_CLANG_ASFLAGS": {
+    "prefix": "LOCAL_CLANG_ASFLAGS",
+    "body": ["LOCAL_CLANG_ASFLAGS"],
+    "description": "LOCAL_CLANG_ASFLAGS"
+  },
+  "LOCAL_CLANG_CFLAGS": {
+    "prefix": "LOCAL_CLANG_CFLAGS",
+    "body": ["LOCAL_CLANG_CFLAGS"],
+    "description": "LOCAL_CLANG_CFLAGS"
+  },
+  "LOCAL_CLANG_CONLYFLAGS": {
+    "prefix": "LOCAL_CLANG_CONLYFLAGS",
+    "body": ["LOCAL_CLANG_CONLYFLAGS"],
+    "description": "LOCAL_CLANG_CONLYFLAGS"
+  },
+  "LOCAL_CLANG_CPPFLAGS": {
+    "prefix": "LOCAL_CLANG_CPPFLAGS",
+    "body": ["LOCAL_CLANG_CPPFLAGS"],
+    "description": "LOCAL_CLANG_CPPFLAGS"
+  },
+  "LOCAL_CLANG_LDFLAGS": {
+    "prefix": "LOCAL_CLANG_LDFLAGS",
+    "body": ["LOCAL_CLANG_LDFLAGS"],
+    "description": "LOCAL_CLANG_LDFLAGS"
+  },
+  "LOCAL_CLASSPATH": {
+    "prefix": "LOCAL_CLASSPATH",
+    "body": ["LOCAL_CLASSPATH"],
+    "description": "LOCAL_CLASSPATH"
+  },
+  "LOCAL_COMPATIBILITY_SUITE": {
+    "prefix": "LOCAL_COMPATIBILITY_SUITE",
+    "body": ["LOCAL_COMPATIBILITY_SUITE"],
+    "description": "LOCAL_COMPATIBILITY_SUITE"
+  },
+  "LOCAL_COMPATIBILITY_SUPPORT_FILES": {
+    "prefix": "LOCAL_COMPATIBILITY_SUPPORT_FILES",
+    "body": ["LOCAL_COMPATIBILITY_SUPPORT_FILES"],
+    "description": "LOCAL_COMPATIBILITY_SUPPORT_FILES"
+  },
+  "LOCAL_COMPRESSED_MODULE": {
+    "prefix": "LOCAL_COMPRESSED_MODULE",
+    "body": ["LOCAL_COMPRESSED_MODULE"],
+    "description": "LOCAL_COMPRESSED_MODULE"
+  },
+  "LOCAL_CONLYFLAGS": {
+    "prefix": "LOCAL_CONLYFLAGS",
+    "body": ["LOCAL_CONLYFLAGS"],
+    "description": "LOCAL_CONLYFLAGS"
+  },
+  "LOCAL_COPY_HEADERS": {
+    "prefix": "LOCAL_COPY_HEADERS",
+    "body": ["LOCAL_COPY_HEADERS"],
+    "description": "LOCAL_COPY_HEADERS"
+  },
+  "LOCAL_COPY_HEADERS_TO": {
+    "prefix": "LOCAL_COPY_HEADERS_TO",
+    "body": ["LOCAL_COPY_HEADERS_TO"],
+    "description": "LOCAL_COPY_HEADERS_TO"
+  },
+  "LOCAL_CPP_EXTENSION": {
+    "prefix": "LOCAL_CPP_EXTENSION",
+    "body": ["LOCAL_CPP_EXTENSION"],
+    "description": "LOCAL_CPP_EXTENSION"
+  },
+  "LOCAL_CPPFLAGS": {
+    "prefix": "LOCAL_CPPFLAGS",
+    "body": ["LOCAL_CPPFLAGS"],
+    "description": "LOCAL_CPPFLAGS"
+  },
+  "LOCAL_CPP_STD": {
+    "prefix": "LOCAL_CPP_STD",
+    "body": ["LOCAL_CPP_STD"],
+    "description": "LOCAL_CPP_STD"
+  },
+  "LOCAL_C_STD": {
+    "prefix": "LOCAL_C_STD",
+    "body": ["LOCAL_C_STD"],
+    "description": "LOCAL_C_STD"
+  },
+  "LOCAL_CTS_TEST_PACKAGE": {
+    "prefix": "LOCAL_CTS_TEST_PACKAGE",
+    "body": ["LOCAL_CTS_TEST_PACKAGE"],
+    "description": "LOCAL_CTS_TEST_PACKAGE"
+  },
+  "LOCAL_CTS_TEST_RUNNER": {
+    "prefix": "LOCAL_CTS_TEST_RUNNER",
+    "body": ["LOCAL_CTS_TEST_RUNNER"],
+    "description": "LOCAL_CTS_TEST_RUNNER"
+  },
+  "LOCAL_CXX": {
+    "prefix": "LOCAL_CXX",
+    "body": ["LOCAL_CXX"],
+    "description": "LOCAL_CXX"
+  },
+  "LOCAL_CXX_STL": {
+    "prefix": "LOCAL_CXX_STL",
+    "body": ["LOCAL_CXX_STL"],
+    "description": "LOCAL_CXX_STL"
+  },
+  "LOCAL_DEX_PREOPT_APP_IMAGE": {
+    "prefix": "LOCAL_DEX_PREOPT_APP_IMAGE",
+    "body": ["LOCAL_DEX_PREOPT_APP_IMAGE"],
+    "description": "LOCAL_DEX_PREOPT_APP_IMAGE"
+  },
+  "LOCAL_DEX_PREOPT_FLAGS": {
+    "prefix": "LOCAL_DEX_PREOPT_FLAGS",
+    "body": ["LOCAL_DEX_PREOPT_FLAGS"],
+    "description": "LOCAL_DEX_PREOPT_FLAGS"
+  },
+  "LOCAL_DEX_PREOPT_GENERATE_PROFILE": {
+    "prefix": "LOCAL_DEX_PREOPT_GENERATE_PROFILE",
+    "body": ["LOCAL_DEX_PREOPT_GENERATE_PROFILE"],
+    "description": "LOCAL_DEX_PREOPT_GENERATE_PROFILE"
+  },
+  "LOCAL_DEX_PREOPT_PROFILE_CLASS_LISTING": {
+    "prefix": "LOCAL_DEX_PREOPT_PROFILE_CLASS_LISTING",
+    "body": ["LOCAL_DEX_PREOPT_PROFILE_CLASS_LISTING"],
+    "description": "LOCAL_DEX_PREOPT_PROFILE_CLASS_LISTING"
+  },
+  "LOCAL_DEX_PREOPT": {
+    "prefix": "LOCAL_DEX_PREOPT",
+    "body": ["LOCAL_DEX_PREOPT"],
+    "description": "LOCAL_DEX_PREOPT"
+  },
+  "LOCAL_DISABLE_AUTO_GENERATE_TEST_CONFIG": {
+    "prefix": "LOCAL_DISABLE_AUTO_GENERATE_TEST_CONFIG",
+    "body": ["LOCAL_DISABLE_AUTO_GENERATE_TEST_CONFIG"],
+    "description": "LOCAL_DISABLE_AUTO_GENERATE_TEST_CONFIG"
+  },
+  "LOCAL_DISABLE_TEST_CONFIG": {
+    "prefix": "LOCAL_DISABLE_TEST_CONFIG",
+    "body": ["LOCAL_DISABLE_TEST_CONFIG"],
+    "description": "LOCAL_DISABLE_TEST_CONFIG"
+  },
+  "LOCAL_DISABLE_RESOLVE_SUPPORT_LIBRARIES": {
+    "prefix": "LOCAL_DISABLE_RESOLVE_SUPPORT_LIBRARIES",
+    "body": ["LOCAL_DISABLE_RESOLVE_SUPPORT_LIBRARIES"],
+    "description": "LOCAL_DISABLE_RESOLVE_SUPPORT_LIBRARIES"
+  },
+  "LOCAL_DONT_CHECK_MODULE": {
+    "prefix": "LOCAL_DONT_CHECK_MODULE",
+    "body": ["LOCAL_DONT_CHECK_MODULE"],
+    "description": "LOCAL_DONT_CHECK_MODULE"
+  },
+  "LOCAL_DONT_DELETE_JAR_META_INF": {
+    "prefix": "LOCAL_DONT_DELETE_JAR_META_INF",
+    "body": ["LOCAL_DONT_DELETE_JAR_META_INF"],
+    "description": "LOCAL_DONT_DELETE_JAR_META_INF"
+  },
+  "LOCAL_DONT_MERGE_MANIFESTS": {
+    "prefix": "LOCAL_DONT_MERGE_MANIFESTS",
+    "body": ["LOCAL_DONT_MERGE_MANIFESTS"],
+    "description": "LOCAL_DONT_MERGE_MANIFESTS"
+  },
+  "LOCAL_DPI_FILE_STEM": {
+    "prefix": "LOCAL_DPI_FILE_STEM",
+    "body": ["LOCAL_DPI_FILE_STEM"],
+    "description": "LOCAL_DPI_FILE_STEM"
+  },
+  "LOCAL_DPI_VARIANTS": {
+    "prefix": "LOCAL_DPI_VARIANTS",
+    "body": ["LOCAL_DPI_VARIANTS"],
+    "description": "LOCAL_DPI_VARIANTS"
+  },
+  "LOCAL_DROIDDOC_ANNOTATIONS_ZIP": {
+    "prefix": "LOCAL_DROIDDOC_ANNOTATIONS_ZIP",
+    "body": ["LOCAL_DROIDDOC_ANNOTATIONS_ZIP"],
+    "description": "LOCAL_DROIDDOC_ANNOTATIONS_ZIP"
+  },
+  "LOCAL_DROIDDOC_API_VERSIONS_XML": {
+    "prefix": "LOCAL_DROIDDOC_API_VERSIONS_XML",
+    "body": ["LOCAL_DROIDDOC_API_VERSIONS_XML"],
+    "description": "LOCAL_DROIDDOC_API_VERSIONS_XML"
+  },
+  "LOCAL_DROIDDOC_ASSET_DIR": {
+    "prefix": "LOCAL_DROIDDOC_ASSET_DIR",
+    "body": ["LOCAL_DROIDDOC_ASSET_DIR"],
+    "description": "LOCAL_DROIDDOC_ASSET_DIR"
+  },
+  "LOCAL_DROIDDOC_CUSTOM_ASSET_DIR": {
+    "prefix": "LOCAL_DROIDDOC_CUSTOM_ASSET_DIR",
+    "body": ["LOCAL_DROIDDOC_CUSTOM_ASSET_DIR"],
+    "description": "LOCAL_DROIDDOC_CUSTOM_ASSET_DIR"
+  },
+  "LOCAL_DROIDDOC_CUSTOM_TEMPLATE_DIR": {
+    "prefix": "LOCAL_DROIDDOC_CUSTOM_TEMPLATE_DIR",
+    "body": ["LOCAL_DROIDDOC_CUSTOM_TEMPLATE_DIR"],
+    "description": "LOCAL_DROIDDOC_CUSTOM_TEMPLATE_DIR"
+  },
+  "LOCAL_DROIDDOC_DOC_ZIP": {
+    "prefix": "LOCAL_DROIDDOC_DOC_ZIP",
+    "body": ["LOCAL_DROIDDOC_DOC_ZIP"],
+    "description": "LOCAL_DROIDDOC_DOC_ZIP"
+  },
+  "LOCAL_DROIDDOC_HTML_DIR": {
+    "prefix": "LOCAL_DROIDDOC_HTML_DIR",
+    "body": ["LOCAL_DROIDDOC_HTML_DIR"],
+    "description": "LOCAL_DROIDDOC_HTML_DIR"
+  },
+  "LOCAL_DROIDDOC_METADATA_ZIP": {
+    "prefix": "LOCAL_DROIDDOC_METADATA_ZIP",
+    "body": ["LOCAL_DROIDDOC_METADATA_ZIP"],
+    "description": "LOCAL_DROIDDOC_METADATA_ZIP"
+  },
+  "LOCAL_DROIDDOC_OPTIONS": {
+    "prefix": "LOCAL_DROIDDOC_OPTIONS",
+    "body": ["LOCAL_DROIDDOC_OPTIONS"],
+    "description": "LOCAL_DROIDDOC_OPTIONS"
+  },
+  "LOCAL_DROIDDOC_SOURCE_PATH": {
+    "prefix": "LOCAL_DROIDDOC_SOURCE_PATH",
+    "body": ["LOCAL_DROIDDOC_SOURCE_PATH"],
+    "description": "LOCAL_DROIDDOC_SOURCE_PATH"
+  },
+  "LOCAL_DROIDDOC_STUB_OUT_DIR": {
+    "prefix": "LOCAL_DROIDDOC_STUB_OUT_DIR",
+    "body": ["LOCAL_DROIDDOC_STUB_OUT_DIR"],
+    "description": "LOCAL_DROIDDOC_STUB_OUT_DIR"
+  },
+  "LOCAL_DROIDDOC_STUBS_SRCJAR": {
+    "prefix": "LOCAL_DROIDDOC_STUBS_SRCJAR",
+    "body": ["LOCAL_DROIDDOC_STUBS_SRCJAR"],
+    "description": "LOCAL_DROIDDOC_STUBS_SRCJAR"
+  },
+  "LOCAL_DROIDDOC_TEMPLATE_DIR": {
+    "prefix": "LOCAL_DROIDDOC_TEMPLATE_DIR",
+    "body": ["LOCAL_DROIDDOC_TEMPLATE_DIR"],
+    "description": "LOCAL_DROIDDOC_TEMPLATE_DIR"
+  },
+  "LOCAL_DROIDDOC_USE_STANDARD_DOCLET": {
+    "prefix": "LOCAL_DROIDDOC_USE_STANDARD_DOCLET",
+    "body": ["LOCAL_DROIDDOC_USE_STANDARD_DOCLET"],
+    "description": "LOCAL_DROIDDOC_USE_STANDARD_DOCLET"
+  },
+  "LOCAL_DX_FLAGS": {
+    "prefix": "LOCAL_DX_FLAGS",
+    "body": ["LOCAL_DX_FLAGS"],
+    "description": "LOCAL_DX_FLAGS"
+  },
+  "LOCAL_DYLIB_LIBRARIES": {
+    "prefix": "LOCAL_DYLIB_LIBRARIES",
+    "body": ["LOCAL_DYLIB_LIBRARIES"],
+    "description": "LOCAL_DYLIB_LIBRARIES"
+  },
+  "LOCAL_EMMA_COVERAGE_FILTER": {
+    "prefix": "LOCAL_EMMA_COVERAGE_FILTER",
+    "body": ["LOCAL_EMMA_COVERAGE_FILTER"],
+    "description": "LOCAL_EMMA_COVERAGE_FILTER"
+  },
+  "LOCAL_EMMA_INSTRUMENT": {
+    "prefix": "LOCAL_EMMA_INSTRUMENT",
+    "body": ["LOCAL_EMMA_INSTRUMENT"],
+    "description": "LOCAL_EMMA_INSTRUMENT"
+  },
+  "LOCAL_ENFORCE_USES_LIBRARIES": {
+    "prefix": "LOCAL_ENFORCE_USES_LIBRARIES",
+    "body": ["LOCAL_ENFORCE_USES_LIBRARIES"],
+    "description": "LOCAL_ENFORCE_USES_LIBRARIES"
+  },
+  "LOCAL_ERROR_PRONE_FLAGS": {
+    "prefix": "LOCAL_ERROR_PRONE_FLAGS",
+    "body": ["LOCAL_ERROR_PRONE_FLAGS"],
+    "description": "LOCAL_ERROR_PRONE_FLAGS"
+  },
+  "LOCAL_EXPORT_CFLAGS": {
+    "prefix": "LOCAL_EXPORT_CFLAGS",
+    "body": ["LOCAL_EXPORT_CFLAGS"],
+    "description": "LOCAL_EXPORT_CFLAGS"
+  },
+  "LOCAL_EXPORT_C_INCLUDE_DEPS": {
+    "prefix": "LOCAL_EXPORT_C_INCLUDE_DEPS",
+    "body": ["LOCAL_EXPORT_C_INCLUDE_DEPS"],
+    "description": "LOCAL_EXPORT_C_INCLUDE_DEPS"
+  },
+  "LOCAL_EXPORT_C_INCLUDE_DIRS": {
+    "prefix": "LOCAL_EXPORT_C_INCLUDE_DIRS",
+    "body": ["LOCAL_EXPORT_C_INCLUDE_DIRS"],
+    "description": "LOCAL_EXPORT_C_INCLUDE_DIRS"
+  },
+  "LOCAL_EXPORT_HEADER_LIBRARY_HEADERS": {
+    "prefix": "LOCAL_EXPORT_HEADER_LIBRARY_HEADERS",
+    "body": ["LOCAL_EXPORT_HEADER_LIBRARY_HEADERS"],
+    "description": "LOCAL_EXPORT_HEADER_LIBRARY_HEADERS"
+  },
+  "LOCAL_EXPORT_PACKAGE_RESOURCES": {
+    "prefix": "LOCAL_EXPORT_PACKAGE_RESOURCES",
+    "body": ["LOCAL_EXPORT_PACKAGE_RESOURCES"],
+    "description": "LOCAL_EXPORT_PACKAGE_RESOURCES"
+  },
+  "LOCAL_EXPORT_PROGUARD_FLAG_FILES": {
+    "prefix": "LOCAL_EXPORT_PROGUARD_FLAG_FILES",
+    "body": ["LOCAL_EXPORT_PROGUARD_FLAG_FILES"],
+    "description": "LOCAL_EXPORT_PROGUARD_FLAG_FILES"
+  },
+  "LOCAL_EXPORT_SDK_LIBRARIES": {
+    "prefix": "LOCAL_EXPORT_SDK_LIBRARIES",
+    "body": ["LOCAL_EXPORT_SDK_LIBRARIES"],
+    "description": "LOCAL_EXPORT_SDK_LIBRARIES"
+  },
+  "LOCAL_EXPORT_SHARED_LIBRARY_HEADERS": {
+    "prefix": "LOCAL_EXPORT_SHARED_LIBRARY_HEADERS",
+    "body": ["LOCAL_EXPORT_SHARED_LIBRARY_HEADERS"],
+    "description": "LOCAL_EXPORT_SHARED_LIBRARY_HEADERS"
+  },
+  "LOCAL_EXPORT_STATIC_LIBRARY_HEADERS": {
+    "prefix": "LOCAL_EXPORT_STATIC_LIBRARY_HEADERS",
+    "body": ["LOCAL_EXPORT_STATIC_LIBRARY_HEADERS"],
+    "description": "LOCAL_EXPORT_STATIC_LIBRARY_HEADERS"
+  },
+  "LOCAL_EXTRA_FULL_TEST_CONFIGS": {
+    "prefix": "LOCAL_EXTRA_FULL_TEST_CONFIGS",
+    "body": ["LOCAL_EXTRA_FULL_TEST_CONFIGS"],
+    "description": "LOCAL_EXTRA_FULL_TEST_CONFIGS"
+  },
+  "LOCAL_EXTRACT_APK": {
+    "prefix": "LOCAL_EXTRACT_APK",
+    "body": ["LOCAL_EXTRACT_APK"],
+    "description": "LOCAL_EXTRACT_APK"
+  },
+  "LOCAL_EXTRACT_DPI_APK": {
+    "prefix": "LOCAL_EXTRACT_DPI_APK",
+    "body": ["LOCAL_EXTRACT_DPI_APK"],
+    "description": "LOCAL_EXTRACT_DPI_APK"
+  },
+  "LOCAL_FILE_CONTEXTS": {
+    "prefix": "LOCAL_FILE_CONTEXTS",
+    "body": ["LOCAL_FILE_CONTEXTS"],
+    "description": "LOCAL_FILE_CONTEXTS"
+  },
+  "LOCAL_FINDBUGS_FLAGS": {
+    "prefix": "LOCAL_FINDBUGS_FLAGS",
+    "body": ["LOCAL_FINDBUGS_FLAGS"],
+    "description": "LOCAL_FINDBUGS_FLAGS"
+  },
+  "LOCAL_FORCE_STATIC_EXECUTABLE": {
+    "prefix": "LOCAL_FORCE_STATIC_EXECUTABLE",
+    "body": ["LOCAL_FORCE_STATIC_EXECUTABLE"],
+    "description": "LOCAL_FORCE_STATIC_EXECUTABLE"
+  },
+  "LOCAL_FULL_CLASSES_JACOCO_JAR": {
+    "prefix": "LOCAL_FULL_CLASSES_JACOCO_JAR",
+    "body": ["LOCAL_FULL_CLASSES_JACOCO_JAR"],
+    "description": "LOCAL_FULL_CLASSES_JACOCO_JAR"
+  },
+  "LOCAL_FULL_CLASSES_PRE_JACOCO_JAR": {
+    "prefix": "LOCAL_FULL_CLASSES_PRE_JACOCO_JAR",
+    "body": ["LOCAL_FULL_CLASSES_PRE_JACOCO_JAR"],
+    "description": "LOCAL_FULL_CLASSES_PRE_JACOCO_JAR"
+  },
+  "LOCAL_FULL_INIT_RC": {
+    "prefix": "LOCAL_FULL_INIT_RC",
+    "body": ["LOCAL_FULL_INIT_RC"],
+    "description": "LOCAL_FULL_INIT_RC"
+  },
+  "LOCAL_FULL_LIBS_MANIFEST_FILES": {
+    "prefix": "LOCAL_FULL_LIBS_MANIFEST_FILES",
+    "body": ["LOCAL_FULL_LIBS_MANIFEST_FILES"],
+    "description": "LOCAL_FULL_LIBS_MANIFEST_FILES"
+  },
+  "LOCAL_FULL_MANIFEST_FILE": {
+    "prefix": "LOCAL_FULL_MANIFEST_FILE",
+    "body": ["LOCAL_FULL_MANIFEST_FILE"],
+    "description": "LOCAL_FULL_MANIFEST_FILE"
+  },
+  "LOCAL_FULL_TEST_CONFIG": {
+    "prefix": "LOCAL_FULL_TEST_CONFIG",
+    "body": ["LOCAL_FULL_TEST_CONFIG"],
+    "description": "LOCAL_FULL_TEST_CONFIG"
+  },
+  "LOCAL_FULL_VINTF_FRAGMENTS": {
+    "prefix": "LOCAL_FULL_VINTF_FRAGMENTS",
+    "body": ["LOCAL_FULL_VINTF_FRAGMENTS"],
+    "description": "LOCAL_FULL_VINTF_FRAGMENTS"
+  },
+  "LOCAL_FUZZ_ENGINE": {
+    "prefix": "LOCAL_FUZZ_ENGINE",
+    "body": ["LOCAL_FUZZ_ENGINE"],
+    "description": "LOCAL_FUZZ_ENGINE"
+  },
+  "LOCAL_FUZZ_INSTALLED_SHARED_DEPS": {
+    "prefix": "LOCAL_FUZZ_INSTALLED_SHARED_DEPS",
+    "body": ["LOCAL_FUZZ_INSTALLED_SHARED_DEPS"],
+    "description": "LOCAL_FUZZ_INSTALLED_SHARED_DEPS"
+  },
+  "LOCAL_GCNO_FILES": {
+    "prefix": "LOCAL_GCNO_FILES",
+    "body": ["LOCAL_GCNO_FILES"],
+    "description": "LOCAL_GCNO_FILES"
+  },
+  "LOCAL_GENERATED_SOURCES": {
+    "prefix": "LOCAL_GENERATED_SOURCES",
+    "body": ["LOCAL_GENERATED_SOURCES"],
+    "description": "LOCAL_GENERATED_SOURCES"
+  },
+  "LOCAL_GROUP_STATIC_LIBRARIES": {
+    "prefix": "LOCAL_GROUP_STATIC_LIBRARIES",
+    "body": ["LOCAL_GROUP_STATIC_LIBRARIES"],
+    "description": "LOCAL_GROUP_STATIC_LIBRARIES"
+  },
+  "LOCAL_GTEST": {
+    "prefix": "LOCAL_GTEST",
+    "body": ["LOCAL_GTEST"],
+    "description": "LOCAL_GTEST"
+  },
+  "LOCAL_HEADER_LIBRARIES": {
+    "prefix": "LOCAL_HEADER_LIBRARIES",
+    "body": ["LOCAL_HEADER_LIBRARIES"],
+    "description": "LOCAL_HEADER_LIBRARIES"
+  },
+  "LOCAL_HOST_PREFIX": {
+    "prefix": "LOCAL_HOST_PREFIX",
+    "body": ["LOCAL_HOST_PREFIX"],
+    "description": "LOCAL_HOST_PREFIX"
+  },
+  "LOCAL_HOST_REQUIRED_MODULES": {
+    "prefix": "LOCAL_HOST_REQUIRED_MODULES",
+    "body": ["LOCAL_HOST_REQUIRED_MODULES"],
+    "description": "LOCAL_HOST_REQUIRED_MODULES"
+  },
+  "LOCAL_INIT_RC": {
+    "prefix": "LOCAL_INIT_RC",
+    "body": ["LOCAL_INIT_RC"],
+    "description": "LOCAL_INIT_RC"
+  },
+  "LOCAL_INJECT_BSSL_HASH": {
+    "prefix": "LOCAL_INJECT_BSSL_HASH",
+    "body": ["LOCAL_INJECT_BSSL_HASH"],
+    "description": "LOCAL_INJECT_BSSL_HASH"
+  },
+  "LOCAL_INSTALLED_MODULE": {
+    "prefix": "LOCAL_INSTALLED_MODULE",
+    "body": ["LOCAL_INSTALLED_MODULE"],
+    "description": "LOCAL_INSTALLED_MODULE"
+  },
+  "LOCAL_INSTALLED_MODULE_STEM": {
+    "prefix": "LOCAL_INSTALLED_MODULE_STEM",
+    "body": ["LOCAL_INSTALLED_MODULE_STEM"],
+    "description": "LOCAL_INSTALLED_MODULE_STEM"
+  },
+  "LOCAL_INSTRUMENTATION_FOR": {
+    "prefix": "LOCAL_INSTRUMENTATION_FOR",
+    "body": ["LOCAL_INSTRUMENTATION_FOR"],
+    "description": "LOCAL_INSTRUMENTATION_FOR"
+  },
+  "LOCAL_INTERMEDIATE_SOURCE_DIR": {
+    "prefix": "LOCAL_INTERMEDIATE_SOURCE_DIR",
+    "body": ["LOCAL_INTERMEDIATE_SOURCE_DIR"],
+    "description": "LOCAL_INTERMEDIATE_SOURCE_DIR"
+  },
+  "LOCAL_INTERMEDIATE_SOURCES": {
+    "prefix": "LOCAL_INTERMEDIATE_SOURCES",
+    "body": ["LOCAL_INTERMEDIATE_SOURCES"],
+    "description": "LOCAL_INTERMEDIATE_SOURCES"
+  },
+  "LOCAL_INTERMEDIATE_TARGETS": {
+    "prefix": "LOCAL_INTERMEDIATE_TARGETS",
+    "body": ["LOCAL_INTERMEDIATE_TARGETS"],
+    "description": "LOCAL_INTERMEDIATE_TARGETS"
+  },
+  "LOCAL_IS_FUZZ_TARGET": {
+    "prefix": "LOCAL_IS_FUZZ_TARGET",
+    "body": ["LOCAL_IS_FUZZ_TARGET"],
+    "description": "LOCAL_IS_FUZZ_TARGET"
+  },
+  "LOCAL_IS_HOST_MODULE": {
+    "prefix": "LOCAL_IS_HOST_MODULE",
+    "body": ["LOCAL_IS_HOST_MODULE"],
+    "description": "LOCAL_IS_HOST_MODULE"
+  },
+  "LOCAL_IS_RUNTIME_RESOURCE_OVERLAY": {
+    "prefix": "LOCAL_IS_RUNTIME_RESOURCE_OVERLAY",
+    "body": ["LOCAL_IS_RUNTIME_RESOURCE_OVERLAY"],
+    "description": "LOCAL_IS_RUNTIME_RESOURCE_OVERLAY"
+  },
+  "LOCAL_IS_UNIT_TEST": {
+    "prefix": "LOCAL_IS_UNIT_TEST",
+    "body": ["LOCAL_IS_UNIT_TEST"],
+    "description": "LOCAL_IS_UNIT_TEST"
+  },
+  "LOCAL_JACK_CLASSPATH": {
+    "prefix": "LOCAL_JACK_CLASSPATH",
+    "body": ["LOCAL_JACK_CLASSPATH"],
+    "description": "LOCAL_JACK_CLASSPATH"
+  },
+  "LOCAL_JACK_COVERAGE_EXCLUDE_FILTER": {
+    "prefix": "LOCAL_JACK_COVERAGE_EXCLUDE_FILTER",
+    "body": ["LOCAL_JACK_COVERAGE_EXCLUDE_FILTER"],
+    "description": "LOCAL_JACK_COVERAGE_EXCLUDE_FILTER"
+  },
+  "LOCAL_JACK_COVERAGE_INCLUDE_FILTER": {
+    "prefix": "LOCAL_JACK_COVERAGE_INCLUDE_FILTER",
+    "body": ["LOCAL_JACK_COVERAGE_INCLUDE_FILTER"],
+    "description": "LOCAL_JACK_COVERAGE_INCLUDE_FILTER"
+  },
+  "LOCAL_JACK_ENABLED": {
+    "prefix": "LOCAL_JACK_ENABLED",
+    "body": ["LOCAL_JACK_ENABLED"],
+    "description": "LOCAL_JACK_ENABLED"
+  },
+  "LOCAL_JACK_FLAGS": {
+    "prefix": "LOCAL_JACK_FLAGS",
+    "body": ["LOCAL_JACK_FLAGS"],
+    "description": "LOCAL_JACK_FLAGS"
+  },
+  "LOCAL_JACK_PLUGIN": {
+    "prefix": "LOCAL_JACK_PLUGIN",
+    "body": ["LOCAL_JACK_PLUGIN"],
+    "description": "LOCAL_JACK_PLUGIN"
+  },
+  "LOCAL_JACK_PLUGIN_PATH": {
+    "prefix": "LOCAL_JACK_PLUGIN_PATH",
+    "body": ["LOCAL_JACK_PLUGIN_PATH"],
+    "description": "LOCAL_JACK_PLUGIN_PATH"
+  },
+  "LOCAL_JACK_PROGUARD_FLAGS": {
+    "prefix": "LOCAL_JACK_PROGUARD_FLAGS",
+    "body": ["LOCAL_JACK_PROGUARD_FLAGS"],
+    "description": "LOCAL_JACK_PROGUARD_FLAGS"
+  },
+  "LOCAL_JAR_EXCLUDE_FILES": {
+    "prefix": "LOCAL_JAR_EXCLUDE_FILES",
+    "body": ["LOCAL_JAR_EXCLUDE_FILES"],
+    "description": "LOCAL_JAR_EXCLUDE_FILES"
+  },
+  "LOCAL_JAR_EXCLUDE_PACKAGES": {
+    "prefix": "LOCAL_JAR_EXCLUDE_PACKAGES",
+    "body": ["LOCAL_JAR_EXCLUDE_PACKAGES"],
+    "description": "LOCAL_JAR_EXCLUDE_PACKAGES"
+  },
+  "LOCAL_JARJAR_RULES": {
+    "prefix": "LOCAL_JARJAR_RULES",
+    "body": ["LOCAL_JARJAR_RULES"],
+    "description": "LOCAL_JARJAR_RULES"
+  },
+  "LOCAL_JAR_MANIFEST": {
+    "prefix": "LOCAL_JAR_MANIFEST",
+    "body": ["LOCAL_JAR_MANIFEST"],
+    "description": "LOCAL_JAR_MANIFEST"
+  },
+  "LOCAL_JAR_PACKAGES": {
+    "prefix": "LOCAL_JAR_PACKAGES",
+    "body": ["LOCAL_JAR_PACKAGES"],
+    "description": "LOCAL_JAR_PACKAGES"
+  },
+  "LOCAL_JAR_PROCESSOR": {
+    "prefix": "LOCAL_JAR_PROCESSOR",
+    "body": ["LOCAL_JAR_PROCESSOR"],
+    "description": "LOCAL_JAR_PROCESSOR"
+  },
+  "LOCAL_JAR_PROCESSOR_ARGS": {
+    "prefix": "LOCAL_JAR_PROCESSOR_ARGS",
+    "body": ["LOCAL_JAR_PROCESSOR_ARGS"],
+    "description": "LOCAL_JAR_PROCESSOR_ARGS"
+  },
+  "LOCAL_JAVACFLAGS": {
+    "prefix": "LOCAL_JAVACFLAGS",
+    "body": ["LOCAL_JAVACFLAGS"],
+    "description": "LOCAL_JAVACFLAGS"
+  },
+  "LOCAL_JAVA_LANGUAGE_VERSION": {
+    "prefix": "LOCAL_JAVA_LANGUAGE_VERSION",
+    "body": ["LOCAL_JAVA_LANGUAGE_VERSION"],
+    "description": "LOCAL_JAVA_LANGUAGE_VERSION"
+  },
+  "LOCAL_JAVA_LAYERS_FILE": {
+    "prefix": "LOCAL_JAVA_LAYERS_FILE",
+    "body": ["LOCAL_JAVA_LAYERS_FILE"],
+    "description": "LOCAL_JAVA_LAYERS_FILE"
+  },
+  "LOCAL_JAVA_LIBRARIES": {
+    "prefix": "LOCAL_JAVA_LIBRARIES",
+    "body": ["LOCAL_JAVA_LIBRARIES"],
+    "description": "LOCAL_JAVA_LIBRARIES"
+  },
+  "LOCAL_JAVA_RESOURCE_DIRS": {
+    "prefix": "LOCAL_JAVA_RESOURCE_DIRS",
+    "body": ["LOCAL_JAVA_RESOURCE_DIRS"],
+    "description": "LOCAL_JAVA_RESOURCE_DIRS"
+  },
+  "LOCAL_JAVA_RESOURCE_FILES": {
+    "prefix": "LOCAL_JAVA_RESOURCE_FILES",
+    "body": ["LOCAL_JAVA_RESOURCE_FILES"],
+    "description": "LOCAL_JAVA_RESOURCE_FILES"
+  },
+  "LOCAL_JETIFIER_ENABLED": {
+    "prefix": "LOCAL_JETIFIER_ENABLED",
+    "body": ["LOCAL_JETIFIER_ENABLED"],
+    "description": "LOCAL_JETIFIER_ENABLED"
+  },
+  "LOCAL_JNI_SHARED_LIBRARIES": {
+    "prefix": "LOCAL_JNI_SHARED_LIBRARIES",
+    "body": ["LOCAL_JNI_SHARED_LIBRARIES"],
+    "description": "LOCAL_JNI_SHARED_LIBRARIES"
+  },
+  "LOCAL_JNI_SHARED_LIBRARIES_ABI": {
+    "prefix": "LOCAL_JNI_SHARED_LIBRARIES_ABI",
+    "body": ["LOCAL_JNI_SHARED_LIBRARIES_ABI"],
+    "description": "LOCAL_JNI_SHARED_LIBRARIES_ABI"
+  },
+  "LOCAL_CERTIFICATE_LINEAGE": {
+    "prefix": "LOCAL_CERTIFICATE_LINEAGE",
+    "body": ["LOCAL_CERTIFICATE_LINEAGE"],
+    "description": "LOCAL_CERTIFICATE_LINEAGE"
+  },
+  "LOCAL_LDFLAGS": {
+    "prefix": "LOCAL_LDFLAGS",
+    "body": ["LOCAL_LDFLAGS"],
+    "description": "LOCAL_LDFLAGS"
+  },
+  "LOCAL_LDLIBS": {
+    "prefix": "LOCAL_LDLIBS",
+    "body": ["LOCAL_LDLIBS"],
+    "description": "LOCAL_LDLIBS"
+  },
+  "LOCAL_LICENSE_CONDITIONS": {
+    "prefix": "LOCAL_LICENSE_CONDITIONS",
+    "body": ["LOCAL_LICENSE_CONDITIONS"],
+    "description": "LOCAL_LICENSE_CONDITIONS"
+  },
+  "LOCAL_LICENSE_KINDS": {
+    "prefix": "LOCAL_LICENSE_KINDS",
+    "body": ["LOCAL_LICENSE_KINDS"],
+    "description": "LOCAL_LICENSE_KINDS"
+  },
+  "LOCAL_LICENSE_INSTALL_MAP": {
+    "prefix": "LOCAL_LICENSE_INSTALL_MAP",
+    "body": ["LOCAL_LICENSE_INSTALL_MAP"],
+    "description": "LOCAL_LICENSE_INSTALL_MAP"
+  },
+  "LOCAL_LICENSE_PACKAGE_NAME": {
+    "prefix": "LOCAL_LICENSE_PACKAGE_NAME",
+    "body": ["LOCAL_LICENSE_PACKAGE_NAME"],
+    "description": "LOCAL_LICENSE_PACKAGE_NAME"
+  },
+  "LOCAL_LOGTAGS_FILES": {
+    "prefix": "LOCAL_LOGTAGS_FILES",
+    "body": ["LOCAL_LOGTAGS_FILES"],
+    "description": "LOCAL_LOGTAGS_FILES"
+  },
+  "LOCAL_MANIFEST_FILE": {
+    "prefix": "LOCAL_MANIFEST_FILE",
+    "body": ["LOCAL_MANIFEST_FILE"],
+    "description": "LOCAL_MANIFEST_FILE"
+  },
+  "LOCAL_MANIFEST_INSTRUMENTATION_FOR": {
+    "prefix": "LOCAL_MANIFEST_INSTRUMENTATION_FOR",
+    "body": ["LOCAL_MANIFEST_INSTRUMENTATION_FOR"],
+    "description": "LOCAL_MANIFEST_INSTRUMENTATION_FOR"
+  },
+  "LOCAL_MANIFEST_PACKAGE_NAME": {
+    "prefix": "LOCAL_MANIFEST_PACKAGE_NAME",
+    "body": ["LOCAL_MANIFEST_PACKAGE_NAME"],
+    "description": "LOCAL_MANIFEST_PACKAGE_NAME"
+  },
+  "LOCAL_MIN_SDK_VERSION": {
+    "prefix": "LOCAL_MIN_SDK_VERSION",
+    "body": ["LOCAL_MIN_SDK_VERSION"],
+    "description": "LOCAL_MIN_SDK_VERSION"
+  },
+  "LOCAL_MODULE": {
+    "prefix": "LOCAL_MODULE",
+    "body": ["LOCAL_MODULE"],
+    "description": "LOCAL_MODULE"
+  },
+  "LOCAL_MODULE_CLASS": {
+    "prefix": "LOCAL_MODULE_CLASS",
+    "body": ["LOCAL_MODULE_CLASS"],
+    "description": "LOCAL_MODULE_CLASS"
+  },
+  "LOCAL_MODULE_HOST_ARCH": {
+    "prefix": "LOCAL_MODULE_HOST_ARCH",
+    "body": ["LOCAL_MODULE_HOST_ARCH"],
+    "description": "LOCAL_MODULE_HOST_ARCH"
+  },
+  "LOCAL_MODULE_HOST_ARCH_WARN": {
+    "prefix": "LOCAL_MODULE_HOST_ARCH_WARN",
+    "body": ["LOCAL_MODULE_HOST_ARCH_WARN"],
+    "description": "LOCAL_MODULE_HOST_ARCH_WARN"
+  },
+  "LOCAL_MODULE_HOST_CROSS_ARCH": {
+    "prefix": "LOCAL_MODULE_HOST_CROSS_ARCH",
+    "body": ["LOCAL_MODULE_HOST_CROSS_ARCH"],
+    "description": "LOCAL_MODULE_HOST_CROSS_ARCH"
+  },
+  "LOCAL_MODULE_HOST_OS": {
+    "prefix": "LOCAL_MODULE_HOST_OS",
+    "body": ["LOCAL_MODULE_HOST_OS"],
+    "description": "LOCAL_MODULE_HOST_OS"
+  },
+  "LOCAL_MODULE_IS_CONTAINER": {
+    "prefix": "LOCAL_MODULE_IS_CONTAINER",
+    "body": ["LOCAL_MODULE_IS_CONTAINER"],
+    "description": "LOCAL_MODULE_IS_CONTAINER"
+  },
+  "LOCAL_MODULE_OWNER": {
+    "prefix": "LOCAL_MODULE_OWNER",
+    "body": ["LOCAL_MODULE_OWNER"],
+    "description": "LOCAL_MODULE_OWNER"
+  },
+  "LOCAL_MODULE_PATH": {
+    "prefix": "LOCAL_MODULE_PATH",
+    "body": ["LOCAL_MODULE_PATH"],
+    "description": "LOCAL_MODULE_PATH"
+  },
+  "LOCAL_MODULE_RELATIVE_PATH": {
+    "prefix": "LOCAL_MODULE_RELATIVE_PATH",
+    "body": ["LOCAL_MODULE_RELATIVE_PATH"],
+    "description": "LOCAL_MODULE_RELATIVE_PATH"
+  },
+  "LOCAL_MODULE_STEM": {
+    "prefix": "LOCAL_MODULE_STEM",
+    "body": ["LOCAL_MODULE_STEM"],
+    "description": "LOCAL_MODULE_STEM"
+  },
+  "LOCAL_MODULE_SUFFIX": {
+    "prefix": "LOCAL_MODULE_SUFFIX",
+    "body": ["LOCAL_MODULE_SUFFIX"],
+    "description": "LOCAL_MODULE_SUFFIX"
+  },
+  "LOCAL_MODULE_SYMLINKS": {
+    "prefix": "LOCAL_MODULE_SYMLINKS",
+    "body": ["LOCAL_MODULE_SYMLINKS"],
+    "description": "LOCAL_MODULE_SYMLINKS"
+  },
+  "LOCAL_MODULE_TAGS": {
+    "prefix": "LOCAL_MODULE_TAGS",
+    "body": ["LOCAL_MODULE_TAGS"],
+    "description": "LOCAL_MODULE_TAGS"
+  },
+  "LOCAL_MODULE_TARGET_ARCH": {
+    "prefix": "LOCAL_MODULE_TARGET_ARCH",
+    "body": ["LOCAL_MODULE_TARGET_ARCH"],
+    "description": "LOCAL_MODULE_TARGET_ARCH"
+  },
+  "LOCAL_MODULE_TARGET_ARCH_WARN": {
+    "prefix": "LOCAL_MODULE_TARGET_ARCH_WARN",
+    "body": ["LOCAL_MODULE_TARGET_ARCH_WARN"],
+    "description": "LOCAL_MODULE_TARGET_ARCH_WARN"
+  },
+  "LOCAL_MODULE_UNSUPPORTED_HOST_ARCH": {
+    "prefix": "LOCAL_MODULE_UNSUPPORTED_HOST_ARCH",
+    "body": ["LOCAL_MODULE_UNSUPPORTED_HOST_ARCH"],
+    "description": "LOCAL_MODULE_UNSUPPORTED_HOST_ARCH"
+  },
+  "LOCAL_MODULE_UNSUPPORTED_HOST_ARCH_WARN": {
+    "prefix": "LOCAL_MODULE_UNSUPPORTED_HOST_ARCH_WARN",
+    "body": ["LOCAL_MODULE_UNSUPPORTED_HOST_ARCH_WARN"],
+    "description": "LOCAL_MODULE_UNSUPPORTED_HOST_ARCH_WARN"
+  },
+  "LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH": {
+    "prefix": "LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH",
+    "body": ["LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH"],
+    "description": "LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH"
+  },
+  "LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH_WARN": {
+    "prefix": "LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH_WARN",
+    "body": ["LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH_WARN"],
+    "description": "LOCAL_MODULE_UNSUPPORTED_TARGET_ARCH_WARN"
+  },
+  "LOCAL_MULTILIB": {
+    "prefix": "LOCAL_MULTILIB",
+    "body": ["LOCAL_MULTILIB"],
+    "description": "LOCAL_MULTILIB"
+  },
+  "LOCAL_NATIVE_BENCHMARK": {
+    "prefix": "LOCAL_NATIVE_BENCHMARK",
+    "body": ["LOCAL_NATIVE_BENCHMARK"],
+    "description": "LOCAL_NATIVE_BENCHMARK"
+  },
+  "LOCAL_NDK_STL_VARIANT": {
+    "prefix": "LOCAL_NDK_STL_VARIANT",
+    "body": ["LOCAL_NDK_STL_VARIANT"],
+    "description": "LOCAL_NDK_STL_VARIANT"
+  },
+  "LOCAL_NDK_VERSION": {
+    "prefix": "LOCAL_NDK_VERSION",
+    "body": ["LOCAL_NDK_VERSION"],
+    "description": "LOCAL_NDK_VERSION"
+  },
+  "LOCAL_NO_CRT": {
+    "prefix": "LOCAL_NO_CRT",
+    "body": ["LOCAL_NO_CRT"],
+    "description": "LOCAL_NO_CRT"
+  },
+  "LOCAL_NO_DEFAULT_COMPILER_FLAGS": {
+    "prefix": "LOCAL_NO_DEFAULT_COMPILER_FLAGS",
+    "body": ["LOCAL_NO_DEFAULT_COMPILER_FLAGS"],
+    "description": "LOCAL_NO_DEFAULT_COMPILER_FLAGS"
+  },
+  "LOCAL_NO_FPIE": {
+    "prefix": "LOCAL_NO_FPIE",
+    "body": ["LOCAL_NO_FPIE"],
+    "description": "LOCAL_NO_FPIE"
+  },
+  "LOCAL_NO_LIBCRT_BUILTINS": {
+    "prefix": "LOCAL_NO_LIBCRT_BUILTINS",
+    "body": ["LOCAL_NO_LIBCRT_BUILTINS"],
+    "description": "LOCAL_NO_LIBCRT_BUILTINS"
+  },
+  "LOCAL_NO_NOTICE_FILE": {
+    "prefix": "LOCAL_NO_NOTICE_FILE",
+    "body": ["LOCAL_NO_NOTICE_FILE"],
+    "description": "LOCAL_NO_NOTICE_FILE"
+  },
+  "LOCAL_NO_PIC": {
+    "prefix": "LOCAL_NO_PIC",
+    "body": ["LOCAL_NO_PIC"],
+    "description": "LOCAL_NO_PIC"
+  },
+  "LOCAL_NOSANITIZE": {
+    "prefix": "LOCAL_NOSANITIZE",
+    "body": ["LOCAL_NOSANITIZE"],
+    "description": "LOCAL_NOSANITIZE"
+  },
+  "LOCAL_NO_STANDARD_LIBRARIES": {
+    "prefix": "LOCAL_NO_STANDARD_LIBRARIES",
+    "body": ["LOCAL_NO_STANDARD_LIBRARIES"],
+    "description": "LOCAL_NO_STANDARD_LIBRARIES"
+  },
+  "LOCAL_NO_STATIC_ANALYZER": {
+    "prefix": "LOCAL_NO_STATIC_ANALYZER",
+    "body": ["LOCAL_NO_STATIC_ANALYZER"],
+    "description": "LOCAL_NO_STATIC_ANALYZER"
+  },
+  "LOCAL_NOT_AVAILABLE_FOR_PLATFORM": {
+    "prefix": "LOCAL_NOT_AVAILABLE_FOR_PLATFORM",
+    "body": ["LOCAL_NOT_AVAILABLE_FOR_PLATFORM"],
+    "description": "LOCAL_NOT_AVAILABLE_FOR_PLATFORM"
+  },
+  "LOCAL_NOTICE_FILE": {
+    "prefix": "LOCAL_NOTICE_FILE",
+    "body": ["LOCAL_NOTICE_FILE"],
+    "description": "LOCAL_NOTICE_FILE"
+  },
+  "LOCAL_ODM_MODULE": {
+    "prefix": "LOCAL_ODM_MODULE",
+    "body": ["LOCAL_ODM_MODULE"],
+    "description": "LOCAL_ODM_MODULE"
+  },
+  "LOCAL_OEM_MODULE": {
+    "prefix": "LOCAL_OEM_MODULE",
+    "body": ["LOCAL_OEM_MODULE"],
+    "description": "LOCAL_OEM_MODULE"
+  },
+  "LOCAL_OPTIONAL_USES_LIBRARIES": {
+    "prefix": "LOCAL_OPTIONAL_USES_LIBRARIES",
+    "body": ["LOCAL_OPTIONAL_USES_LIBRARIES"],
+    "description": "LOCAL_OPTIONAL_USES_LIBRARIES"
+  },
+  "LOCAL_OVERRIDES_PACKAGES": {
+    "prefix": "LOCAL_OVERRIDES_PACKAGES",
+    "body": ["LOCAL_OVERRIDES_PACKAGES"],
+    "description": "LOCAL_OVERRIDES_PACKAGES"
+  },
+  "LOCAL_OVERRIDES_MODULES": {
+    "prefix": "LOCAL_OVERRIDES_MODULES",
+    "body": ["LOCAL_OVERRIDES_MODULES"],
+    "description": "LOCAL_OVERRIDES_MODULES"
+  },
+  "LOCAL_PACKAGE_NAME": {
+    "prefix": "LOCAL_PACKAGE_NAME",
+    "body": ["LOCAL_PACKAGE_NAME"],
+    "description": "LOCAL_PACKAGE_NAME"
+  },
+  "LOCAL_PACKAGE_SPLITS": {
+    "prefix": "LOCAL_PACKAGE_SPLITS",
+    "body": ["LOCAL_PACKAGE_SPLITS"],
+    "description": "LOCAL_PACKAGE_SPLITS"
+  },
+  "LOCAL_PACK_MODULE_RELOCATIONS": {
+    "prefix": "LOCAL_PACK_MODULE_RELOCATIONS",
+    "body": ["LOCAL_PACK_MODULE_RELOCATIONS"],
+    "description": "LOCAL_PACK_MODULE_RELOCATIONS"
+  },
+  "LOCAL_PATCH_MODULE": {
+    "prefix": "LOCAL_PATCH_MODULE",
+    "body": ["LOCAL_PATCH_MODULE"],
+    "description": "LOCAL_PATCH_MODULE"
+  },
+  "LOCAL_PICKUP_FILES": {
+    "prefix": "LOCAL_PICKUP_FILES",
+    "body": ["LOCAL_PICKUP_FILES"],
+    "description": "LOCAL_PICKUP_FILES"
+  },
+  "LOCAL_POST_INSTALL_CMD": {
+    "prefix": "LOCAL_POST_INSTALL_CMD",
+    "body": ["LOCAL_POST_INSTALL_CMD"],
+    "description": "LOCAL_POST_INSTALL_CMD"
+  },
+  "LOCAL_POST_LINK_CMD": {
+    "prefix": "LOCAL_POST_LINK_CMD",
+    "body": ["LOCAL_POST_LINK_CMD"],
+    "description": "LOCAL_POST_LINK_CMD"
+  },
+  "LOCAL_PREBUILT_COVERAGE_ARCHIVE": {
+    "prefix": "LOCAL_PREBUILT_COVERAGE_ARCHIVE",
+    "body": ["LOCAL_PREBUILT_COVERAGE_ARCHIVE"],
+    "description": "LOCAL_PREBUILT_COVERAGE_ARCHIVE"
+  },
+  "LOCAL_PREBUILT_EXECUTABLES": {
+    "prefix": "LOCAL_PREBUILT_EXECUTABLES",
+    "body": ["LOCAL_PREBUILT_EXECUTABLES"],
+    "description": "LOCAL_PREBUILT_EXECUTABLES"
+  },
+  "LOCAL_PREBUILT_JAVA_LIBRARIES": {
+    "prefix": "LOCAL_PREBUILT_JAVA_LIBRARIES",
+    "body": ["LOCAL_PREBUILT_JAVA_LIBRARIES"],
+    "description": "LOCAL_PREBUILT_JAVA_LIBRARIES"
+  },
+  "LOCAL_PREBUILT_JNI_LIBS": {
+    "prefix": "LOCAL_PREBUILT_JNI_LIBS",
+    "body": ["LOCAL_PREBUILT_JNI_LIBS"],
+    "description": "LOCAL_PREBUILT_JNI_LIBS"
+  },
+  "LOCAL_PREBUILT_LIBS": {
+    "prefix": "LOCAL_PREBUILT_LIBS",
+    "body": ["LOCAL_PREBUILT_LIBS"],
+    "description": "LOCAL_PREBUILT_LIBS"
+  },
+  "LOCAL_PREBUILT_MODULE_FILE": {
+    "prefix": "LOCAL_PREBUILT_MODULE_FILE",
+    "body": ["LOCAL_PREBUILT_MODULE_FILE"],
+    "description": "LOCAL_PREBUILT_MODULE_FILE"
+  },
+  "LOCAL_PREBUILT_OBJ_FILES": {
+    "prefix": "LOCAL_PREBUILT_OBJ_FILES",
+    "body": ["LOCAL_PREBUILT_OBJ_FILES"],
+    "description": "LOCAL_PREBUILT_OBJ_FILES"
+  },
+  "LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES": {
+    "prefix": "LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES",
+    "body": ["LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES"],
+    "description": "LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES"
+  },
+  "LOCAL_PREBUILT_STRIP_COMMENTS": {
+    "prefix": "LOCAL_PREBUILT_STRIP_COMMENTS",
+    "body": ["LOCAL_PREBUILT_STRIP_COMMENTS"],
+    "description": "LOCAL_PREBUILT_STRIP_COMMENTS"
+  },
+  "LOCAL_USE_EMBEDDED_DEX": {
+    "prefix": "LOCAL_USE_EMBEDDED_DEX",
+    "body": ["LOCAL_USE_EMBEDDED_DEX"],
+    "description": "LOCAL_USE_EMBEDDED_DEX"
+  },
+  "LOCAL_USE_EMBEDDED_NATIVE_LIBS": {
+    "prefix": "LOCAL_USE_EMBEDDED_NATIVE_LIBS",
+    "body": ["LOCAL_USE_EMBEDDED_NATIVE_LIBS"],
+    "description": "LOCAL_USE_EMBEDDED_NATIVE_LIBS"
+  },
+  "LOCAL_PRESUBMIT_DISABLED": {
+    "prefix": "LOCAL_PRESUBMIT_DISABLED",
+    "body": ["LOCAL_PRESUBMIT_DISABLED"],
+    "description": "LOCAL_PRESUBMIT_DISABLED"
+  },
+  "LOCAL_PRIVATE_PLATFORM_APIS": {
+    "prefix": "LOCAL_PRIVATE_PLATFORM_APIS",
+    "body": ["LOCAL_PRIVATE_PLATFORM_APIS"],
+    "description": "LOCAL_PRIVATE_PLATFORM_APIS"
+  },
+  "LOCAL_PRIVILEGED_MODULE": {
+    "prefix": "LOCAL_PRIVILEGED_MODULE",
+    "body": ["LOCAL_PRIVILEGED_MODULE"],
+    "description": "LOCAL_PRIVILEGED_MODULE"
+  },
+  "LOCAL_PROC_MACRO_LIBRARIES": {
+    "prefix": "LOCAL_PROC_MACRO_LIBRARIES",
+    "body": ["LOCAL_PROC_MACRO_LIBRARIES"],
+    "description": "LOCAL_PROC_MACRO_LIBRARIES"
+  },
+  "LOCAL_PRODUCT_MODULE": {
+    "prefix": "LOCAL_PRODUCT_MODULE",
+    "body": ["LOCAL_PRODUCT_MODULE"],
+    "description": "LOCAL_PRODUCT_MODULE"
+  },
+  "#": { "prefix": "#", "body": ["#"], "description": "#" },
+  "TODO(b/135957588)": {
+    "prefix": "TODO(b/135957588)",
+    "body": ["TODO(b/135957588)"],
+    "description": "TODO(b/135957588)"
+  },
+  "Remove": { "prefix": "Remove", "body": ["Remove"], "description": "Remove" },
+  "LOCAL_PRODUCT_SERVICES_MODULE": {
+    "prefix": "LOCAL_PRODUCT_SERVICES_MODULE",
+    "body": ["LOCAL_PRODUCT_SERVICES_MODULE"],
+    "description": "LOCAL_PRODUCT_SERVICES_MODULE"
+  },
+  "LOCAL_PRODUCT_SERVICES_MODULE": {
+    "prefix": "LOCAL_PRODUCT_SERVICES_MODULE",
+    "body": ["LOCAL_PRODUCT_SERVICES_MODULE"],
+    "description": "LOCAL_PRODUCT_SERVICES_MODULE"
+  },
+  "LOCAL_PROGUARD_ENABLED": {
+    "prefix": "LOCAL_PROGUARD_ENABLED",
+    "body": ["LOCAL_PROGUARD_ENABLED"],
+    "description": "LOCAL_PROGUARD_ENABLED"
+  },
+  "LOCAL_PROGUARD_FLAG_FILES": {
+    "prefix": "LOCAL_PROGUARD_FLAG_FILES",
+    "body": ["LOCAL_PROGUARD_FLAG_FILES"],
+    "description": "LOCAL_PROGUARD_FLAG_FILES"
+  },
+  "LOCAL_PROGUARD_FLAGS": {
+    "prefix": "LOCAL_PROGUARD_FLAGS",
+    "body": ["LOCAL_PROGUARD_FLAGS"],
+    "description": "LOCAL_PROGUARD_FLAGS"
+  },
+  "LOCAL_PROGUARD_FLAGS_DEPS": {
+    "prefix": "LOCAL_PROGUARD_FLAGS_DEPS",
+    "body": ["LOCAL_PROGUARD_FLAGS_DEPS"],
+    "description": "LOCAL_PROGUARD_FLAGS_DEPS"
+  },
+  "LOCAL_PROPRIETARY_MODULE": {
+    "prefix": "LOCAL_PROPRIETARY_MODULE",
+    "body": ["LOCAL_PROPRIETARY_MODULE"],
+    "description": "LOCAL_PROPRIETARY_MODULE"
+  },
+  "LOCAL_PROTOC_FLAGS": {
+    "prefix": "LOCAL_PROTOC_FLAGS",
+    "body": ["LOCAL_PROTOC_FLAGS"],
+    "description": "LOCAL_PROTOC_FLAGS"
+  },
+  "LOCAL_PROTOC_OPTIMIZE_TYPE": {
+    "prefix": "LOCAL_PROTOC_OPTIMIZE_TYPE",
+    "body": ["LOCAL_PROTOC_OPTIMIZE_TYPE"],
+    "description": "LOCAL_PROTOC_OPTIMIZE_TYPE"
+  },
+  "LOCAL_PROTO_JAVA_OUTPUT_PARAMS": {
+    "prefix": "LOCAL_PROTO_JAVA_OUTPUT_PARAMS",
+    "body": ["LOCAL_PROTO_JAVA_OUTPUT_PARAMS"],
+    "description": "LOCAL_PROTO_JAVA_OUTPUT_PARAMS"
+  },
+  "LOCAL_PROVIDES_USES_LIBRARY": {
+    "prefix": "LOCAL_PROVIDES_USES_LIBRARY",
+    "body": ["LOCAL_PROVIDES_USES_LIBRARY"],
+    "description": "LOCAL_PROVIDES_USES_LIBRARY"
+  },
+  "LOCAL_R8_FLAG_FILES": {
+    "prefix": "LOCAL_R8_FLAG_FILES",
+    "body": ["LOCAL_R8_FLAG_FILES"],
+    "description": "LOCAL_R8_FLAG_FILES"
+  },
+  "LOCAL_RECORDED_MODULE_TYPE": {
+    "prefix": "LOCAL_RECORDED_MODULE_TYPE",
+    "body": ["LOCAL_RECORDED_MODULE_TYPE"],
+    "description": "LOCAL_RECORDED_MODULE_TYPE"
+  },
+  "LOCAL_RENDERSCRIPT_CC": {
+    "prefix": "LOCAL_RENDERSCRIPT_CC",
+    "body": ["LOCAL_RENDERSCRIPT_CC"],
+    "description": "LOCAL_RENDERSCRIPT_CC"
+  },
+  "LOCAL_RENDERSCRIPT_COMPATIBILITY": {
+    "prefix": "LOCAL_RENDERSCRIPT_COMPATIBILITY",
+    "body": ["LOCAL_RENDERSCRIPT_COMPATIBILITY"],
+    "description": "LOCAL_RENDERSCRIPT_COMPATIBILITY"
+  },
+  "LOCAL_RENDERSCRIPT_FLAGS": {
+    "prefix": "LOCAL_RENDERSCRIPT_FLAGS",
+    "body": ["LOCAL_RENDERSCRIPT_FLAGS"],
+    "description": "LOCAL_RENDERSCRIPT_FLAGS"
+  },
+  "LOCAL_RENDERSCRIPT_INCLUDES": {
+    "prefix": "LOCAL_RENDERSCRIPT_INCLUDES",
+    "body": ["LOCAL_RENDERSCRIPT_INCLUDES"],
+    "description": "LOCAL_RENDERSCRIPT_INCLUDES"
+  },
+  "LOCAL_RENDERSCRIPT_INCLUDES_OVERRIDE": {
+    "prefix": "LOCAL_RENDERSCRIPT_INCLUDES_OVERRIDE",
+    "body": ["LOCAL_RENDERSCRIPT_INCLUDES_OVERRIDE"],
+    "description": "LOCAL_RENDERSCRIPT_INCLUDES_OVERRIDE"
+  },
+  "LOCAL_RENDERSCRIPT_TARGET_API": {
+    "prefix": "LOCAL_RENDERSCRIPT_TARGET_API",
+    "body": ["LOCAL_RENDERSCRIPT_TARGET_API"],
+    "description": "LOCAL_RENDERSCRIPT_TARGET_API"
+  },
+  "LOCAL_REPLACE_PREBUILT_APK_INSTALLED": {
+    "prefix": "LOCAL_REPLACE_PREBUILT_APK_INSTALLED",
+    "body": ["LOCAL_REPLACE_PREBUILT_APK_INSTALLED"],
+    "description": "LOCAL_REPLACE_PREBUILT_APK_INSTALLED"
+  },
+  "LOCAL_REQUIRED_MODULES": {
+    "prefix": "LOCAL_REQUIRED_MODULES",
+    "body": ["LOCAL_REQUIRED_MODULES"],
+    "description": "LOCAL_REQUIRED_MODULES"
+  },
+  "LOCAL_RES_LIBRARIES": {
+    "prefix": "LOCAL_RES_LIBRARIES",
+    "body": ["LOCAL_RES_LIBRARIES"],
+    "description": "LOCAL_RES_LIBRARIES"
+  },
+  "LOCAL_RESOURCE_DIR": {
+    "prefix": "LOCAL_RESOURCE_DIR",
+    "body": ["LOCAL_RESOURCE_DIR"],
+    "description": "LOCAL_RESOURCE_DIR"
+  },
+  "LOCAL_RLIB_LIBRARIES": {
+    "prefix": "LOCAL_RLIB_LIBRARIES",
+    "body": ["LOCAL_RLIB_LIBRARIES"],
+    "description": "LOCAL_RLIB_LIBRARIES"
+  },
+  "LOCAL_RMTYPEDEFS": {
+    "prefix": "LOCAL_RMTYPEDEFS",
+    "body": ["LOCAL_RMTYPEDEFS"],
+    "description": "LOCAL_RMTYPEDEFS"
+  },
+  "LOCAL_RRO_THEME": {
+    "prefix": "LOCAL_RRO_THEME",
+    "body": ["LOCAL_RRO_THEME"],
+    "description": "LOCAL_RRO_THEME"
+  },
+  "LOCAL_RTTI_FLAG": {
+    "prefix": "LOCAL_RTTI_FLAG",
+    "body": ["LOCAL_RTTI_FLAG"],
+    "description": "LOCAL_RTTI_FLAG"
+  },
+  "LOCAL_SANITIZE": {
+    "prefix": "LOCAL_SANITIZE",
+    "body": ["LOCAL_SANITIZE"],
+    "description": "LOCAL_SANITIZE"
+  },
+  "LOCAL_SANITIZE_DIAG": {
+    "prefix": "LOCAL_SANITIZE_DIAG",
+    "body": ["LOCAL_SANITIZE_DIAG"],
+    "description": "LOCAL_SANITIZE_DIAG"
+  },
+  "LOCAL_SANITIZE_RECOVER": {
+    "prefix": "LOCAL_SANITIZE_RECOVER",
+    "body": ["LOCAL_SANITIZE_RECOVER"],
+    "description": "LOCAL_SANITIZE_RECOVER"
+  },
+  "LOCAL_SANITIZE_NO_RECOVER": {
+    "prefix": "LOCAL_SANITIZE_NO_RECOVER",
+    "body": ["LOCAL_SANITIZE_NO_RECOVER"],
+    "description": "LOCAL_SANITIZE_NO_RECOVER"
+  },
+  "LOCAL_SANITIZE_BLOCKLIST": {
+    "prefix": "LOCAL_SANITIZE_BLOCKLIST",
+    "body": ["LOCAL_SANITIZE_BLOCKLIST"],
+    "description": "LOCAL_SANITIZE_BLOCKLIST"
+  },
+  "LOCAL_SDK_LIBRARIES": {
+    "prefix": "LOCAL_SDK_LIBRARIES",
+    "body": ["LOCAL_SDK_LIBRARIES"],
+    "description": "LOCAL_SDK_LIBRARIES"
+  },
+  "LOCAL_SDK_RES_VERSION": {
+    "prefix": "LOCAL_SDK_RES_VERSION",
+    "body": ["LOCAL_SDK_RES_VERSION"],
+    "description": "LOCAL_SDK_RES_VERSION"
+  },
+  "LOCAL_SDK_VERSION": {
+    "prefix": "LOCAL_SDK_VERSION",
+    "body": ["LOCAL_SDK_VERSION"],
+    "description": "LOCAL_SDK_VERSION"
+  },
+  "LOCAL_SHARED_ANDROID_LIBRARIES": {
+    "prefix": "LOCAL_SHARED_ANDROID_LIBRARIES",
+    "body": ["LOCAL_SHARED_ANDROID_LIBRARIES"],
+    "description": "LOCAL_SHARED_ANDROID_LIBRARIES"
+  },
+  "LOCAL_SHARED_LIBRARIES": {
+    "prefix": "LOCAL_SHARED_LIBRARIES",
+    "body": ["LOCAL_SHARED_LIBRARIES"],
+    "description": "LOCAL_SHARED_LIBRARIES"
+  },
+  "LOCAL_SOONG_AAR": {
+    "prefix": "LOCAL_SOONG_AAR",
+    "body": ["LOCAL_SOONG_AAR"],
+    "description": "LOCAL_SOONG_AAR"
+  },
+  "LOCAL_SOONG_BUILT_INSTALLED": {
+    "prefix": "LOCAL_SOONG_BUILT_INSTALLED",
+    "body": ["LOCAL_SOONG_BUILT_INSTALLED"],
+    "description": "LOCAL_SOONG_BUILT_INSTALLED"
+  },
+  "LOCAL_SOONG_BUNDLE": {
+    "prefix": "LOCAL_SOONG_BUNDLE",
+    "body": ["LOCAL_SOONG_BUNDLE"],
+    "description": "LOCAL_SOONG_BUNDLE"
+  },
+  "LOCAL_SOONG_CLASSES_JAR": {
+    "prefix": "LOCAL_SOONG_CLASSES_JAR",
+    "body": ["LOCAL_SOONG_CLASSES_JAR"],
+    "description": "LOCAL_SOONG_CLASSES_JAR"
+  },
+  "LOCAL_SOONG_DEX_JAR": {
+    "prefix": "LOCAL_SOONG_DEX_JAR",
+    "body": ["LOCAL_SOONG_DEX_JAR"],
+    "description": "LOCAL_SOONG_DEX_JAR"
+  },
+  "LOCAL_SOONG_DEXPREOPT_CONFIG": {
+    "prefix": "LOCAL_SOONG_DEXPREOPT_CONFIG",
+    "body": ["LOCAL_SOONG_DEXPREOPT_CONFIG"],
+    "description": "LOCAL_SOONG_DEXPREOPT_CONFIG"
+  },
+  "LOCAL_SOONG_EXPORT_PROGUARD_FLAGS": {
+    "prefix": "LOCAL_SOONG_EXPORT_PROGUARD_FLAGS",
+    "body": ["LOCAL_SOONG_EXPORT_PROGUARD_FLAGS"],
+    "description": "LOCAL_SOONG_EXPORT_PROGUARD_FLAGS"
+  },
+  "LOCAL_SOONG_HEADER_JAR": {
+    "prefix": "LOCAL_SOONG_HEADER_JAR",
+    "body": ["LOCAL_SOONG_HEADER_JAR"],
+    "description": "LOCAL_SOONG_HEADER_JAR"
+  },
+  "LOCAL_SOONG_JACOCO_REPORT_CLASSES_JAR": {
+    "prefix": "LOCAL_SOONG_JACOCO_REPORT_CLASSES_JAR",
+    "body": ["LOCAL_SOONG_JACOCO_REPORT_CLASSES_JAR"],
+    "description": "LOCAL_SOONG_JACOCO_REPORT_CLASSES_JAR"
+  },
+  "LOCAL_SOONG_LINK_TYPE": {
+    "prefix": "LOCAL_SOONG_LINK_TYPE",
+    "body": ["LOCAL_SOONG_LINK_TYPE"],
+    "description": "LOCAL_SOONG_LINK_TYPE"
+  },
+  "LOCAL_SOONG_LINT_REPORTS": {
+    "prefix": "LOCAL_SOONG_LINT_REPORTS",
+    "body": ["LOCAL_SOONG_LINT_REPORTS"],
+    "description": "LOCAL_SOONG_LINT_REPORTS"
+  },
+  "LOCAL_SOONG_PROGUARD_DICT": {
+    "prefix": "LOCAL_SOONG_PROGUARD_DICT",
+    "body": ["LOCAL_SOONG_PROGUARD_DICT"],
+    "description": "LOCAL_SOONG_PROGUARD_DICT"
+  },
+  "LOCAL_SOONG_PROGUARD_USAGE_ZIP": {
+    "prefix": "LOCAL_SOONG_PROGUARD_USAGE_ZIP",
+    "body": ["LOCAL_SOONG_PROGUARD_USAGE_ZIP"],
+    "description": "LOCAL_SOONG_PROGUARD_USAGE_ZIP"
+  },
+  "LOCAL_SOONG_RESOURCE_EXPORT_PACKAGE": {
+    "prefix": "LOCAL_SOONG_RESOURCE_EXPORT_PACKAGE",
+    "body": ["LOCAL_SOONG_RESOURCE_EXPORT_PACKAGE"],
+    "description": "LOCAL_SOONG_RESOURCE_EXPORT_PACKAGE"
+  },
+  "LOCAL_SOONG_DEVICE_RRO_DIRS": {
+    "prefix": "LOCAL_SOONG_DEVICE_RRO_DIRS",
+    "body": ["LOCAL_SOONG_DEVICE_RRO_DIRS"],
+    "description": "LOCAL_SOONG_DEVICE_RRO_DIRS"
+  },
+  "LOCAL_SOONG_PRODUCT_RRO_DIRS": {
+    "prefix": "LOCAL_SOONG_PRODUCT_RRO_DIRS",
+    "body": ["LOCAL_SOONG_PRODUCT_RRO_DIRS"],
+    "description": "LOCAL_SOONG_PRODUCT_RRO_DIRS"
+  },
+  "LOCAL_SOONG_STATIC_LIBRARY_EXTRA_PACKAGES": {
+    "prefix": "LOCAL_SOONG_STATIC_LIBRARY_EXTRA_PACKAGES",
+    "body": ["LOCAL_SOONG_STATIC_LIBRARY_EXTRA_PACKAGES"],
+    "description": "LOCAL_SOONG_STATIC_LIBRARY_EXTRA_PACKAGES"
+  },
+  "LOCAL_SOONG_SYMBOL_PATH": {
+    "prefix": "LOCAL_SOONG_SYMBOL_PATH",
+    "body": ["LOCAL_SOONG_SYMBOL_PATH"],
+    "description": "LOCAL_SOONG_SYMBOL_PATH"
+  },
+  "LOCAL_SOONG_TOC": {
+    "prefix": "LOCAL_SOONG_TOC",
+    "body": ["LOCAL_SOONG_TOC"],
+    "description": "LOCAL_SOONG_TOC"
+  },
+  "LOCAL_SOONG_UNSTRIPPED_BINARY": {
+    "prefix": "LOCAL_SOONG_UNSTRIPPED_BINARY",
+    "body": ["LOCAL_SOONG_UNSTRIPPED_BINARY"],
+    "description": "LOCAL_SOONG_UNSTRIPPED_BINARY"
+  },
+  "LOCAL_SOONG_VNDK_VERSION": {
+    "prefix": "LOCAL_SOONG_VNDK_VERSION",
+    "body": ["LOCAL_SOONG_VNDK_VERSION"],
+    "description": "LOCAL_SOONG_VNDK_VERSION"
+  },
+  "LOCAL_SOURCE_FILES_ALL_GENERATED": {
+    "prefix": "LOCAL_SOURCE_FILES_ALL_GENERATED",
+    "body": ["LOCAL_SOURCE_FILES_ALL_GENERATED"],
+    "description": "LOCAL_SOURCE_FILES_ALL_GENERATED"
+  },
+  "LOCAL_SRC_FILES": {
+    "prefix": "LOCAL_SRC_FILES",
+    "body": ["LOCAL_SRC_FILES"],
+    "description": "LOCAL_SRC_FILES"
+  },
+  "LOCAL_SRC_FILES_EXCLUDE": {
+    "prefix": "LOCAL_SRC_FILES_EXCLUDE",
+    "body": ["LOCAL_SRC_FILES_EXCLUDE"],
+    "description": "LOCAL_SRC_FILES_EXCLUDE"
+  },
+  "LOCAL_SRCJARS": {
+    "prefix": "LOCAL_SRCJARS",
+    "body": ["LOCAL_SRCJARS"],
+    "description": "LOCAL_SRCJARS"
+  },
+  "LOCAL_STATIC_ANDROID_LIBRARIES": {
+    "prefix": "LOCAL_STATIC_ANDROID_LIBRARIES",
+    "body": ["LOCAL_STATIC_ANDROID_LIBRARIES"],
+    "description": "LOCAL_STATIC_ANDROID_LIBRARIES"
+  },
+  "LOCAL_STATIC_JAVA_AAR_LIBRARIES": {
+    "prefix": "LOCAL_STATIC_JAVA_AAR_LIBRARIES",
+    "body": ["LOCAL_STATIC_JAVA_AAR_LIBRARIES"],
+    "description": "LOCAL_STATIC_JAVA_AAR_LIBRARIES"
+  },
+  "LOCAL_STATIC_JAVA_LIBRARIES": {
+    "prefix": "LOCAL_STATIC_JAVA_LIBRARIES",
+    "body": ["LOCAL_STATIC_JAVA_LIBRARIES"],
+    "description": "LOCAL_STATIC_JAVA_LIBRARIES"
+  },
+  "LOCAL_STATIC_LIBRARIES": {
+    "prefix": "LOCAL_STATIC_LIBRARIES",
+    "body": ["LOCAL_STATIC_LIBRARIES"],
+    "description": "LOCAL_STATIC_LIBRARIES"
+  },
+  "LOCAL_SYSTEM_EXT_MODULE": {
+    "prefix": "LOCAL_SYSTEM_EXT_MODULE",
+    "body": ["LOCAL_SYSTEM_EXT_MODULE"],
+    "description": "LOCAL_SYSTEM_EXT_MODULE"
+  },
+  "LOCAL_STRIP_MODULE": {
+    "prefix": "LOCAL_STRIP_MODULE",
+    "body": ["LOCAL_STRIP_MODULE"],
+    "description": "LOCAL_STRIP_MODULE"
+  },
+  "LOCAL_SYSTEM_SHARED_LIBRARIES": {
+    "prefix": "LOCAL_SYSTEM_SHARED_LIBRARIES",
+    "body": ["LOCAL_SYSTEM_SHARED_LIBRARIES"],
+    "description": "LOCAL_SYSTEM_SHARED_LIBRARIES"
+  },
+  "LOCAL_TARGET_REQUIRED_MODULES": {
+    "prefix": "LOCAL_TARGET_REQUIRED_MODULES",
+    "body": ["LOCAL_TARGET_REQUIRED_MODULES"],
+    "description": "LOCAL_TARGET_REQUIRED_MODULES"
+  },
+  "LOCAL_TEST_CONFIG": {
+    "prefix": "LOCAL_TEST_CONFIG",
+    "body": ["LOCAL_TEST_CONFIG"],
+    "description": "LOCAL_TEST_CONFIG"
+  },
+  "LOCAL_TEST_DATA": {
+    "prefix": "LOCAL_TEST_DATA",
+    "body": ["LOCAL_TEST_DATA"],
+    "description": "LOCAL_TEST_DATA"
+  },
+  "LOCAL_TEST_MAINLINE_MODULES": {
+    "prefix": "LOCAL_TEST_MAINLINE_MODULES",
+    "body": ["LOCAL_TEST_MAINLINE_MODULES"],
+    "description": "LOCAL_TEST_MAINLINE_MODULES"
+  },
+  "LOCAL_TEST_MODULE_TO_PROGUARD_WITH": {
+    "prefix": "LOCAL_TEST_MODULE_TO_PROGUARD_WITH",
+    "body": ["LOCAL_TEST_MODULE_TO_PROGUARD_WITH"],
+    "description": "LOCAL_TEST_MODULE_TO_PROGUARD_WITH"
+  },
+  "LOCAL_TIDY": {
+    "prefix": "LOCAL_TIDY",
+    "body": ["LOCAL_TIDY"],
+    "description": "LOCAL_TIDY"
+  },
+  "LOCAL_TIDY_CHECKS": {
+    "prefix": "LOCAL_TIDY_CHECKS",
+    "body": ["LOCAL_TIDY_CHECKS"],
+    "description": "LOCAL_TIDY_CHECKS"
+  },
+  "LOCAL_TIDY_FLAGS": {
+    "prefix": "LOCAL_TIDY_FLAGS",
+    "body": ["LOCAL_TIDY_FLAGS"],
+    "description": "LOCAL_TIDY_FLAGS"
+  },
+  "LOCAL_UNCOMPRESS_DEX": {
+    "prefix": "LOCAL_UNCOMPRESS_DEX",
+    "body": ["LOCAL_UNCOMPRESS_DEX"],
+    "description": "LOCAL_UNCOMPRESS_DEX"
+  },
+  "LOCAL_UNINSTALLABLE_MODULE": {
+    "prefix": "LOCAL_UNINSTALLABLE_MODULE",
+    "body": ["LOCAL_UNINSTALLABLE_MODULE"],
+    "description": "LOCAL_UNINSTALLABLE_MODULE"
+  },
+  "LOCAL_UNSTRIPPED_PATH": {
+    "prefix": "LOCAL_UNSTRIPPED_PATH",
+    "body": ["LOCAL_UNSTRIPPED_PATH"],
+    "description": "LOCAL_UNSTRIPPED_PATH"
+  },
+  "LOCAL_USE_AAPT2": {
+    "prefix": "LOCAL_USE_AAPT2",
+    "body": ["LOCAL_USE_AAPT2"],
+    "description": "LOCAL_USE_AAPT2"
+  },
+  "LOCAL_USE_CLANG_LLD": {
+    "prefix": "LOCAL_USE_CLANG_LLD",
+    "body": ["LOCAL_USE_CLANG_LLD"],
+    "description": "LOCAL_USE_CLANG_LLD"
+  },
+  "LOCAL_USE_VNDK": {
+    "prefix": "LOCAL_USE_VNDK",
+    "body": ["LOCAL_USE_VNDK"],
+    "description": "LOCAL_USE_VNDK"
+  },
+  "LOCAL_USE_VNDK_PRODUCT": {
+    "prefix": "LOCAL_USE_VNDK_PRODUCT",
+    "body": ["LOCAL_USE_VNDK_PRODUCT"],
+    "description": "LOCAL_USE_VNDK_PRODUCT"
+  },
+  "LOCAL_USES_LIBRARIES": {
+    "prefix": "LOCAL_USES_LIBRARIES",
+    "body": ["LOCAL_USES_LIBRARIES"],
+    "description": "LOCAL_USES_LIBRARIES"
+  },
+  "LOCAL_VENDOR_MODULE": {
+    "prefix": "LOCAL_VENDOR_MODULE",
+    "body": ["LOCAL_VENDOR_MODULE"],
+    "description": "LOCAL_VENDOR_MODULE"
+  },
+  "LOCAL_VINTF_FRAGMENTS": {
+    "prefix": "LOCAL_VINTF_FRAGMENTS",
+    "body": ["LOCAL_VINTF_FRAGMENTS"],
+    "description": "LOCAL_VINTF_FRAGMENTS"
+  },
+  "LOCAL_VNDK_DEPEND_ON_CORE_VARIANT": {
+    "prefix": "LOCAL_VNDK_DEPEND_ON_CORE_VARIANT",
+    "body": ["LOCAL_VNDK_DEPEND_ON_CORE_VARIANT"],
+    "description": "LOCAL_VNDK_DEPEND_ON_CORE_VARIANT"
+  },
+  "LOCAL_VTSC_FLAGS": {
+    "prefix": "LOCAL_VTSC_FLAGS",
+    "body": ["LOCAL_VTSC_FLAGS"],
+    "description": "LOCAL_VTSC_FLAGS"
+  },
+  "LOCAL_VTS_INCLUDES": {
+    "prefix": "LOCAL_VTS_INCLUDES",
+    "body": ["LOCAL_VTS_INCLUDES"],
+    "description": "LOCAL_VTS_INCLUDES"
+  },
+  "LOCAL_VTS_MODE": {
+    "prefix": "LOCAL_VTS_MODE",
+    "body": ["LOCAL_VTS_MODE"],
+    "description": "LOCAL_VTS_MODE"
+  },
+  "LOCAL_WARNINGS_ENABLE": {
+    "prefix": "LOCAL_WARNINGS_ENABLE",
+    "body": ["LOCAL_WARNINGS_ENABLE"],
+    "description": "LOCAL_WARNINGS_ENABLE"
+  },
+  "LOCAL_WHOLE_STATIC_LIBRARIES": {
+    "prefix": "LOCAL_WHOLE_STATIC_LIBRARIES",
+    "body": ["LOCAL_WHOLE_STATIC_LIBRARIES"],
+    "description": "LOCAL_WHOLE_STATIC_LIBRARIES"
+  },
+  "LOCAL_YACCFLAGS": {
+    "prefix": "LOCAL_YACCFLAGS",
+    "body": ["LOCAL_YACCFLAGS"],
+    "description": "LOCAL_YACCFLAGS"
+  },
+  "LOCAL_CHECK_ELF_FILES": {
+    "prefix": "LOCAL_CHECK_ELF_FILES",
+    "body": ["LOCAL_CHECK_ELF_FILES"],
+    "description": "LOCAL_CHECK_ELF_FILES"
+  },
+  "LOCAL_ASFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_ASFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_ASFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_ASFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_CFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_CFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_CFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_CFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_C_INCLUDES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_C_INCLUDES_$(TARGET_ARCH)",
+    "body": ["LOCAL_C_INCLUDES_$(TARGET_ARCH)"],
+    "description": "LOCAL_C_INCLUDES_$(TARGET_ARCH)"
+  },
+  "LOCAL_CLANG_ASFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_CLANG_ASFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_CLANG_ASFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_CLANG_ASFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_CLANG_CFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_CLANG_CFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_CLANG_CFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_CLANG_CFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_CLANG_CPPFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_CLANG_CPPFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_CLANG_CPPFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_CLANG_CPPFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_CLANG_LDFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_CLANG_LDFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_CLANG_LDFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_CLANG_LDFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_CLANG_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_CLANG_$(TARGET_ARCH)",
+    "body": ["LOCAL_CLANG_$(TARGET_ARCH)"],
+    "description": "LOCAL_CLANG_$(TARGET_ARCH)"
+  },
+  "LOCAL_CPPFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_CPPFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_CPPFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_CPPFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_GENERATED_SOURCES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_GENERATED_SOURCES_$(TARGET_ARCH)",
+    "body": ["LOCAL_GENERATED_SOURCES_$(TARGET_ARCH)"],
+    "description": "LOCAL_GENERATED_SOURCES_$(TARGET_ARCH)"
+  },
+  "LOCAL_HEADER_LIBRARIES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_HEADER_LIBRARIES_$(TARGET_ARCH)",
+    "body": ["LOCAL_HEADER_LIBRARIES_$(TARGET_ARCH)"],
+    "description": "LOCAL_HEADER_LIBRARIES_$(TARGET_ARCH)"
+  },
+  "LOCAL_LDFLAGS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_LDFLAGS_$(TARGET_ARCH)",
+    "body": ["LOCAL_LDFLAGS_$(TARGET_ARCH)"],
+    "description": "LOCAL_LDFLAGS_$(TARGET_ARCH)"
+  },
+  "LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_ARCH)",
+    "body": ["LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_ARCH)"],
+    "description": "LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_ARCH)"
+  },
+  "LOCAL_PREBUILT_JNI_LIBS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_PREBUILT_JNI_LIBS_$(TARGET_ARCH)",
+    "body": ["LOCAL_PREBUILT_JNI_LIBS_$(TARGET_ARCH)"],
+    "description": "LOCAL_PREBUILT_JNI_LIBS_$(TARGET_ARCH)"
+  },
+  "LOCAL_REQUIRED_MODULES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_REQUIRED_MODULES_$(TARGET_ARCH)",
+    "body": ["LOCAL_REQUIRED_MODULES_$(TARGET_ARCH)"],
+    "description": "LOCAL_REQUIRED_MODULES_$(TARGET_ARCH)"
+  },
+  "LOCAL_SHARED_LIBRARIES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_SHARED_LIBRARIES_$(TARGET_ARCH)",
+    "body": ["LOCAL_SHARED_LIBRARIES_$(TARGET_ARCH)"],
+    "description": "LOCAL_SHARED_LIBRARIES_$(TARGET_ARCH)"
+  },
+  "LOCAL_SOONG_JNI_LIBS_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_SOONG_JNI_LIBS_$(TARGET_ARCH)",
+    "body": ["LOCAL_SOONG_JNI_LIBS_$(TARGET_ARCH)"],
+    "description": "LOCAL_SOONG_JNI_LIBS_$(TARGET_ARCH)"
+  },
+  "LOCAL_SOONG_JNI_LIBS_SYMBOLS": {
+    "prefix": "LOCAL_SOONG_JNI_LIBS_SYMBOLS",
+    "body": ["LOCAL_SOONG_JNI_LIBS_SYMBOLS"],
+    "description": "LOCAL_SOONG_JNI_LIBS_SYMBOLS"
+  },
+  "LOCAL_SRC_FILES_EXCLUDE_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_EXCLUDE_$(TARGET_ARCH)",
+    "body": ["LOCAL_SRC_FILES_EXCLUDE_$(TARGET_ARCH)"],
+    "description": "LOCAL_SRC_FILES_EXCLUDE_$(TARGET_ARCH)"
+  },
+  "LOCAL_SRC_FILES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_$(TARGET_ARCH)",
+    "body": ["LOCAL_SRC_FILES_$(TARGET_ARCH)"],
+    "description": "LOCAL_SRC_FILES_$(TARGET_ARCH)"
+  },
+  "LOCAL_STATIC_LIBRARIES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_STATIC_LIBRARIES_$(TARGET_ARCH)",
+    "body": ["LOCAL_STATIC_LIBRARIES_$(TARGET_ARCH)"],
+    "description": "LOCAL_STATIC_LIBRARIES_$(TARGET_ARCH)"
+  },
+  "LOCAL_STRIP_MODULE_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_STRIP_MODULE_$(TARGET_ARCH)",
+    "body": ["LOCAL_STRIP_MODULE_$(TARGET_ARCH)"],
+    "description": "LOCAL_STRIP_MODULE_$(TARGET_ARCH)"
+  },
+  "LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_ARCH)": {
+    "prefix": "LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_ARCH)",
+    "body": ["LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_ARCH)"],
+    "description": "LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_ARCH)"
+  },
+  "LOCAL_ASFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_ASFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_ASFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_ASFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_CFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_CFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_CFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_CFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_C_INCLUDES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_C_INCLUDES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_C_INCLUDES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_C_INCLUDES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_ASFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_ASFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_ASFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_ASFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_CFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_CFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_CFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_CFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_CPPFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_CPPFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_CPPFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_CPPFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_LDFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_LDFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_LDFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_LDFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_CPPFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_CPPFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_CPPFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_CPPFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_GENERATED_SOURCES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_GENERATED_SOURCES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_GENERATED_SOURCES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_GENERATED_SOURCES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_HEADER_LIBRARIES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_HEADER_LIBRARIES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_HEADER_LIBRARIES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_HEADER_LIBRARIES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_LDFLAGS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_LDFLAGS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_LDFLAGS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_LDFLAGS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_PACK_MODULE_RELOCATIONS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_PREBUILT_JNI_LIBS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_PREBUILT_JNI_LIBS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_PREBUILT_JNI_LIBS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_PREBUILT_JNI_LIBS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_REQUIRED_MODULES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_REQUIRED_MODULES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_REQUIRED_MODULES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_REQUIRED_MODULES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_SHARED_LIBRARIES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_SHARED_LIBRARIES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_SHARED_LIBRARIES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_SHARED_LIBRARIES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_SOONG_JNI_LIBS_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_SOONG_JNI_LIBS_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_SOONG_JNI_LIBS_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_SOONG_JNI_LIBS_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_SRC_FILES_EXCLUDE_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_EXCLUDE_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_SRC_FILES_EXCLUDE_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_SRC_FILES_EXCLUDE_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_SRC_FILES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_SRC_FILES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_SRC_FILES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_STRIP_MODULE_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_STRIP_MODULE_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_STRIP_MODULE_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_STRIP_MODULE_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)": {
+    "prefix": "LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)",
+    "body": ["LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)"],
+    "description": "LOCAL_WHOLE_STATIC_LIBRARIES_$(TARGET_2ND_ARCH)"
+  },
+  "LOCAL_ASFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_ASFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_ASFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_ASFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_CFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_CFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_CFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_CFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_C_INCLUDES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_C_INCLUDES_$(HOST_ARCH)",
+    "body": ["LOCAL_C_INCLUDES_$(HOST_ARCH)"],
+    "description": "LOCAL_C_INCLUDES_$(HOST_ARCH)"
+  },
+  "LOCAL_CLANG_ASFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_CLANG_ASFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_CLANG_ASFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_CLANG_ASFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_CLANG_CFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_CLANG_CFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_CLANG_CFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_CLANG_CFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_CLANG_CPPFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_CLANG_CPPFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_CLANG_CPPFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_CLANG_CPPFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_CLANG_$(HOST_ARCH)": {
+    "prefix": "LOCAL_CLANG_$(HOST_ARCH)",
+    "body": ["LOCAL_CLANG_$(HOST_ARCH)"],
+    "description": "LOCAL_CLANG_$(HOST_ARCH)"
+  },
+  "LOCAL_CLANG_LDFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_CLANG_LDFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_CLANG_LDFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_CLANG_LDFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_CPPFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_CPPFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_CPPFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_CPPFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_GENERATED_SOURCES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_GENERATED_SOURCES_$(HOST_ARCH)",
+    "body": ["LOCAL_GENERATED_SOURCES_$(HOST_ARCH)"],
+    "description": "LOCAL_GENERATED_SOURCES_$(HOST_ARCH)"
+  },
+  "LOCAL_HEADER_LIBRARIES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_HEADER_LIBRARIES_$(HOST_ARCH)",
+    "body": ["LOCAL_HEADER_LIBRARIES_$(HOST_ARCH)"],
+    "description": "LOCAL_HEADER_LIBRARIES_$(HOST_ARCH)"
+  },
+  "LOCAL_LDFLAGS_$(HOST_ARCH)": {
+    "prefix": "LOCAL_LDFLAGS_$(HOST_ARCH)",
+    "body": ["LOCAL_LDFLAGS_$(HOST_ARCH)"],
+    "description": "LOCAL_LDFLAGS_$(HOST_ARCH)"
+  },
+  "LOCAL_REQUIRED_MODULES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_REQUIRED_MODULES_$(HOST_ARCH)",
+    "body": ["LOCAL_REQUIRED_MODULES_$(HOST_ARCH)"],
+    "description": "LOCAL_REQUIRED_MODULES_$(HOST_ARCH)"
+  },
+  "LOCAL_SHARED_LIBRARIES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_SHARED_LIBRARIES_$(HOST_ARCH)",
+    "body": ["LOCAL_SHARED_LIBRARIES_$(HOST_ARCH)"],
+    "description": "LOCAL_SHARED_LIBRARIES_$(HOST_ARCH)"
+  },
+  "LOCAL_SRC_FILES_EXCLUDE_$(HOST_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_EXCLUDE_$(HOST_ARCH)",
+    "body": ["LOCAL_SRC_FILES_EXCLUDE_$(HOST_ARCH)"],
+    "description": "LOCAL_SRC_FILES_EXCLUDE_$(HOST_ARCH)"
+  },
+  "LOCAL_SRC_FILES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_$(HOST_ARCH)",
+    "body": ["LOCAL_SRC_FILES_$(HOST_ARCH)"],
+    "description": "LOCAL_SRC_FILES_$(HOST_ARCH)"
+  },
+  "LOCAL_STATIC_LIBRARIES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_STATIC_LIBRARIES_$(HOST_ARCH)",
+    "body": ["LOCAL_STATIC_LIBRARIES_$(HOST_ARCH)"],
+    "description": "LOCAL_STATIC_LIBRARIES_$(HOST_ARCH)"
+  },
+  "LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_ARCH)": {
+    "prefix": "LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_ARCH)",
+    "body": ["LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_ARCH)"],
+    "description": "LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_ARCH)"
+  },
+  "LOCAL_ASFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_ASFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_ASFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_ASFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_CFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_CFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_CFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_CFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_C_INCLUDES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_C_INCLUDES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_C_INCLUDES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_C_INCLUDES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_ASFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_ASFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_ASFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_ASFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_CFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_CFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_CFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_CFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_CPPFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_CPPFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_CPPFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_CPPFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_CLANG_LDFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_CLANG_LDFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_CLANG_LDFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_CLANG_LDFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_CPPFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_CPPFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_CPPFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_CPPFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_GENERATED_SOURCES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_GENERATED_SOURCES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_GENERATED_SOURCES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_GENERATED_SOURCES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_HEADER_LIBRARIES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_HEADER_LIBRARIES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_HEADER_LIBRARIES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_HEADER_LIBRARIES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_LDFLAGS_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_LDFLAGS_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_LDFLAGS_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_LDFLAGS_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_REQUIRED_MODULES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_REQUIRED_MODULES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_REQUIRED_MODULES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_REQUIRED_MODULES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_SHARED_LIBRARIES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_SHARED_LIBRARIES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_SHARED_LIBRARIES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_SHARED_LIBRARIES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_SRC_FILES_EXCLUDE_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_EXCLUDE_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_SRC_FILES_EXCLUDE_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_SRC_FILES_EXCLUDE_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_SRC_FILES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_SRC_FILES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_SRC_FILES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_STATIC_LIBRARIES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_STATIC_LIBRARIES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_STATIC_LIBRARIES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_STATIC_LIBRARIES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_WHOLE_STATIC_LIBRARIES_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_ASFLAGS_$(HOST_OS)": {
+    "prefix": "LOCAL_ASFLAGS_$(HOST_OS)",
+    "body": ["LOCAL_ASFLAGS_$(HOST_OS)"],
+    "description": "LOCAL_ASFLAGS_$(HOST_OS)"
+  },
+  "LOCAL_CFLAGS_$(HOST_OS)": {
+    "prefix": "LOCAL_CFLAGS_$(HOST_OS)",
+    "body": ["LOCAL_CFLAGS_$(HOST_OS)"],
+    "description": "LOCAL_CFLAGS_$(HOST_OS)"
+  },
+  "LOCAL_C_INCLUDES_$(HOST_OS)": {
+    "prefix": "LOCAL_C_INCLUDES_$(HOST_OS)",
+    "body": ["LOCAL_C_INCLUDES_$(HOST_OS)"],
+    "description": "LOCAL_C_INCLUDES_$(HOST_OS)"
+  },
+  "LOCAL_CPPFLAGS_$(HOST_OS)": {
+    "prefix": "LOCAL_CPPFLAGS_$(HOST_OS)",
+    "body": ["LOCAL_CPPFLAGS_$(HOST_OS)"],
+    "description": "LOCAL_CPPFLAGS_$(HOST_OS)"
+  },
+  "LOCAL_GENERATED_SOURCES_$(HOST_OS)": {
+    "prefix": "LOCAL_GENERATED_SOURCES_$(HOST_OS)",
+    "body": ["LOCAL_GENERATED_SOURCES_$(HOST_OS)"],
+    "description": "LOCAL_GENERATED_SOURCES_$(HOST_OS)"
+  },
+  "LOCAL_HEADER_LIBRARIES_$(HOST_OS)": {
+    "prefix": "LOCAL_HEADER_LIBRARIES_$(HOST_OS)",
+    "body": ["LOCAL_HEADER_LIBRARIES_$(HOST_OS)"],
+    "description": "LOCAL_HEADER_LIBRARIES_$(HOST_OS)"
+  },
+  "LOCAL_LDFLAGS_$(HOST_OS)": {
+    "prefix": "LOCAL_LDFLAGS_$(HOST_OS)",
+    "body": ["LOCAL_LDFLAGS_$(HOST_OS)"],
+    "description": "LOCAL_LDFLAGS_$(HOST_OS)"
+  },
+  "LOCAL_LDLIBS_$(HOST_OS)": {
+    "prefix": "LOCAL_LDLIBS_$(HOST_OS)",
+    "body": ["LOCAL_LDLIBS_$(HOST_OS)"],
+    "description": "LOCAL_LDLIBS_$(HOST_OS)"
+  },
+  "LOCAL_REQUIRED_MODULES_$(HOST_OS)": {
+    "prefix": "LOCAL_REQUIRED_MODULES_$(HOST_OS)",
+    "body": ["LOCAL_REQUIRED_MODULES_$(HOST_OS)"],
+    "description": "LOCAL_REQUIRED_MODULES_$(HOST_OS)"
+  },
+  "LOCAL_SHARED_LIBRARIES_$(HOST_OS)": {
+    "prefix": "LOCAL_SHARED_LIBRARIES_$(HOST_OS)",
+    "body": ["LOCAL_SHARED_LIBRARIES_$(HOST_OS)"],
+    "description": "LOCAL_SHARED_LIBRARIES_$(HOST_OS)"
+  },
+  "LOCAL_SRC_FILES_$(HOST_OS)": {
+    "prefix": "LOCAL_SRC_FILES_$(HOST_OS)",
+    "body": ["LOCAL_SRC_FILES_$(HOST_OS)"],
+    "description": "LOCAL_SRC_FILES_$(HOST_OS)"
+  },
+  "LOCAL_STATIC_LIBRARIES_$(HOST_OS)": {
+    "prefix": "LOCAL_STATIC_LIBRARIES_$(HOST_OS)",
+    "body": ["LOCAL_STATIC_LIBRARIES_$(HOST_OS)"],
+    "description": "LOCAL_STATIC_LIBRARIES_$(HOST_OS)"
+  },
+  "LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_ARCH)",
+    "body": ["LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_ARCH)"],
+    "description": "LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_ARCH)"
+  },
+  "LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_2ND_ARCH)": {
+    "prefix": "LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_2ND_ARCH)",
+    "body": ["LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_2ND_ARCH)"],
+    "description": "LOCAL_SRC_FILES_$(HOST_OS)_$(HOST_2ND_ARCH)"
+  },
+  "LOCAL_ASFLAGS_32": {
+    "prefix": "LOCAL_ASFLAGS_32",
+    "body": ["LOCAL_ASFLAGS_32"],
+    "description": "LOCAL_ASFLAGS_32"
+  },
+  "LOCAL_ASFLAGS_64": {
+    "prefix": "LOCAL_ASFLAGS_64",
+    "body": ["LOCAL_ASFLAGS_64"],
+    "description": "LOCAL_ASFLAGS_64"
+  },
+  "LOCAL_CFLAGS_32": {
+    "prefix": "LOCAL_CFLAGS_32",
+    "body": ["LOCAL_CFLAGS_32"],
+    "description": "LOCAL_CFLAGS_32"
+  },
+  "LOCAL_CFLAGS_64": {
+    "prefix": "LOCAL_CFLAGS_64",
+    "body": ["LOCAL_CFLAGS_64"],
+    "description": "LOCAL_CFLAGS_64"
+  },
+  "LOCAL_C_INCLUDES_32": {
+    "prefix": "LOCAL_C_INCLUDES_32",
+    "body": ["LOCAL_C_INCLUDES_32"],
+    "description": "LOCAL_C_INCLUDES_32"
+  },
+  "LOCAL_C_INCLUDES_64": {
+    "prefix": "LOCAL_C_INCLUDES_64",
+    "body": ["LOCAL_C_INCLUDES_64"],
+    "description": "LOCAL_C_INCLUDES_64"
+  },
+  "LOCAL_CLANG_32": {
+    "prefix": "LOCAL_CLANG_32",
+    "body": ["LOCAL_CLANG_32"],
+    "description": "LOCAL_CLANG_32"
+  },
+  "LOCAL_CLANG_64": {
+    "prefix": "LOCAL_CLANG_64",
+    "body": ["LOCAL_CLANG_64"],
+    "description": "LOCAL_CLANG_64"
+  },
+  "LOCAL_CLANG_ASFLAGS_32": {
+    "prefix": "LOCAL_CLANG_ASFLAGS_32",
+    "body": ["LOCAL_CLANG_ASFLAGS_32"],
+    "description": "LOCAL_CLANG_ASFLAGS_32"
+  },
+  "LOCAL_CLANG_ASFLAGS_64": {
+    "prefix": "LOCAL_CLANG_ASFLAGS_64",
+    "body": ["LOCAL_CLANG_ASFLAGS_64"],
+    "description": "LOCAL_CLANG_ASFLAGS_64"
+  },
+  "LOCAL_CLANG_CFLAGS_32": {
+    "prefix": "LOCAL_CLANG_CFLAGS_32",
+    "body": ["LOCAL_CLANG_CFLAGS_32"],
+    "description": "LOCAL_CLANG_CFLAGS_32"
+  },
+  "LOCAL_CLANG_CFLAGS_64": {
+    "prefix": "LOCAL_CLANG_CFLAGS_64",
+    "body": ["LOCAL_CLANG_CFLAGS_64"],
+    "description": "LOCAL_CLANG_CFLAGS_64"
+  },
+  "LOCAL_CLANG_CPPFLAGS_32": {
+    "prefix": "LOCAL_CLANG_CPPFLAGS_32",
+    "body": ["LOCAL_CLANG_CPPFLAGS_32"],
+    "description": "LOCAL_CLANG_CPPFLAGS_32"
+  },
+  "LOCAL_CLANG_CPPFLAGS_64": {
+    "prefix": "LOCAL_CLANG_CPPFLAGS_64",
+    "body": ["LOCAL_CLANG_CPPFLAGS_64"],
+    "description": "LOCAL_CLANG_CPPFLAGS_64"
+  },
+  "LOCAL_CLANG_LDFLAGS_32": {
+    "prefix": "LOCAL_CLANG_LDFLAGS_32",
+    "body": ["LOCAL_CLANG_LDFLAGS_32"],
+    "description": "LOCAL_CLANG_LDFLAGS_32"
+  },
+  "LOCAL_CLANG_LDFLAGS_64": {
+    "prefix": "LOCAL_CLANG_LDFLAGS_64",
+    "body": ["LOCAL_CLANG_LDFLAGS_64"],
+    "description": "LOCAL_CLANG_LDFLAGS_64"
+  },
+  "LOCAL_CPPFLAGS_32": {
+    "prefix": "LOCAL_CPPFLAGS_32",
+    "body": ["LOCAL_CPPFLAGS_32"],
+    "description": "LOCAL_CPPFLAGS_32"
+  },
+  "LOCAL_CPPFLAGS_64": {
+    "prefix": "LOCAL_CPPFLAGS_64",
+    "body": ["LOCAL_CPPFLAGS_64"],
+    "description": "LOCAL_CPPFLAGS_64"
+  },
+  "LOCAL_GENERATED_SOURCES_32": {
+    "prefix": "LOCAL_GENERATED_SOURCES_32",
+    "body": ["LOCAL_GENERATED_SOURCES_32"],
+    "description": "LOCAL_GENERATED_SOURCES_32"
+  },
+  "LOCAL_GENERATED_SOURCES_64": {
+    "prefix": "LOCAL_GENERATED_SOURCES_64",
+    "body": ["LOCAL_GENERATED_SOURCES_64"],
+    "description": "LOCAL_GENERATED_SOURCES_64"
+  },
+  "LOCAL_HEADER_LIBRARIES_32": {
+    "prefix": "LOCAL_HEADER_LIBRARIES_32",
+    "body": ["LOCAL_HEADER_LIBRARIES_32"],
+    "description": "LOCAL_HEADER_LIBRARIES_32"
+  },
+  "LOCAL_HEADER_LIBRARIES_64": {
+    "prefix": "LOCAL_HEADER_LIBRARIES_64",
+    "body": ["LOCAL_HEADER_LIBRARIES_64"],
+    "description": "LOCAL_HEADER_LIBRARIES_64"
+  },
+  "LOCAL_INIT_RC_32": {
+    "prefix": "LOCAL_INIT_RC_32",
+    "body": ["LOCAL_INIT_RC_32"],
+    "description": "LOCAL_INIT_RC_32"
+  },
+  "LOCAL_INIT_RC_64": {
+    "prefix": "LOCAL_INIT_RC_64",
+    "body": ["LOCAL_INIT_RC_64"],
+    "description": "LOCAL_INIT_RC_64"
+  },
+  "LOCAL_LDFLAGS_32": {
+    "prefix": "LOCAL_LDFLAGS_32",
+    "body": ["LOCAL_LDFLAGS_32"],
+    "description": "LOCAL_LDFLAGS_32"
+  },
+  "LOCAL_LDFLAGS_64": {
+    "prefix": "LOCAL_LDFLAGS_64",
+    "body": ["LOCAL_LDFLAGS_64"],
+    "description": "LOCAL_LDFLAGS_64"
+  },
+  "LOCAL_MODULE_PATH_32": {
+    "prefix": "LOCAL_MODULE_PATH_32",
+    "body": ["LOCAL_MODULE_PATH_32"],
+    "description": "LOCAL_MODULE_PATH_32"
+  },
+  "LOCAL_MODULE_PATH_64": {
+    "prefix": "LOCAL_MODULE_PATH_64",
+    "body": ["LOCAL_MODULE_PATH_64"],
+    "description": "LOCAL_MODULE_PATH_64"
+  },
+  "LOCAL_MODULE_STEM_32": {
+    "prefix": "LOCAL_MODULE_STEM_32",
+    "body": ["LOCAL_MODULE_STEM_32"],
+    "description": "LOCAL_MODULE_STEM_32"
+  },
+  "LOCAL_MODULE_STEM_64": {
+    "prefix": "LOCAL_MODULE_STEM_64",
+    "body": ["LOCAL_MODULE_STEM_64"],
+    "description": "LOCAL_MODULE_STEM_64"
+  },
+  "LOCAL_MODULE_SYMLINKS_32": {
+    "prefix": "LOCAL_MODULE_SYMLINKS_32",
+    "body": ["LOCAL_MODULE_SYMLINKS_32"],
+    "description": "LOCAL_MODULE_SYMLINKS_32"
+  },
+  "LOCAL_MODULE_SYMLINKS_64": {
+    "prefix": "LOCAL_MODULE_SYMLINKS_64",
+    "body": ["LOCAL_MODULE_SYMLINKS_64"],
+    "description": "LOCAL_MODULE_SYMLINKS_64"
+  },
+  "LOCAL_SHARED_LIBRARIES_32": {
+    "prefix": "LOCAL_SHARED_LIBRARIES_32",
+    "body": ["LOCAL_SHARED_LIBRARIES_32"],
+    "description": "LOCAL_SHARED_LIBRARIES_32"
+  },
+  "LOCAL_SHARED_LIBRARIES_64": {
+    "prefix": "LOCAL_SHARED_LIBRARIES_64",
+    "body": ["LOCAL_SHARED_LIBRARIES_64"],
+    "description": "LOCAL_SHARED_LIBRARIES_64"
+  },
+  "LOCAL_SRC_FILES_32": {
+    "prefix": "LOCAL_SRC_FILES_32",
+    "body": ["LOCAL_SRC_FILES_32"],
+    "description": "LOCAL_SRC_FILES_32"
+  },
+  "LOCAL_SRC_FILES_64": {
+    "prefix": "LOCAL_SRC_FILES_64",
+    "body": ["LOCAL_SRC_FILES_64"],
+    "description": "LOCAL_SRC_FILES_64"
+  },
+  "LOCAL_SRC_FILES_EXCLUDE_32": {
+    "prefix": "LOCAL_SRC_FILES_EXCLUDE_32",
+    "body": ["LOCAL_SRC_FILES_EXCLUDE_32"],
+    "description": "LOCAL_SRC_FILES_EXCLUDE_32"
+  },
+  "LOCAL_SRC_FILES_EXCLUDE_64": {
+    "prefix": "LOCAL_SRC_FILES_EXCLUDE_64",
+    "body": ["LOCAL_SRC_FILES_EXCLUDE_64"],
+    "description": "LOCAL_SRC_FILES_EXCLUDE_64"
+  },
+  "LOCAL_STATIC_LIBRARIES_32": {
+    "prefix": "LOCAL_STATIC_LIBRARIES_32",
+    "body": ["LOCAL_STATIC_LIBRARIES_32"],
+    "description": "LOCAL_STATIC_LIBRARIES_32"
+  },
+  "LOCAL_STATIC_LIBRARIES_64": {
+    "prefix": "LOCAL_STATIC_LIBRARIES_64",
+    "body": ["LOCAL_STATIC_LIBRARIES_64"],
+    "description": "LOCAL_STATIC_LIBRARIES_64"
+  },
+  "LOCAL_WHOLE_STATIC_LIBRARIES_32": {
+    "prefix": "LOCAL_WHOLE_STATIC_LIBRARIES_32",
+    "body": ["LOCAL_WHOLE_STATIC_LIBRARIES_32"],
+    "description": "LOCAL_WHOLE_STATIC_LIBRARIES_32"
+  },
+  "LOCAL_WHOLE_STATIC_LIBRARIES_64": {
+    "prefix": "LOCAL_WHOLE_STATIC_LIBRARIES_64",
+    "body": ["LOCAL_WHOLE_STATIC_LIBRARIES_64"],
+    "description": "LOCAL_WHOLE_STATIC_LIBRARIES_64"
+  },
+  "LOCAL_INSTRUMENT_SOURCE_DIRS": {
+    "prefix": "LOCAL_INSTRUMENT_SOURCE_DIRS",
+    "body": ["LOCAL_INSTRUMENT_SOURCE_DIRS"],
+    "description": "LOCAL_INSTRUMENT_SOURCE_DIRS"
+  },
+  "LOCAL_ROBOTEST_FAILURE_FATAL": {
+    "prefix": "LOCAL_ROBOTEST_FAILURE_FATAL",
+    "body": ["LOCAL_ROBOTEST_FAILURE_FATAL"],
+    "description": "LOCAL_ROBOTEST_FAILURE_FATAL"
+  },
+  "LOCAL_ROBOTEST_FILES": {
+    "prefix": "LOCAL_ROBOTEST_FILES",
+    "body": ["LOCAL_ROBOTEST_FILES"],
+    "description": "LOCAL_ROBOTEST_FILES"
+  },
+  "LOCAL_ROBOTEST_TIMEOUT": {
+    "prefix": "LOCAL_ROBOTEST_TIMEOUT",
+    "body": ["LOCAL_ROBOTEST_TIMEOUT"],
+    "description": "LOCAL_ROBOTEST_TIMEOUT"
+  },
+  "LOCAL_TEST_PACKAGE": {
+    "prefix": "LOCAL_TEST_PACKAGE",
+    "body": ["LOCAL_TEST_PACKAGE"],
+    "description": "LOCAL_TEST_PACKAGE"
+  },
+  "full_android_manifest": {
+    "prefix": "full_android_manifest",
+    "body": ["full_android_manifest"],
+    "description": "full_android_manifest"
+  },
+  "non_system_module": {
+    "prefix": "non_system_module",
+    "body": ["non_system_module"],
+    "description": "non_system_module"
+  },
+  "MAKEFILE_LIST": {
+    "prefix": "MAKEFILE_LIST",
+    "body": ["MAKEFILE_LIST"],
+    "description": "MAKEFILE_LIST"
+  }
+}

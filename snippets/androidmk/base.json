@@ -1,0 +1,37 @@
+{
+  "ifeq": {
+    "prefix": "ifeq",
+    "body": ["ifeq (${1:0},${1:0})\n  $3\nendif\n"],
+    "description": "ifeq"
+  },
+  "ifneq": {
+    "prefix": "ifneq",
+    "body": ["ifneq (${1:0},${1:0})\n  $3\nendif\n"],
+    "description": "ifneq"
+  },
+  "ifdef": {
+    "prefix": "ifdef",
+    "body": ["ifdef $1\n  $2\nendif\n"],
+    "description": "ifdef"
+  },
+  "foreach": {
+    "prefix": "foreach",
+    "body": ["$(foreach ${1:item},$(2:list),$3)"],
+    "description": "foreach"
+  },
+  "call": {
+    "prefix": "call",
+    "body": ["$(call ${1:function},${2:params})"],
+    "description": "foreach"
+  },
+  "eval": {
+    "prefix": "eval",
+    "body": ["$(eval ${1:VAR_NAME} := $2)"],
+    "description": "eval"
+  },
+  "shell": {
+    "prefix": "shell",
+    "body": ["$(shell $1)"],
+    "description": "shell"
+  }
+}
