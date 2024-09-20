@@ -1,0 +1,1247 @@
+{
+  "print-vars": {
+    "prefix": "m_print-vars",
+    "body": ["print-vars"],
+    "description": "print-vars"
+  },
+  "true-or-empty": {
+    "prefix": "m_true-or-empty",
+    "body": ["true-or-empty"],
+    "description": "true-or-empty"
+  },
+  "gcno-touch-rule": {
+    "prefix": "m_gcno-touch-rule",
+    "body": ["gcno-touch-rule"],
+    "description": "gcno-touch-rule"
+  },
+  "my-dir": {
+    "prefix": "m_my-dir",
+    "body": ["my-dir"],
+    "description": "my-dir"
+  },
+  "all-makefiles-under": {
+    "prefix": "m_all-makefiles-under",
+    "body": ["all-makefiles-under"],
+    "description": "all-makefiles-under"
+  },
+  "first-makefiles-under": {
+    "prefix": "m_first-makefiles-under",
+    "body": ["first-makefiles-under"],
+    "description": "first-makefiles-under"
+  },
+  "all-subdir-makefiles": {
+    "prefix": "m_all-subdir-makefiles",
+    "body": ["all-subdir-makefiles"],
+    "description": "all-subdir-makefiles"
+  },
+  "all-named-subdir-makefiles": {
+    "prefix": "m_all-named-subdir-makefiles",
+    "body": ["all-named-subdir-makefiles"],
+    "description": "all-named-subdir-makefiles"
+  },
+  "all-named-dirs-under": {
+    "prefix": "m_all-named-dirs-under",
+    "body": ["all-named-dirs-under"],
+    "description": "all-named-dirs-under"
+  },
+  "all-subdir-named-dirs": {
+    "prefix": "m_all-subdir-named-dirs",
+    "body": ["all-subdir-named-dirs"],
+    "description": "all-subdir-named-dirs"
+  },
+  "all-named-files-under": {
+    "prefix": "m_all-named-files-under",
+    "body": ["all-named-files-under"],
+    "description": "all-named-files-under"
+  },
+  "all-subdir-named-files": {
+    "prefix": "m_all-subdir-named-files",
+    "body": ["all-subdir-named-files"],
+    "description": "all-subdir-named-files"
+  },
+  "all-java-files-under": {
+    "prefix": "m_all-java-files-under",
+    "body": ["all-java-files-under"],
+    "description": "all-java-files-under"
+  },
+  "all-subdir-java-files": {
+    "prefix": "m_all-subdir-java-files",
+    "body": ["all-subdir-java-files"],
+    "description": "all-subdir-java-files"
+  },
+  "all-c-files-under": {
+    "prefix": "m_all-c-files-under",
+    "body": ["all-c-files-under"],
+    "description": "all-c-files-under"
+  },
+  "all-subdir-c-files": {
+    "prefix": "m_all-subdir-c-files",
+    "body": ["all-subdir-c-files"],
+    "description": "all-subdir-c-files"
+  },
+  "all-cpp-files-under": {
+    "prefix": "m_all-cpp-files-under",
+    "body": ["all-cpp-files-under"],
+    "description": "all-cpp-files-under"
+  },
+  "all-subdir-cpp-files": {
+    "prefix": "m_all-subdir-cpp-files",
+    "body": ["all-subdir-cpp-files"],
+    "description": "all-subdir-cpp-files"
+  },
+  "all-Iaidl-files-under": {
+    "prefix": "m_all-Iaidl-files-under",
+    "body": ["all-Iaidl-files-under"],
+    "description": "all-Iaidl-files-under"
+  },
+  "all-subdir-Iaidl-files": {
+    "prefix": "m_all-subdir-Iaidl-files",
+    "body": ["all-subdir-Iaidl-files"],
+    "description": "all-subdir-Iaidl-files"
+  },
+  "all-vts-files-under": {
+    "prefix": "m_all-vts-files-under",
+    "body": ["all-vts-files-under"],
+    "description": "all-vts-files-under"
+  },
+  "all-subdir-vts-files": {
+    "prefix": "m_all-subdir-vts-files",
+    "body": ["all-subdir-vts-files"],
+    "description": "all-subdir-vts-files"
+  },
+  "all-logtags-files-under": {
+    "prefix": "m_all-logtags-files-under",
+    "body": ["all-logtags-files-under"],
+    "description": "all-logtags-files-under"
+  },
+  "all-proto-files-under": {
+    "prefix": "m_all-proto-files-under",
+    "body": ["all-proto-files-under"],
+    "description": "all-proto-files-under"
+  },
+  "all-renderscript-files-under": {
+    "prefix": "m_all-renderscript-files-under",
+    "body": ["all-renderscript-files-under"],
+    "description": "all-renderscript-files-under"
+  },
+  "all-S-files-under": {
+    "prefix": "m_all-S-files-under",
+    "body": ["all-S-files-under"],
+    "description": "all-S-files-under"
+  },
+  "all-html-files-under": {
+    "prefix": "m_all-html-files-under",
+    "body": ["all-html-files-under"],
+    "description": "all-html-files-under"
+  },
+  "all-subdir-html-files": {
+    "prefix": "m_all-subdir-html-files",
+    "body": ["all-subdir-html-files"],
+    "description": "all-subdir-html-files"
+  },
+  "find-subdir-files": {
+    "prefix": "m_find-subdir-files",
+    "body": ["find-subdir-files"],
+    "description": "find-subdir-files"
+  },
+  "find-subdir-subdir-files": {
+    "prefix": "m_find-subdir-subdir-files",
+    "body": ["find-subdir-subdir-files"],
+    "description": "find-subdir-subdir-files"
+  },
+  "find-subdir-assets": {
+    "prefix": "m_find-subdir-assets",
+    "body": ["find-subdir-assets"],
+    "description": "find-subdir-assets"
+  },
+  "find-other-java-files": {
+    "prefix": "m_find-other-java-files",
+    "body": ["find-other-java-files"],
+    "description": "find-other-java-files"
+  },
+  "find-other-html-files": {
+    "prefix": "m_find-other-html-files",
+    "body": ["find-other-html-files"],
+    "description": "find-other-html-files"
+  },
+  "find-files-in-subdirs": {
+    "prefix": "m_find-files-in-subdirs",
+    "body": ["find-files-in-subdirs"],
+    "description": "find-files-in-subdirs"
+  },
+  "find-parent-file": {
+    "prefix": "m_find-parent-file",
+    "body": ["find-parent-file"],
+    "description": "find-parent-file"
+  },
+  "find-test-data-in-subdirs": {
+    "prefix": "m_find-test-data-in-subdirs",
+    "body": ["find-test-data-in-subdirs"],
+    "description": "find-test-data-in-subdirs"
+  },
+  "add-dependency": {
+    "prefix": "m_add-dependency",
+    "body": ["add-dependency"],
+    "description": "add-dependency"
+  },
+  "reverse-list": {
+    "prefix": "m_reverse-list",
+    "body": ["reverse-list"],
+    "description": "reverse-list"
+  },
+  "fix-notice-deps": {
+    "prefix": "m_fix-notice-deps",
+    "body": ["fix-notice-deps"],
+    "description": "fix-notice-deps"
+  },
+  "license-metadata-dir": {
+    "prefix": "m_license-metadata-dir",
+    "body": ["license-metadata-dir"],
+    "description": "license-metadata-dir"
+  },
+  "license-metadata-rule": {
+    "prefix": "m_license-metadata-rule",
+    "body": ["license-metadata-rule"],
+    "description": "license-metadata-rule"
+  },
+  "build-license-metadata": {
+    "prefix": "m_build-license-metadata",
+    "body": ["build-license-metadata"],
+    "description": "build-license-metadata"
+  },
+  "find-idf-prefix": {
+    "prefix": "m_find-idf-prefix",
+    "body": ["find-idf-prefix"],
+    "description": "find-idf-prefix"
+  },
+  "intermediates-dir-for": {
+    "prefix": "m_intermediates-dir-for",
+    "body": ["intermediates-dir-for"],
+    "description": "intermediates-dir-for"
+  },
+  "local-intermediates-dir": {
+    "prefix": "m_local-intermediates-dir",
+    "body": ["local-intermediates-dir"],
+    "description": "local-intermediates-dir"
+  },
+  "generated-sources-dir-for": {
+    "prefix": "m_generated-sources-dir-for",
+    "body": ["generated-sources-dir-for"],
+    "description": "generated-sources-dir-for"
+  },
+  "local-generated-sources-dir": {
+    "prefix": "m_local-generated-sources-dir",
+    "body": ["local-generated-sources-dir"],
+    "description": "local-generated-sources-dir"
+  },
+  "packaging-dir-for": {
+    "prefix": "m_packaging-dir-for",
+    "body": ["packaging-dir-for"],
+    "description": "packaging-dir-for"
+  },
+  "local-packaging-dir": {
+    "prefix": "m_local-packaging-dir",
+    "body": ["local-packaging-dir"],
+    "description": "local-packaging-dir"
+  },
+  "module-built-files": {
+    "prefix": "m_module-built-files",
+    "body": ["module-built-files"],
+    "description": "module-built-files"
+  },
+  "module-installed-files": {
+    "prefix": "m_module-installed-files",
+    "body": ["module-installed-files"],
+    "description": "module-installed-files"
+  },
+  "module-target-built-files": {
+    "prefix": "m_module-target-built-files",
+    "body": ["module-target-built-files"],
+    "description": "module-target-built-files"
+  },
+  "module-stubs-files": {
+    "prefix": "m_module-stubs-files",
+    "body": ["module-stubs-files"],
+    "description": "module-stubs-files"
+  },
+  "doc-timestamp-for": {
+    "prefix": "m_doc-timestamp-for",
+    "body": ["doc-timestamp-for"],
+    "description": "doc-timestamp-for"
+  },
+  "java-lib-files": {
+    "prefix": "m_java-lib-files",
+    "body": ["java-lib-files"],
+    "description": "java-lib-files"
+  },
+  "java-lib-header-files": {
+    "prefix": "m_java-lib-header-files",
+    "body": ["java-lib-header-files"],
+    "description": "java-lib-header-files"
+  },
+  "java-lib-deps": {
+    "prefix": "m_java-lib-deps",
+    "body": ["java-lib-deps"],
+    "description": "java-lib-deps"
+  },
+  "app-lib-files": {
+    "prefix": "m_app-lib-files",
+    "body": ["app-lib-files"],
+    "description": "app-lib-files"
+  },
+  "app-lib-header-files": {
+    "prefix": "m_app-lib-header-files",
+    "body": ["app-lib-header-files"],
+    "description": "app-lib-header-files"
+  },
+  "exported-sdk-libs-files": {
+    "prefix": "m_exported-sdk-libs-files",
+    "body": ["exported-sdk-libs-files"],
+    "description": "exported-sdk-libs-files"
+  },
+  "modules-for-tag-list": {
+    "prefix": "m_modules-for-tag-list",
+    "body": ["modules-for-tag-list"],
+    "description": "modules-for-tag-list"
+  },
+  "module-names-for-tag-list": {
+    "prefix": "m_module-names-for-tag-list",
+    "body": ["module-names-for-tag-list"],
+    "description": "module-names-for-tag-list"
+  },
+  "get-tagged-modules": {
+    "prefix": "m_get-tagged-modules",
+    "body": ["get-tagged-modules"],
+    "description": "get-tagged-modules"
+  },
+  "append-path": {
+    "prefix": "m_append-path",
+    "body": ["append-path"],
+    "description": "append-path"
+  },
+  "echo-warning": {
+    "prefix": "m_echo-warning",
+    "body": ["echo-warning"],
+    "description": "echo-warning"
+  },
+  "echo-error": {
+    "prefix": "m_echo-error",
+    "body": ["echo-error"],
+    "description": "echo-error"
+  },
+  "pretty": {
+    "prefix": "m_pretty",
+    "body": ["pretty"],
+    "description": "pretty"
+  },
+  "include-depfile": {
+    "prefix": "m_include-depfile",
+    "body": ["include-depfile"],
+    "description": "include-depfile"
+  },
+  "include-depfiles-for-objs": {
+    "prefix": "m_include-depfiles-for-objs",
+    "body": ["include-depfiles-for-objs"],
+    "description": "include-depfiles-for-objs"
+  },
+  "track-src-file-obj": {
+    "prefix": "m_track-src-file-obj",
+    "body": ["track-src-file-obj"],
+    "description": "track-src-file-obj"
+  },
+  "_track-src-file-obj": {
+    "prefix": "m__track-src-file-obj",
+    "body": ["_track-src-file-obj"],
+    "description": "_track-src-file-obj"
+  },
+  "track-src-file-gen": {
+    "prefix": "m_track-src-file-gen",
+    "body": ["track-src-file-gen"],
+    "description": "track-src-file-gen"
+  },
+  "_track-src-file-gen": {
+    "prefix": "m__track-src-file-gen",
+    "body": ["_track-src-file-gen"],
+    "description": "_track-src-file-gen"
+  },
+  "track-gen-file-obj": {
+    "prefix": "m_track-gen-file-obj",
+    "body": ["track-gen-file-obj"],
+    "description": "track-gen-file-obj"
+  },
+  "transform-l-to-c-or-cpp": {
+    "prefix": "m_transform-l-to-c-or-cpp",
+    "body": ["transform-l-to-c-or-cpp"],
+    "description": "transform-l-to-c-or-cpp"
+  },
+  "transform-y-to-c-or-cpp": {
+    "prefix": "m_transform-y-to-c-or-cpp",
+    "body": ["transform-y-to-c-or-cpp"],
+    "description": "transform-y-to-c-or-cpp"
+  },
+  "_merge-renderscript-d": {
+    "prefix": "m__merge-renderscript-d",
+    "body": ["_merge-renderscript-d"],
+    "description": "_merge-renderscript-d"
+  },
+  "transform-renderscripts-to-java-and-bc": {
+    "prefix": "m_transform-renderscripts-to-java-and-bc",
+    "body": ["transform-renderscripts-to-java-and-bc"],
+    "description": "transform-renderscripts-to-java-and-bc"
+  },
+  "transform-bc-to-so": {
+    "prefix": "m_transform-bc-to-so",
+    "body": ["transform-bc-to-so"],
+    "description": "transform-bc-to-so"
+  },
+  "transform-renderscripts-to-cpp-and-bc": {
+    "prefix": "m_transform-renderscripts-to-cpp-and-bc",
+    "body": ["transform-renderscripts-to-cpp-and-bc"],
+    "description": "transform-renderscripts-to-cpp-and-bc"
+  },
+  "transform-aidl-to-java": {
+    "prefix": "m_transform-aidl-to-java",
+    "body": ["transform-aidl-to-java"],
+    "description": "transform-aidl-to-java"
+  },
+  "transform-aidl-to-cpp": {
+    "prefix": "m_transform-aidl-to-cpp",
+    "body": ["transform-aidl-to-cpp"],
+    "description": "transform-aidl-to-cpp"
+  },
+  "define-aidl-java-rule": {
+    "prefix": "m_define-aidl-java-rule",
+    "body": ["define-aidl-java-rule"],
+    "description": "define-aidl-java-rule"
+  },
+  "define-aidl-cpp-rule": {
+    "prefix": "m_define-aidl-cpp-rule",
+    "body": ["define-aidl-cpp-rule"],
+    "description": "define-aidl-cpp-rule"
+  },
+  "transform-vts-to-cpp": {
+    "prefix": "m_transform-vts-to-cpp",
+    "body": ["transform-vts-to-cpp"],
+    "description": "transform-vts-to-cpp"
+  },
+  "define-vts-cpp-rule": {
+    "prefix": "m_define-vts-cpp-rule",
+    "body": ["define-vts-cpp-rule"],
+    "description": "define-vts-cpp-rule"
+  },
+  "transform-logtags-to-java": {
+    "prefix": "m_transform-logtags-to-java",
+    "body": ["transform-logtags-to-java"],
+    "description": "transform-logtags-to-java"
+  },
+  "transform-proto-to-java": {
+    "prefix": "m_transform-proto-to-java",
+    "body": ["transform-proto-to-java"],
+    "description": "transform-proto-to-java"
+  },
+  "transform-proto-to-cc": {
+    "prefix": "m_transform-proto-to-cc",
+    "body": ["transform-proto-to-cc"],
+    "description": "transform-proto-to-cc"
+  },
+  "c-includes": {
+    "prefix": "m_c-includes",
+    "body": ["c-includes"],
+    "description": "c-includes"
+  },
+  "transform-cpp-to-o-compiler-args": {
+    "prefix": "m_transform-cpp-to-o-compiler-args",
+    "body": ["transform-cpp-to-o-compiler-args"],
+    "description": "transform-cpp-to-o-compiler-args"
+  },
+  "call-clang-tidy": {
+    "prefix": "m_call-clang-tidy",
+    "body": ["call-clang-tidy"],
+    "description": "call-clang-tidy"
+  },
+  "clang-tidy-cpp": {
+    "prefix": "m_clang-tidy-cpp",
+    "body": ["clang-tidy-cpp"],
+    "description": "clang-tidy-cpp"
+  },
+  "transform-cpp-to-o": {
+    "prefix": "m_transform-cpp-to-o",
+    "body": ["transform-cpp-to-o"],
+    "description": "transform-cpp-to-o"
+  },
+  "transform-c-or-s-to-o-compiler-args": {
+    "prefix": "m_transform-c-or-s-to-o-compiler-args",
+    "body": ["transform-c-or-s-to-o-compiler-args"],
+    "description": "transform-c-or-s-to-o-compiler-args"
+  },
+  "transform-c-to-o-compiler-args": {
+    "prefix": "m_transform-c-to-o-compiler-args",
+    "body": ["transform-c-to-o-compiler-args"],
+    "description": "transform-c-to-o-compiler-args"
+  },
+  "clang-tidy-c": {
+    "prefix": "m_clang-tidy-c",
+    "body": ["clang-tidy-c"],
+    "description": "clang-tidy-c"
+  },
+  "transform-c-to-o": {
+    "prefix": "m_transform-c-to-o",
+    "body": ["transform-c-to-o"],
+    "description": "transform-c-to-o"
+  },
+  "transform-s-to-o": {
+    "prefix": "m_transform-s-to-o",
+    "body": ["transform-s-to-o"],
+    "description": "transform-s-to-o"
+  },
+  "transform-asm-to-o": {
+    "prefix": "m_transform-asm-to-o",
+    "body": ["transform-asm-to-o"],
+    "description": "transform-asm-to-o"
+  },
+  "transform-m-to-o": {
+    "prefix": "m_transform-m-to-o",
+    "body": ["transform-m-to-o"],
+    "description": "transform-m-to-o"
+  },
+  "transform-host-cpp-to-o-compiler-args": {
+    "prefix": "m_transform-host-cpp-to-o-compiler-args",
+    "body": ["transform-host-cpp-to-o-compiler-args"],
+    "description": "transform-host-cpp-to-o-compiler-args"
+  },
+  "clang-tidy-host-cpp": {
+    "prefix": "m_clang-tidy-host-cpp",
+    "body": ["clang-tidy-host-cpp"],
+    "description": "clang-tidy-host-cpp"
+  },
+  "transform-host-cpp-to-o": {
+    "prefix": "m_transform-host-cpp-to-o",
+    "body": ["transform-host-cpp-to-o"],
+    "description": "transform-host-cpp-to-o"
+  },
+  "transform-host-c-or-s-to-o-common-args": {
+    "prefix": "m_transform-host-c-or-s-to-o-common-args",
+    "body": ["transform-host-c-or-s-to-o-common-args"],
+    "description": "transform-host-c-or-s-to-o-common-args"
+  },
+  "transform-host-c-or-s-to-o": {
+    "prefix": "m_transform-host-c-or-s-to-o",
+    "body": ["transform-host-c-or-s-to-o"],
+    "description": "transform-host-c-or-s-to-o"
+  },
+  "transform-host-c-to-o-compiler-args": {
+    "prefix": "m_transform-host-c-to-o-compiler-args",
+    "body": ["transform-host-c-to-o-compiler-args"],
+    "description": "transform-host-c-to-o-compiler-args"
+  },
+  "clang-tidy-host-c": {
+    "prefix": "m_clang-tidy-host-c",
+    "body": ["clang-tidy-host-c"],
+    "description": "clang-tidy-host-c"
+  },
+  "transform-host-c-to-o": {
+    "prefix": "m_transform-host-c-to-o",
+    "body": ["transform-host-c-to-o"],
+    "description": "transform-host-c-to-o"
+  },
+  "transform-host-s-to-o": {
+    "prefix": "m_transform-host-s-to-o",
+    "body": ["transform-host-s-to-o"],
+    "description": "transform-host-s-to-o"
+  },
+  "transform-host-m-to-o": {
+    "prefix": "m_transform-host-m-to-o",
+    "body": ["transform-host-m-to-o"],
+    "description": "transform-host-m-to-o"
+  },
+  "transform-host-mm-to-o": {
+    "prefix": "m_transform-host-mm-to-o",
+    "body": ["transform-host-mm-to-o"],
+    "description": "transform-host-mm-to-o"
+  },
+  "compile-dotdot-cpp-file": {
+    "prefix": "m_compile-dotdot-cpp-file",
+    "body": ["compile-dotdot-cpp-file"],
+    "description": "compile-dotdot-cpp-file"
+  },
+  "compile-dotdot-c-file": {
+    "prefix": "m_compile-dotdot-c-file",
+    "body": ["compile-dotdot-c-file"],
+    "description": "compile-dotdot-c-file"
+  },
+  "compile-dotdot-s-file": {
+    "prefix": "m_compile-dotdot-s-file",
+    "body": ["compile-dotdot-s-file"],
+    "description": "compile-dotdot-s-file"
+  },
+  "compile-dotdot-s-file-no-deps": {
+    "prefix": "m_compile-dotdot-s-file-no-deps",
+    "body": ["compile-dotdot-s-file-no-deps"],
+    "description": "compile-dotdot-s-file-no-deps"
+  },
+  "_concat-if-arg2-not-empty": {
+    "prefix": "m__concat-if-arg2-not-empty",
+    "body": ["_concat-if-arg2-not-empty"],
+    "description": "_concat-if-arg2-not-empty"
+  },
+  "split-long-arguments": {
+    "prefix": "m_split-long-arguments",
+    "body": ["split-long-arguments"],
+    "description": "split-long-arguments"
+  },
+  "_extract-and-include-single-target-whole-static-lib": {
+    "prefix": "m__extract-and-include-single-target-whole-static-lib",
+    "body": ["_extract-and-include-single-target-whole-static-lib"],
+    "description": "_extract-and-include-single-target-whole-static-lib"
+  },
+  "extract-and-include-whole-static-libs-first": {
+    "prefix": "m_extract-and-include-whole-static-libs-first",
+    "body": ["extract-and-include-whole-static-libs-first"],
+    "description": "extract-and-include-whole-static-libs-first"
+  },
+  "extract-and-include-target-whole-static-libs": {
+    "prefix": "m_extract-and-include-target-whole-static-libs",
+    "body": ["extract-and-include-target-whole-static-libs"],
+    "description": "extract-and-include-target-whole-static-libs"
+  },
+  "transform-o-to-static-lib": {
+    "prefix": "m_transform-o-to-static-lib",
+    "body": ["transform-o-to-static-lib"],
+    "description": "transform-o-to-static-lib"
+  },
+  "_extract-and-include-single-host-whole-static-lib": {
+    "prefix": "m__extract-and-include-single-host-whole-static-lib",
+    "body": ["_extract-and-include-single-host-whole-static-lib"],
+    "description": "_extract-and-include-single-host-whole-static-lib"
+  },
+  "extract-and-include-host-whole-static-libs": {
+    "prefix": "m_extract-and-include-host-whole-static-libs",
+    "body": ["extract-and-include-host-whole-static-libs"],
+    "description": "extract-and-include-host-whole-static-libs"
+  },
+  "create-dummy.o-if-no-objs": {
+    "prefix": "m_create-dummy.o-if-no-objs",
+    "body": ["create-dummy.o-if-no-objs"],
+    "description": "create-dummy.o-if-no-objs"
+  },
+  "get-dummy.o-if-no-objs": {
+    "prefix": "m_get-dummy.o-if-no-objs",
+    "body": ["get-dummy.o-if-no-objs"],
+    "description": "get-dummy.o-if-no-objs"
+  },
+  "delete-dummy.o-if-no-objs": {
+    "prefix": "m_delete-dummy.o-if-no-objs",
+    "body": ["delete-dummy.o-if-no-objs"],
+    "description": "delete-dummy.o-if-no-objs"
+  },
+  "transform-host-o-to-static-lib": {
+    "prefix": "m_transform-host-o-to-static-lib",
+    "body": ["transform-host-o-to-static-lib"],
+    "description": "transform-host-o-to-static-lib"
+  },
+  "transform-host-o-to-shared-lib-inner": {
+    "prefix": "m_transform-host-o-to-shared-lib-inner",
+    "body": ["transform-host-o-to-shared-lib-inner"],
+    "description": "transform-host-o-to-shared-lib-inner"
+  },
+  "transform-host-o-to-shared-lib": {
+    "prefix": "m_transform-host-o-to-shared-lib",
+    "body": ["transform-host-o-to-shared-lib"],
+    "description": "transform-host-o-to-shared-lib"
+  },
+  "transform-host-o-to-package": {
+    "prefix": "m_transform-host-o-to-package",
+    "body": ["transform-host-o-to-package"],
+    "description": "transform-host-o-to-package"
+  },
+  "transform-o-to-shared-lib-inner": {
+    "prefix": "m_transform-o-to-shared-lib-inner",
+    "body": ["transform-o-to-shared-lib-inner"],
+    "description": "transform-o-to-shared-lib-inner"
+  },
+  "transform-o-to-shared-lib": {
+    "prefix": "m_transform-o-to-shared-lib",
+    "body": ["transform-o-to-shared-lib"],
+    "description": "transform-o-to-shared-lib"
+  },
+  "transform-o-to-executable-inner": {
+    "prefix": "m_transform-o-to-executable-inner",
+    "body": ["transform-o-to-executable-inner"],
+    "description": "transform-o-to-executable-inner"
+  },
+  "transform-o-to-executable": {
+    "prefix": "m_transform-o-to-executable",
+    "body": ["transform-o-to-executable"],
+    "description": "transform-o-to-executable"
+  },
+  "transform-o-to-static-executable-inner": {
+    "prefix": "m_transform-o-to-static-executable-inner",
+    "body": ["transform-o-to-static-executable-inner"],
+    "description": "transform-o-to-static-executable-inner"
+  },
+  "transform-o-to-static-executable": {
+    "prefix": "m_transform-o-to-static-executable",
+    "body": ["transform-o-to-static-executable"],
+    "description": "transform-o-to-static-executable"
+  },
+  "transform-host-o-to-executable-inner": {
+    "prefix": "m_transform-host-o-to-executable-inner",
+    "body": ["transform-host-o-to-executable-inner"],
+    "description": "transform-host-o-to-executable-inner"
+  },
+  "transform-host-o-to-executable": {
+    "prefix": "m_transform-host-o-to-executable",
+    "body": ["transform-host-o-to-executable"],
+    "description": "transform-host-o-to-executable"
+  },
+  "package-coverage-files": {
+    "prefix": "m_package-coverage-files",
+    "body": ["package-coverage-files"],
+    "description": "package-coverage-files"
+  },
+  "find-generated-R.java": {
+    "prefix": "m_find-generated-R.java",
+    "body": ["find-generated-R.java"],
+    "description": "find-generated-R.java"
+  },
+  "aapt2-compile-one-resource-file": {
+    "prefix": "m_aapt2-compile-one-resource-file",
+    "body": ["aapt2-compile-one-resource-file"],
+    "description": "aapt2-compile-one-resource-file"
+  },
+  "aapt2-compile-resource-dirs": {
+    "prefix": "m_aapt2-compile-resource-dirs",
+    "body": ["aapt2-compile-resource-dirs"],
+    "description": "aapt2-compile-resource-dirs"
+  },
+  "aapt2-compile-resource-zips": {
+    "prefix": "m_aapt2-compile-resource-zips",
+    "body": ["aapt2-compile-resource-zips"],
+    "description": "aapt2-compile-resource-zips"
+  },
+  "aapt2-compile-one-resource-file-rule": {
+    "prefix": "m_aapt2-compile-one-resource-file-rule",
+    "body": ["aapt2-compile-one-resource-file-rule"],
+    "description": "aapt2-compile-one-resource-file-rule"
+  },
+  "aapt2-compiled-resource-out-file": {
+    "prefix": "m_aapt2-compiled-resource-out-file",
+    "body": ["aapt2-compiled-resource-out-file"],
+    "description": "aapt2-compiled-resource-out-file"
+  },
+  "aapt2-link": {
+    "prefix": "m_aapt2-link",
+    "body": ["aapt2-link"],
+    "description": "aapt2-link"
+  },
+  "_create-default-manifest-file": {
+    "prefix": "m__create-default-manifest-file",
+    "body": ["_create-default-manifest-file"],
+    "description": "_create-default-manifest-file"
+  },
+  "create-default-manifest-file": {
+    "prefix": "m_create-default-manifest-file",
+    "body": ["create-default-manifest-file"],
+    "description": "create-default-manifest-file"
+  },
+  "emit-line": {
+    "prefix": "m_emit-line",
+    "body": ["emit-line"],
+    "description": "emit-line"
+  },
+  "dump-words-to-file": {
+    "prefix": "m_dump-words-to-file",
+    "body": ["dump-words-to-file"],
+    "description": "dump-words-to-file"
+  },
+  "jar-args-sorted-files-in-directory": {
+    "prefix": "m_jar-args-sorted-files-in-directory",
+    "body": ["jar-args-sorted-files-in-directory"],
+    "description": "jar-args-sorted-files-in-directory"
+  },
+  "fetch-additional-java-source": {
+    "prefix": "m_fetch-additional-java-source",
+    "body": ["fetch-additional-java-source"],
+    "description": "fetch-additional-java-source"
+  },
+  "write-java-source-list": {
+    "prefix": "m_write-java-source-list",
+    "body": ["write-java-source-list"],
+    "description": "write-java-source-list"
+  },
+  "compile-java": {
+    "prefix": "m_compile-java",
+    "body": ["compile-java"],
+    "description": "compile-java"
+  },
+  "transform-java-to-header.jar": {
+    "prefix": "m_transform-java-to-header.jar",
+    "body": ["transform-java-to-header.jar"],
+    "description": "transform-java-to-header.jar"
+  },
+  "transform-jarjar": {
+    "prefix": "m_transform-jarjar",
+    "body": ["transform-jarjar"],
+    "description": "transform-jarjar"
+  },
+  "commit-change-for-toc": {
+    "prefix": "m_commit-change-for-toc",
+    "body": ["commit-change-for-toc"],
+    "description": "commit-change-for-toc"
+  },
+  "_transform-dex-to-toc": {
+    "prefix": "m__transform-dex-to-toc",
+    "body": ["_transform-dex-to-toc"],
+    "description": "_transform-dex-to-toc"
+  },
+  "define-dex-to-toc-rule": {
+    "prefix": "m_define-dex-to-toc-rule",
+    "body": ["define-dex-to-toc-rule"],
+    "description": "define-dex-to-toc-rule"
+  },
+  "codename-or-sdk-to-sdk": {
+    "prefix": "m_codename-or-sdk-to-sdk",
+    "body": ["codename-or-sdk-to-sdk"],
+    "description": "codename-or-sdk-to-sdk"
+  },
+  "module-sdk-version": {
+    "prefix": "m_module-sdk-version",
+    "body": ["module-sdk-version"],
+    "description": "module-sdk-version"
+  },
+  "module-target-sdk-version": {
+    "prefix": "m_module-target-sdk-version",
+    "body": ["module-target-sdk-version"],
+    "description": "module-target-sdk-version"
+  },
+  "module-min-sdk-version": {
+    "prefix": "m_module-min-sdk-version",
+    "body": ["module-min-sdk-version"],
+    "description": "module-min-sdk-version"
+  },
+  "transform-classes.jar-to-dex": {
+    "prefix": "m_transform-classes.jar-to-dex",
+    "body": ["transform-classes.jar-to-dex"],
+    "description": "transform-classes.jar-to-dex"
+  },
+  "_add-jni-shared-libs-to-package-per-abi": {
+    "prefix": "m__add-jni-shared-libs-to-package-per-abi",
+    "body": ["_add-jni-shared-libs-to-package-per-abi"],
+    "description": "_add-jni-shared-libs-to-package-per-abi"
+  },
+  "create-jni-shared-libs-package": {
+    "prefix": "m_create-jni-shared-libs-package",
+    "body": ["create-jni-shared-libs-package"],
+    "description": "create-jni-shared-libs-package"
+  },
+  "create-dex-jar": {
+    "prefix": "m_create-dex-jar",
+    "body": ["create-dex-jar"],
+    "description": "create-dex-jar"
+  },
+  "add-java-resources-to": {
+    "prefix": "m_add-java-resources-to",
+    "body": ["add-java-resources-to"],
+    "description": "add-java-resources-to"
+  },
+  "create-java-resources-jar": {
+    "prefix": "m_create-java-resources-jar",
+    "body": ["create-java-resources-jar"],
+    "description": "create-java-resources-jar"
+  },
+  "_java-resources": {
+    "prefix": "m__java-resources",
+    "body": ["_java-resources"],
+    "description": "_java-resources"
+  },
+  "add-jar-resources-to-package": {
+    "prefix": "m_add-jar-resources-to-package",
+    "body": ["add-jar-resources-to-package"],
+    "description": "add-jar-resources-to-package"
+  },
+  "extract-resources-jar": {
+    "prefix": "m_extract-resources-jar",
+    "body": ["extract-resources-jar"],
+    "description": "extract-resources-jar"
+  },
+  "sign-package": {
+    "prefix": "m_sign-package",
+    "body": ["sign-package"],
+    "description": "sign-package"
+  },
+  "sign-package-arg": {
+    "prefix": "m_sign-package-arg",
+    "body": ["sign-package-arg"],
+    "description": "sign-package-arg"
+  },
+  "align-package": {
+    "prefix": "m_align-package",
+    "body": ["align-package"],
+    "description": "align-package"
+  },
+  "check-package-alignment": {
+    "prefix": "m_check-package-alignment",
+    "body": ["check-package-alignment"],
+    "description": "check-package-alignment"
+  },
+  "compress-package": {
+    "prefix": "m_compress-package",
+    "body": ["compress-package"],
+    "description": "compress-package"
+  },
+  "extract-package": {
+    "prefix": "m_extract-package",
+    "body": ["extract-package"],
+    "description": "extract-package"
+  },
+  "appcompat-header": {
+    "prefix": "m_appcompat-header",
+    "body": ["appcompat-header"],
+    "description": "appcompat-header"
+  },
+  "run-appcompat": {
+    "prefix": "m_run-appcompat",
+    "body": ["run-appcompat"],
+    "description": "run-appcompat"
+  },
+  "remove-timestamps-from-package": {
+    "prefix": "m_remove-timestamps-from-package",
+    "body": ["remove-timestamps-from-package"],
+    "description": "remove-timestamps-from-package"
+  },
+  "uncompress-dexs": {
+    "prefix": "m_uncompress-dexs",
+    "body": ["uncompress-dexs"],
+    "description": "uncompress-dexs"
+  },
+  "uncompress-prebuilt-embedded-jni-libs": {
+    "prefix": "m_uncompress-prebuilt-embedded-jni-libs",
+    "body": ["uncompress-prebuilt-embedded-jni-libs"],
+    "description": "uncompress-prebuilt-embedded-jni-libs"
+  },
+  "check-jni-dex-compression": {
+    "prefix": "m_check-jni-dex-compression",
+    "body": ["check-jni-dex-compression"],
+    "description": "check-jni-dex-compression"
+  },
+  "remove-unwanted-prebuilt-embedded-jni-libs": {
+    "prefix": "m_remove-unwanted-prebuilt-embedded-jni-libs",
+    "body": ["remove-unwanted-prebuilt-embedded-jni-libs"],
+    "description": "remove-unwanted-prebuilt-embedded-jni-libs"
+  },
+  "transform-host-java-to-package": {
+    "prefix": "m_transform-host-java-to-package",
+    "body": ["transform-host-java-to-package"],
+    "description": "transform-host-java-to-package"
+  },
+  "transform-host-java-to-dalvik-package": {
+    "prefix": "m_transform-host-java-to-dalvik-package",
+    "body": ["transform-host-java-to-dalvik-package"],
+    "description": "transform-host-java-to-dalvik-package"
+  },
+  "copy-one-header": {
+    "prefix": "m_copy-one-header",
+    "body": ["copy-one-header"],
+    "description": "copy-one-header"
+  },
+  "copy-one-file": {
+    "prefix": "m_copy-one-file",
+    "body": ["copy-one-file"],
+    "description": "copy-one-file"
+  },
+  "copy-and-uncompress-dexs": {
+    "prefix": "m_copy-and-uncompress-dexs",
+    "body": ["copy-and-uncompress-dexs"],
+    "description": "copy-and-uncompress-dexs"
+  },
+  "compat-copy-pair": {
+    "prefix": "m_compat-copy-pair",
+    "body": ["compat-copy-pair"],
+    "description": "compat-copy-pair"
+  },
+  "filter-copy-pair": {
+    "prefix": "m_filter-copy-pair",
+    "body": ["filter-copy-pair"],
+    "description": "filter-copy-pair"
+  },
+  "copy-many-files": {
+    "prefix": "m_copy-many-files",
+    "body": ["copy-many-files"],
+    "description": "copy-many-files"
+  },
+  "copy-init-script-file-checked": {
+    "prefix": "m_copy-init-script-file-checked",
+    "body": ["copy-init-script-file-checked"],
+    "description": "copy-init-script-file-checked"
+  },
+  "copy-many-init-script-files-checked": {
+    "prefix": "m_copy-many-init-script-files-checked",
+    "body": ["copy-many-init-script-files-checked"],
+    "description": "copy-many-init-script-files-checked"
+  },
+  "copy-xml-file-checked": {
+    "prefix": "m_copy-xml-file-checked",
+    "body": ["copy-xml-file-checked"],
+    "description": "copy-xml-file-checked"
+  },
+  "copy-many-xml-files-checked": {
+    "prefix": "m_copy-many-xml-files-checked",
+    "body": ["copy-many-xml-files-checked"],
+    "description": "copy-many-xml-files-checked"
+  },
+  "copy-vintf-manifest-checked": {
+    "prefix": "m_copy-vintf-manifest-checked",
+    "body": ["copy-vintf-manifest-checked"],
+    "description": "copy-vintf-manifest-checked"
+  },
+  "copy-many-vintf-manifest-files-checked": {
+    "prefix": "m_copy-many-vintf-manifest-files-checked",
+    "body": ["copy-many-vintf-manifest-files-checked"],
+    "description": "copy-many-vintf-manifest-files-checked"
+  },
+  "copy-non-elf-file-checked": {
+    "prefix": "m_copy-non-elf-file-checked",
+    "body": ["copy-non-elf-file-checked"],
+    "description": "copy-non-elf-file-checked"
+  },
+  "copy-file-to-target": {
+    "prefix": "m_copy-file-to-target",
+    "body": ["copy-file-to-target"],
+    "description": "copy-file-to-target"
+  },
+  "copy-file-to-target-with-cp": {
+    "prefix": "m_copy-file-to-target-with-cp",
+    "body": ["copy-file-to-target-with-cp"],
+    "description": "copy-file-to-target-with-cp"
+  },
+  "copy-file-to-target-strip-comments": {
+    "prefix": "m_copy-file-to-target-strip-comments",
+    "body": ["copy-file-to-target-strip-comments"],
+    "description": "copy-file-to-target-strip-comments"
+  },
+  "copy-file-to-new-target": {
+    "prefix": "m_copy-file-to-new-target",
+    "body": ["copy-file-to-new-target"],
+    "description": "copy-file-to-new-target"
+  },
+  "copy-file-to-new-target-with-cp": {
+    "prefix": "m_copy-file-to-new-target-with-cp",
+    "body": ["copy-file-to-new-target-with-cp"],
+    "description": "copy-file-to-new-target-with-cp"
+  },
+  "copy-file-or-link-to-new-target": {
+    "prefix": "m_copy-file-or-link-to-new-target",
+    "body": ["copy-file-or-link-to-new-target"],
+    "description": "copy-file-or-link-to-new-target"
+  },
+  "transform-prebuilt-to-target": {
+    "prefix": "m_transform-prebuilt-to-target",
+    "body": ["transform-prebuilt-to-target"],
+    "description": "transform-prebuilt-to-target"
+  },
+  "transform-prebuilt-to-target-strip-comments": {
+    "prefix": "m_transform-prebuilt-to-target-strip-comments",
+    "body": ["transform-prebuilt-to-target-strip-comments"],
+    "description": "transform-prebuilt-to-target-strip-comments"
+  },
+  "copy-or-link-prebuilt-to-target": {
+    "prefix": "m_copy-or-link-prebuilt-to-target",
+    "body": ["copy-or-link-prebuilt-to-target"],
+    "description": "copy-or-link-prebuilt-to-target"
+  },
+  "copy-files-with-structure": {
+    "prefix": "m_copy-files-with-structure",
+    "body": ["copy-files-with-structure"],
+    "description": "copy-files-with-structure"
+  },
+  "symlink-file": {
+    "prefix": "m_symlink-file",
+    "body": ["symlink-file"],
+    "description": "symlink-file"
+  },
+  "_symlink-file": {
+    "prefix": "m__symlink-file",
+    "body": ["_symlink-file"],
+    "description": "_symlink-file"
+  },
+  "dexpreopt-copy-jar": {
+    "prefix": "m_dexpreopt-copy-jar",
+    "body": ["dexpreopt-copy-jar"],
+    "description": "dexpreopt-copy-jar"
+  },
+  "dexpreopt-remove-classes.dex": {
+    "prefix": "m_dexpreopt-remove-classes.dex",
+    "body": ["dexpreopt-remove-classes.dex"],
+    "description": "dexpreopt-remove-classes.dex"
+  },
+  "transform-jar-to-dex-r8": {
+    "prefix": "m_transform-jar-to-dex-r8",
+    "body": ["transform-jar-to-dex-r8"],
+    "description": "transform-jar-to-dex-r8"
+  },
+  "transform-generated-source": {
+    "prefix": "m_transform-generated-source",
+    "body": ["transform-generated-source"],
+    "description": "transform-generated-source"
+  },
+  "get-file-size": {
+    "prefix": "m_get-file-size",
+    "body": ["get-file-size"],
+    "description": "get-file-size"
+  },
+  "assert-max-image-size": {
+    "prefix": "m_assert-max-image-size",
+    "body": ["assert-max-image-size"],
+    "description": "assert-max-image-size"
+  },
+  "add-radio-file": {
+    "prefix": "m_add-radio-file",
+    "body": ["add-radio-file"],
+    "description": "add-radio-file"
+  },
+  "add-radio-file-internal": {
+    "prefix": "m_add-radio-file-internal",
+    "body": ["add-radio-file-internal"],
+    "description": "add-radio-file-internal"
+  },
+  "add-radio-file-checked": {
+    "prefix": "m_add-radio-file-checked",
+    "body": ["add-radio-file-checked"],
+    "description": "add-radio-file-checked"
+  },
+  "add-radio-file-checked-internal": {
+    "prefix": "m_add-radio-file-checked-internal",
+    "body": ["add-radio-file-checked-internal"],
+    "description": "add-radio-file-checked-internal"
+  },
+  "if-build-from-source": {
+    "prefix": "m_if-build-from-source",
+    "body": ["if-build-from-source"],
+    "description": "if-build-from-source"
+  },
+  "include-if-build-from-source": {
+    "prefix": "m_include-if-build-from-source",
+    "body": ["include-if-build-from-source"],
+    "description": "include-if-build-from-source"
+  },
+  "get-prebuilt-src-arch": {
+    "prefix": "m_get-prebuilt-src-arch",
+    "body": ["get-prebuilt-src-arch"],
+    "description": "get-prebuilt-src-arch"
+  },
+  "record-module-type": {
+    "prefix": "m_record-module-type",
+    "body": ["record-module-type"],
+    "description": "record-module-type"
+  },
+  "compatibility_suite_dirs": {
+    "prefix": "m_compatibility_suite_dirs",
+    "body": ["compatibility_suite_dirs"],
+    "description": "compatibility_suite_dirs"
+  },
+  "create-suite-dependencies": {
+    "prefix": "m_create-suite-dependencies",
+    "body": ["create-suite-dependencies"],
+    "description": "create-suite-dependencies"
+  },
+  "_clean-path-strip-dotdot": {
+    "prefix": "m__clean-path-strip-dotdot",
+    "body": ["_clean-path-strip-dotdot"],
+    "description": "_clean-path-strip-dotdot"
+  },
+  "_clean-path-strip-root-dotdots": {
+    "prefix": "m__clean-path-strip-root-dotdots",
+    "body": ["_clean-path-strip-root-dotdots"],
+    "description": "_clean-path-strip-root-dotdots"
+  },
+  "_clean-path-expanded": {
+    "prefix": "m__clean-path-expanded",
+    "body": ["_clean-path-expanded"],
+    "description": "_clean-path-expanded"
+  },
+  "clean-path": {
+    "prefix": "m_clean-path",
+    "body": ["clean-path"],
+    "description": "clean-path"
+  },
+  "try-validate-path-is-subdir": {
+    "prefix": "m_try-validate-path-is-subdir",
+    "body": ["try-validate-path-is-subdir"],
+    "description": "try-validate-path-is-subdir"
+  },
+  "validate-path-is-subdir": {
+    "prefix": "m_validate-path-is-subdir",
+    "body": ["validate-path-is-subdir"],
+    "description": "validate-path-is-subdir"
+  },
+  "try-validate-paths-are-subdirs": {
+    "prefix": "m_try-validate-paths-are-subdirs",
+    "body": ["try-validate-paths-are-subdirs"],
+    "description": "try-validate-paths-are-subdirs"
+  },
+  "validate-paths-are-subdirs": {
+    "prefix": "m_validate-paths-are-subdirs",
+    "body": ["validate-paths-are-subdirs"],
+    "description": "validate-paths-are-subdirs"
+  },
+  "test-validate-paths-are-subdirs": {
+    "prefix": "m_test-validate-paths-are-subdirs",
+    "body": ["test-validate-paths-are-subdirs"],
+    "description": "test-validate-paths-are-subdirs"
+  },
+  "jacoco-class-filter-to-file-args": {
+    "prefix": "m_jacoco-class-filter-to-file-args",
+    "body": ["jacoco-class-filter-to-file-args"],
+    "description": "jacoco-class-filter-to-file-args"
+  },
+  "jacoco-validate-file-args": {
+    "prefix": "m_jacoco-validate-file-args",
+    "body": ["jacoco-validate-file-args"],
+    "description": "jacoco-validate-file-args"
+  },
+  "append_enforce_rro_sources": {
+    "prefix": "m_append_enforce_rro_sources",
+    "body": ["append_enforce_rro_sources"],
+    "description": "append_enforce_rro_sources"
+  },
+  "generate_all_enforce_rro_packages": {
+    "prefix": "m_generate_all_enforce_rro_packages",
+    "body": ["generate_all_enforce_rro_packages"],
+    "description": "generate_all_enforce_rro_packages"
+  },
+  "has-system-sdk-version": {
+    "prefix": "m_has-system-sdk-version",
+    "body": ["has-system-sdk-version"],
+    "description": "has-system-sdk-version"
+  },
+  "get-numeric-sdk-version": {
+    "prefix": "m_get-numeric-sdk-version",
+    "body": ["get-numeric-sdk-version"],
+    "description": "get-numeric-sdk-version"
+  },
+  "verify-module-name": {
+    "prefix": "m_verify-module-name",
+    "body": ["verify-module-name"],
+    "description": "verify-module-name"
+  },
+  "_invalid-name-chars": {
+    "prefix": "m__invalid-name-chars",
+    "body": ["_invalid-name-chars"],
+    "description": "_invalid-name-chars"
+  },
+  "verify-module-stem": {
+    "prefix": "m_verify-module-stem",
+    "body": ["verify-module-stem"],
+    "description": "verify-module-stem"
+  },
+  "verify-vndk-libs-identical": {
+    "prefix": "m_verify-vndk-libs-identical",
+    "body": ["verify-vndk-libs-identical"],
+    "description": "verify-vndk-libs-identical"
+  },
+  "use_soong_sdk_libraries": {
+    "prefix": "m_use_soong_sdk_libraries",
+    "body": ["use_soong_sdk_libraries"],
+    "description": "use_soong_sdk_libraries"
+  }
+}

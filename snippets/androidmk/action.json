@@ -1,0 +1,122 @@
+{
+  "BUILD_COMBOS": {
+    "prefix": "BUILD_COMBOS",
+    "body": ["BUILD_COMBOS"],
+    "description": "BUILD_COMBOS"
+  },
+  "CLEAR_VARS": {
+    "prefix": "CLEAR_VARS",
+    "body": ["CLEAR_VARS"],
+    "description": ""
+  },
+  "BUILD_HOST_STATIC_LIBRARY": {
+    "prefix": "BUILD_HOST_STATIC_LIBRARY",
+    "body": ["BUILD_HOST_STATIC_LIBRARY"],
+    "description": "BUILD_HOST_STATIC_LIBRARY"
+  },
+  "BUILD_HOST_SHARED_LIBRARY": {
+    "prefix": "BUILD_HOST_SHARED_LIBRARY",
+    "body": ["BUILD_HOST_SHARED_LIBRARY"],
+    "description": "BUILD_HOST_SHARED_LIBRARY"
+  },
+  "BUILD_STATIC_LIBRARY": {
+    "prefix": "BUILD_STATIC_LIBRARY",
+    "body": ["BUILD_STATIC_LIBRARY"],
+    "description": "BUILD_STATIC_LIBRARY"
+  },
+  "BUILD_HEADER_LIBRARY": {
+    "prefix": "BUILD_HEADER_LIBRARY",
+    "body": ["BUILD_HEADER_LIBRARY"],
+    "description": "BUILD_HEADER_LIBRARY"
+  },
+  "BUILD_SHARED_LIBRARY": {
+    "prefix": "BUILD_SHARED_LIBRARY",
+    "body": ["BUILD_SHARED_LIBRARY"],
+    "description": "BUILD_SHARED_LIBRARY"
+  },
+  "BUILD_EXECUTABLE": {
+    "prefix": "BUILD_EXECUTABLE",
+    "body": ["BUILD_EXECUTABLE"],
+    "description": "BUILD_EXECUTABLE"
+  },
+  "BUILD_HOST_EXECUTABLE": {
+    "prefix": "BUILD_HOST_EXECUTABLE",
+    "body": ["BUILD_HOST_EXECUTABLE"],
+    "description": "BUILD_HOST_EXECUTABLE"
+  },
+  "BUILD_PACKAGE": {
+    "prefix": "BUILD_PACKAGE",
+    "body": ["BUILD_PACKAGE"],
+    "description": "BUILD_PACKAGE"
+  },
+  "BUILD_PHONY_PACKAGE": {
+    "prefix": "BUILD_PHONY_PACKAGE",
+    "body": ["BUILD_PHONY_PACKAGE"],
+    "description": "BUILD_PHONY_PACKAGE"
+  },
+  "BUILD_RRO_PACKAGE": {
+    "prefix": "BUILD_RRO_PACKAGE",
+    "body": ["BUILD_RRO_PACKAGE"],
+    "description": "BUILD_RRO_PACKAGE"
+  },
+  "BUILD_HOST_PREBUILT": {
+    "prefix": "BUILD_HOST_PREBUILT",
+    "body": ["BUILD_HOST_PREBUILT"],
+    "description": "BUILD_HOST_PREBUILT"
+  },
+  "BUILD_PREBUILT": {
+    "prefix": "BUILD_PREBUILT",
+    "body": ["BUILD_PREBUILT"],
+    "description": "BUILD_PREBUILT"
+  },
+  "BUILD_MULTI_PREBUILT": {
+    "prefix": "BUILD_MULTI_PREBUILT",
+    "body": ["BUILD_MULTI_PREBUILT"],
+    "description": "BUILD_MULTI_PREBUILT"
+  },
+  "BUILD_JAVA_LIBRARY": {
+    "prefix": "BUILD_JAVA_LIBRARY",
+    "body": ["BUILD_JAVA_LIBRARY"],
+    "description": "BUILD_JAVA_LIBRARY"
+  },
+  "BUILD_STATIC_JAVA_LIBRARY": {
+    "prefix": "BUILD_STATIC_JAVA_LIBRARY",
+    "body": ["BUILD_STATIC_JAVA_LIBRARY"],
+    "description": "BUILD_STATIC_JAVA_LIBRARY"
+  },
+  "BUILD_HOST_JAVA_LIBRARY": {
+    "prefix": "BUILD_HOST_JAVA_LIBRARY",
+    "body": ["BUILD_HOST_JAVA_LIBRARY"],
+    "description": "BUILD_HOST_JAVA_LIBRARY"
+  },
+  "BUILD_COPY_HEADERS": {
+    "prefix": "BUILD_COPY_HEADERS",
+    "body": ["BUILD_COPY_HEADERS"],
+    "description": "BUILD_COPY_HEADERS"
+  },
+  "BUILD_NATIVE_TEST": {
+    "prefix": "BUILD_NATIVE_TEST",
+    "body": ["BUILD_NATIVE_TEST"],
+    "description": "BUILD_NATIVE_TEST"
+  },
+  "BUILD_FUZZ_TEST": {
+    "prefix": "BUILD_FUZZ_TEST",
+    "body": ["BUILD_FUZZ_TEST"],
+    "description": "BUILD_FUZZ_TEST"
+  },
+  "BUILD_NOTICE_FILE": {
+    "prefix": "BUILD_NOTICE_FILE",
+    "body": ["BUILD_NOTICE_FILE"],
+    "description": "BUILD_NOTICE_FILE"
+  },
+  "BUILD_HOST_DALVIK_JAVA_LIBRARY": {
+    "prefix": "BUILD_HOST_DALVIK_JAVA_LIBRARY",
+    "body": ["BUILD_HOST_DALVIK_JAVA_LIBRARY"],
+    "description": "BUILD_HOST_DALVIK_JAVA_LIBRARY"
+  },
+  "BUILD_HOST_DALVIK_STATIC_JAVA_LIBRARY": {
+    "prefix": "BUILD_HOST_DALVIK_STATIC_JAVA_LIBRARY",
+    "body": ["BUILD_HOST_DALVIK_STATIC_JAVA_LIBRARY"],
+    "description": "BUILD_HOST_DALVIK_STATIC_JAVA_LIBRARY"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "custom-snippets",
+  "version": "1.0.0",
+  "description": "my snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "make",
+        "path": "./androidmk/base.json"
+      },
+      {
+        "language": "make",
+        "path": "./androidmk/vars.json"
+      },
+      {
+        "language": "make",
+        "path": "./androidmk/action.json"
+      },
+      {
+        "language": "make",
+        "path": "./androidmk/definations.json"
+      }
+    ]
+  }
+}
