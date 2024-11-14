@@ -62,10 +62,7 @@ lspconfig.pylsp.setup({})
 lspconfig.jedi_language_server.setup({})
 lspconfig.marksman.setup({})
 lspconfig.lemminx.setup({})
-lspconfig.groovyls.setup({
-	on_attach = M.on_attach,
-	capabilities = M.capabilities,
-})
+lspconfig.groovyls.setup({})
 lspconfig.gradle_ls.setup({
 	on_attach = M.on_attach,
 	capabilities = M.capabilities,
@@ -117,8 +114,15 @@ lspconfig.html.setup({})
 lspconfig.cssls.setup({})
 lspconfig.yamlls.setup({})
 lspconfig.tsserver.setup({})
+lspconfig.taplo.setup({})
 lspconfig.dartls.setup({})
-lspconfig.rust_analyzer.setup({})
+lspconfig.rust_analyzer.setup({
+  cmd = { vim.fn.stdpath("data") .. '/mason/bin/rust-analyzer' }
+})
+-- vue3
+require'lspconfig'.volar.setup{
+  filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+}
 
 local jsonls_capabilities = vim.lsp.protocol.make_client_capabilities()
 jsonls_capabilities.textDocument.completion.completionItem.snippetSupport = true
@@ -132,3 +136,4 @@ lspconfig.jsonls.setup({
 })
 -- lspconfig.vim_language_server.setup { }
 -- lspconfig.sql_language_server.setup { }
+lspconfig.bufls.setup { }
