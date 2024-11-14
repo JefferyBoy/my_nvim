@@ -31,7 +31,9 @@ local plugins = {
 			require("configs/telescope").setup()
 		end,
 	},
-	-- 格式显示
+	-- UI组件
+	"MunifTanjim/nui.nvim",
+	-- 代码高亮
 	{
 		"nvim-treesitter/nvim-treesitter",
 		config = function()
@@ -380,10 +382,13 @@ local plugins = {
 			})
 		end,
 	},
-	-- 书签
+	-- 书签管理
 	{
 		"JefferyBoy/bookmark_nvim",
-		dir = "/home/mxlei/data/code/vim-bookmark_nvim",
+		dir = "/home/mxlei/data/code/vim-bookmark_nvim_bin",
+		dependencies = {
+			"MunifTanjim/nui.nvim",
+		},
 		config = function()
 			require("bookmark_nvim").setup({
 				sidebar = {
@@ -396,12 +401,19 @@ local plugins = {
 			})
 		end,
 	},
+	-- 变量重命名
 	"JefferyBoy/renamer.nvim",
+	-- terminal模式切换buffer后保持上次的模式
 	"JefferyBoy/stay_mode.nvim",
+	-- git diff工具
 	"JefferyBoy/git_diff.nvim",
+	-- 自动切换输入法
 	"JefferyBoy/fcitx.nvim",
+	-- 关键词快速搜索
 	"JefferyBoy/keyword_search.nvim",
+	-- adb dumpsys分析
 	"JefferyBoy/adb_dumpsys.nvim",
+	-- 内建终端
 	{
 		"JefferyBoy/nvterm",
 		dependencies = "akinsho/toggleterm.nvim",

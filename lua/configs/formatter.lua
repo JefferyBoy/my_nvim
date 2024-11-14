@@ -1,6 +1,6 @@
 local util = require "formatter.util"
 
-require("formatter").setup {
+require("formatter").setup({
   logging = true,
   log_level = vim.log.levels.WARN,
   filetype = {
@@ -40,4 +40,4 @@ require("formatter").setup {
     yaml = require("formatter.filetypes.yaml").yamlfmt,
     zsh = require("formatter.filetypes.yaml").yamlfmt,
   }
-}
+})
