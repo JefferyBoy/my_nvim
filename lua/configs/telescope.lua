@@ -1,24 +1,19 @@
 local M = {}
 
--- 根据字符串查询文件
--- todo 未生效
-M.find_files_with_input = function(prompt)
-	local telescope = require("telescope.builtin")
-	telescope.find_files({
-		prompt_args = {
-			default = prompt,
-		},
-    prompt_text = prompt
+M.find_files_in_word = function()
+	-- local z = vim.fn.eval("@z")
+	-- vim.cmd("normal! viw")
+	-- vim.cmd('normal! "zy')
+	-- local text = vim.fn.eval("@z")
+	-- vim.cmd("let @z = '" .. z .. "'")
+  local text = vim.fn.expand "<cword>"
+	require("telescope.builtin").find_files({
+    search_file = text
 	})
 end
 
-M.find_files_in_word = function()
-	local z = vim.fn.eval("@z")
-	vim.cmd("normal! viw")
-	vim.cmd('normal! "zy')
-	local text = vim.fn.eval("@z")
-	vim.cmd("let @z = '" .. z .. "'")
-	M.find_files_with_input(text)
+M.find_string_in_word = function()
+	require("telescope.builtin").grep_string({})
 end
 
 M.setup = function()

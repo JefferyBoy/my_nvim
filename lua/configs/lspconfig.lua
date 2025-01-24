@@ -68,22 +68,7 @@ lspconfig.gradle_ls.setup({
 	capabilities = M.capabilities,
 })
 -- lspconfig.jdtls.setup({
--- 	cmd = {
--- 		"jdtls",
--- 		"-configuration",
--- 		"/home/mxlei/.cache/jdtls/config",
--- 		"-data",
--- 		"/home/mxlei/.cache/jdtls/workspace",
--- 	},
--- 	filetypes = { "java" },
--- 	init_options = {
--- 		jvm_args = {
--- 			"-Xmx2g",
---       "-Djava.jdt.ls.androidSupport.enabled=true",
--- 		},
--- 		workspace = "/home/mxlei/.cache/jdtls/workspace",
--- 	},
--- 	single_file_support = false,
+--   root_dir = vim.fn.getcwd,
 -- })
 lspconfig.kotlin_language_server.setup({
 	on_attach = M.on_attach,
@@ -113,16 +98,18 @@ lspconfig.asm_lsp.setup({})
 lspconfig.html.setup({})
 lspconfig.cssls.setup({})
 lspconfig.yamlls.setup({})
-lspconfig.tsserver.setup({})
+lspconfig.ts_ls.setup({})
 lspconfig.taplo.setup({})
 lspconfig.dartls.setup({})
 lspconfig.rust_analyzer.setup({
   cmd = { vim.fn.stdpath("data") .. '/mason/bin/rust-analyzer' }
 })
 -- vue3
-require'lspconfig'.volar.setup{
-  filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
-}
+-- require'lspconfig'.volar.setup{
+--   filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+-- }
+require'lspconfig'.vuels.setup{}
+
 
 local jsonls_capabilities = vim.lsp.protocol.make_client_capabilities()
 jsonls_capabilities.textDocument.completion.completionItem.snippetSupport = true
@@ -136,4 +123,5 @@ lspconfig.jsonls.setup({
 })
 -- lspconfig.vim_language_server.setup { }
 -- lspconfig.sql_language_server.setup { }
-lspconfig.bufls.setup { }
+lspconfig.buf_ls.setup { }
+lspconfig.mesonlsp.setup { }
