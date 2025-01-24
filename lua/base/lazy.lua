@@ -40,6 +40,14 @@ local plugins = {
 			require("configs/treesitter")
 		end,
 	},
+	-- 在编辑器顶部常驻显示当前函数的名称
+	{
+		"nvim-treesitter/nvim-treesitter-context",
+		dependencies = { "nvim-treesitter/nvim-treesitter" },
+		config = function()
+			require("treesitter-context").setup()
+		end,
+	},
 	-- 文件侧边栏
 	{
 		"nvim-tree/nvim-tree.lua",
@@ -115,6 +123,10 @@ local plugins = {
 		event = "InsertEnter",
 		config = true,
 	},
+	-- ts中写html标签自动闭合
+	{
+		"windwp/nvim-ts-autotag",
+	},
 	-- 代码提示
 	{
 		"rafamadriz/friendly-snippets",
@@ -158,6 +170,17 @@ local plugins = {
 	{
 		"hrsh7th/cmp-path",
 		dependencies = "cmp-buffer",
+	},
+	-- 生成函数注释
+	{
+		"danymat/neogen",
+		config = function()
+			require("neogen").setup({
+				enabled = true,
+				input_after_comment = true,
+				snippet_engine = "luasnip",
+			})
+		end,
 	},
 	-- 变量重命名
 	{
@@ -314,11 +337,6 @@ local plugins = {
 		end,
 		ft = { "markdown" },
 	},
-	-- 代码提示
-	{
-		"luozhiya/fittencode.nvim",
-		opts = {},
-	},
 	-- 启动页
 	-- {
 	-- 	"nvimdev/dashboard-nvim",
@@ -385,7 +403,7 @@ local plugins = {
 	-- 书签管理
 	{
 		"JefferyBoy/bookmark_nvim",
-		dir = "/home/mxlei/data/code/vim-bookmark_nvim_bin",
+		dir = "/home/mxlei/data/code/vim-bookmark_nvim",
 		dependencies = {
 			"MunifTanjim/nui.nvim",
 		},
@@ -406,7 +424,7 @@ local plugins = {
 	-- terminal模式切换buffer后保持上次的模式
 	"JefferyBoy/stay_mode.nvim",
 	-- git diff工具
-	"JefferyBoy/git_diff.nvim",
+  "JefferyBoy/git_diff.nvim",
 	-- 自动切换输入法
 	"JefferyBoy/fcitx.nvim",
 	-- 关键词快速搜索
@@ -422,4 +440,201 @@ local plugins = {
 		end,
 	},
 }
+
+-- AI代码生成
+local ai_code_suggession = {
+	fittencode = {
+		"luozhiya/fittencode.nvim",
+		opts = {},
+	},
+	colipot = {
+		"CopilotC-Nvim/CopilotChat.nvim",
+		branch = "canary",
+		dependencies = {
+			{ "github/copilot.vim" },
+			{ "nvim-lua/plenary.nvim" },
+		},
+		build = "make tiktoken",
+		opts = {},
+	},
+	codeium = {
+		"Exafunction/codeium.vim",
+		config = function()
+			vim.keymap.set("i", "<C-down>", function()
+				return vim.fn["codeium#Accept"]()
+			end, { expr = true, silent = true })
+			vim.keymap.set("i", "<c-right>", function()
+				return vim.fn["codeium#CycleCompletions"](1)
+			end, { expr = true, silent = true })
+			vim.keymap.set("i", "<c-left>", function()
+				return vim.fn["codeium#CycleCompletions"](-1)
+			end, { expr = true, silent = true })
+			vim.keymap.set("i", "<c-x>", function()
+				return vim.fn["codeium#Clear"]()
+			end, { expr = true, silent = true })
+		end,
+	},
+	bropilot = {
+		"meeehdi-dev/bropilot.nvim",
+		event = "VeryLazy", -- preload model on start
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"j-hui/fidget.nvim",
+		},
+		config = function()
+			local opts = {
+				auto_suggest = true,
+				excluded_filetypes = {},
+				-- 模型：starcoder2:3b qwen2.5-coder:1.5b-base deepseek-coder-v2:16b codegeex4:latest
+				model = "deepseek-coder-v2:latest",
+				preset = true,
+				debounce = 500,
+				-- prompt = { -- FIM prompt for starcoder2
+				-- 	prefix = "<fim_prefix>",
+				-- 	suffix = "<fim_suffix>",
+				-- 	middle = "<fim_middle>",
+				-- },
+				keymap = {
+					-- accept_line = "<TAB>",
+					-- accept_word = "<C-Right>",
+					accept_block = "c-down",
+					suggest = "<c-Enter>",
+				},
+				ollama_url = "http://172.16.159.27:11434/api",
+			}
+			require("bropilot").setup(opts)
+		end,
+	},
+	-- 仅支持neovim 0.10.1及以上
+	avante = {
+		"yetone/avante.nvim",
+		event = "VeryLazy",
+		lazy = false,
+		version = false,
+		opts = {
+			--- "claude" | "openai" | "azure" | "gemini" | "cohere" | "copilot" | string
+			provider = "claude",
+			auto_suggestions_provider = "claude",
+			claude = {
+				endpoint = "https://api.anthropic.com",
+				model = "claude-3-5-sonnet-20241022",
+				temperature = 0,
+				max_tokens = 4096,
+			},
+			openai = {
+				endpoint = "https://api.deepseek.com",
+				model = "deepseek-coder",
+				timeout = 30000,
+				temperature = 0,
+				max_tokens = 4096,
+        api_key = "sk-5e536bf4db71460aac8a9d39dd27f639",
+			},
+			-- openai = {
+			-- 	endpoint = "https://api.openai.com/v1",
+			-- 	model = "gpt-4o",
+			-- 	timeout = 30000,
+			-- 	temperature = 0,
+			-- 	max_tokens = 4096,
+			-- },
+			copilot = {
+				endpoint = "https://api.githubcopilot.com",
+				model = "gpt-4o-2024-08-06",
+				proxy = nil, -- [protocol://]host[:port] Use this proxy
+				allow_insecure = false,
+				timeout = 30000,
+				temperature = 0,
+				max_tokens = 4096,
+			},
+		},
+		build = "make",
+		dependencies = {
+			"nvim-treesitter/nvim-treesitter",
+			"stevearc/dressing.nvim",
+			"nvim-lua/plenary.nvim",
+			"MunifTanjim/nui.nvim",
+			"nvim-tree/nvim-web-devicons",
+			"zbirenbaum/copilot.lua",
+			{
+				"HakonHarnes/img-clip.nvim",
+				event = "VeryLazy",
+				opts = {
+					default = {
+						embed_image_as_base64 = false,
+						prompt_for_file_name = false,
+						drag_and_drop = {
+							insert_mode = true,
+						},
+						use_absolute_path = true,
+					},
+				},
+			},
+			{
+				"MeanderingProgrammer/render-markdown.nvim",
+				opts = {
+					file_types = { "markdown", "Avante" },
+				},
+				ft = { "markdown", "Avante" },
+			},
+		},
+	},
+	codecompanion = {
+		"olimorris/codecompanion.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"nvim-treesitter/nvim-treesitter",
+			{ "MeanderingProgrammer/render-markdown.nvim", ft = { "markdown", "codecompanion" } },
+		},
+		config = function()
+			require("codecompanion").setup({
+				send_code = true,
+				strategies = {
+					chat = {
+						adapter = "ollama",
+					},
+					inline = {
+						adapter = "ollama",
+					},
+				},
+				adapters = {
+					ollama = function()
+						return require("codecompanion.adapters").extend("ollama", {
+							name = "deepseek-coder-v2",
+							schema = {
+								model = {
+									default = "deepseek-coder-v2:16b",
+								},
+								num_ctx = {
+									default = 16384,
+								},
+								num_predict = {
+									default = -1,
+								},
+							},
+							env = {
+								url = "http://172.16.159.27:11434",
+								chat_url = "/v1/chat/completions",
+								api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQ0ZWU1MzJjLTM2YTktNDZmYS05N2E3LWExZDRmMzA1MDc4NCJ9.R1B6B2GPAwBEmAugdMill1tiIzaRYtvyMnr_5fSrKfs",
+							},
+							headers = {
+								["Content-Type"] = "application/json",
+								["Authorization"] = "Bearer ${api_key}",
+							},
+							parameters = {
+								sync = true,
+							},
+						})
+					end,
+					anthropic = function()
+						return require("codecompanion.adapters").extend("anthropic", {
+							env = {
+								api_key = "MY_OTHER_ANTHROPIC_KEY",
+							},
+						})
+					end,
+				},
+			})
+		end,
+	},
+}
+table.insert(plugins, ai_code_suggession.codeium)
 require("lazy").setup(plugins)
