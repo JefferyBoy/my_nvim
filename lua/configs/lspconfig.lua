@@ -62,13 +62,41 @@ lspconfig.pylsp.setup({})
 lspconfig.jedi_language_server.setup({})
 lspconfig.marksman.setup({})
 lspconfig.lemminx.setup({})
-lspconfig.groovyls.setup({})
+lspconfig.groovyls.setup({
+	cmd = { "groovy-language-server" },
+})
 lspconfig.gradle_ls.setup({
 	on_attach = M.on_attach,
 	capabilities = M.capabilities,
 })
+
+-- local jdtls_get_home_dir = function()
+-- 	local user_home = os.getenv("HOME")
+-- 	local cwd_str = string.gsub(vim.fn.getcwd(), "/", "_")
+-- 	return user_home .. "/.cache/jdtls/config"
+-- end
+-- local jdtls_get_data_dir = function()
+-- 	local user_home = os.getenv("HOME")
+-- 	local cwd_str = string.gsub(vim.fn.getcwd(), "/", "_")
+-- 	return user_home .. "/.cache/jdtls/workspace/" .. cwd_str
+-- end
 -- lspconfig.jdtls.setup({
---   root_dir = vim.fn.getcwd,
+-- 	settings = {
+-- 		cmd = {
+-- 			"jdtls",
+-- 			"--configuration",
+-- 			jdtls_get_home_dir(),
+-- 			"-data",
+-- 			jdtls_get_data_dir(),
+-- 		},
+-- 		java = {
+-- 			jdt = {
+-- 				ls = {
+-- 					androidSupport = { enabled = true },
+-- 				},
+-- 			},
+-- 		},
+-- 	},
 -- })
 lspconfig.kotlin_language_server.setup({
 	on_attach = M.on_attach,
@@ -102,14 +130,13 @@ lspconfig.ts_ls.setup({})
 lspconfig.taplo.setup({})
 lspconfig.dartls.setup({})
 lspconfig.rust_analyzer.setup({
-  cmd = { vim.fn.stdpath("data") .. '/mason/bin/rust-analyzer' }
+	cmd = { vim.fn.stdpath("data") .. "/mason/bin/rust-analyzer" },
 })
 -- vue3
 -- require'lspconfig'.volar.setup{
 --   filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
 -- }
-require'lspconfig'.vuels.setup{}
-
+require("lspconfig").vuels.setup({})
 
 local jsonls_capabilities = vim.lsp.protocol.make_client_capabilities()
 jsonls_capabilities.textDocument.completion.completionItem.snippetSupport = true
@@ -123,5 +150,5 @@ lspconfig.jsonls.setup({
 })
 -- lspconfig.vim_language_server.setup { }
 -- lspconfig.sql_language_server.setup { }
-lspconfig.buf_ls.setup { }
-lspconfig.mesonlsp.setup { }
+lspconfig.buf_ls.setup({})
+lspconfig.mesonlsp.setup({})

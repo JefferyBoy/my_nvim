@@ -6,9 +6,9 @@ M.find_files_in_word = function()
 	-- vim.cmd('normal! "zy')
 	-- local text = vim.fn.eval("@z")
 	-- vim.cmd("let @z = '" .. z .. "'")
-  local text = vim.fn.expand "<cword>"
+	local text = vim.fn.expand("<cword>")
 	require("telescope.builtin").find_files({
-    search_file = text
+		search_file = text,
 	})
 end
 
@@ -65,6 +65,20 @@ M.setup = function()
 			buffer_previewer_maker = require("telescope.previewers").buffer_previewer_maker,
 			mappings = {
 				n = { ["q"] = require("telescope.actions").close },
+				i = {
+					["<CR>"] = function(prompt_bufnr)
+						local entry = require("telescope.actions.state").get_selected_entry(prompt_bufnr)
+						local command = entry.value
+						if entry.nargs == "0" then
+							-- 不需要参数的命令执行，避免再次进入cmdline导致冲突
+              require("telescope.actions").close(prompt_bufnr)
+							vim.cmd(command.name)
+						else
+							-- 默认的handler
+							require("telescope.actions").select_default(prompt_bufnr, true)
+						end
+					end,
+				},
 			},
 		},
 

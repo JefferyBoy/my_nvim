@@ -17,7 +17,7 @@ local config = {
 		bundles = {
 			vim.fn.glob(
 				"/media/mxlei/data/home/mxlei/.local/share/nvim/mason/packages/java-debug-adapter/extension/server/com.microsoft.java.debug.plugin-*.jar",
-				1
+				true
 			),
 		},
 	},
