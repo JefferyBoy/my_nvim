@@ -11,7 +11,7 @@ end
 -- 普通模式
 local n = "n"
 -- 普通、选择模式
-local nx = {"n", "x"}
+local nx = { "n", "x" }
 -- 重新加载配置文件
 map("n", "<leader>rl", "<cmd>source ~/.config/nvim/init.lua<CR>")
 -- 窗口调整
@@ -55,7 +55,7 @@ map("n", "<ESC>", "<cmd>noh<CR>")
 map("n", "<leader>zz", "<cmd>set foldmethod=indent<CR>")
 map("n", "<leader>zm", "<cmd>set foldmethod=manual<CR>")
 --切换自动换行
-map("n", "<leader>wr", function()
+map("n", "<leader>wt", function()
 	vim.wo.wrap = not vim.wo.wrap
 end, { desc = "toggle wrap" })
 --快速搜索 JefferyBoy/keyword_search.nvim
@@ -83,7 +83,7 @@ map("n", "<f2>", builtin.keymaps)
 map("n", "<f11>", builtin.buffers)
 map("n", "<f12>", builtin.lsp_document_symbols)
 map("n", "<C-e>", builtin.oldfiles)
-map("n", ":", "<cmd>Telescope cmdline<CR>")
+map("n", ";", "<cmd>Telescope cmdline<CR>")
 
 --nvimtree
 map("n", "<C-n>", "<cmd> NvimTreeToggle <CR>")
@@ -119,30 +119,8 @@ map("n", "<leader>wl", function()
 	print(vim.inspect(lsp.buf.list_workspace_folders()))
 end, { desc = "list workspace folders" })
 
---终端nvterm
-local toggle_modes = { "n", "t" }
--- local nvterm = require("nvterm.terminal")
--- map(toggle_modes, '<leader>i', function () nvterm.toggle('float') end)
--- map(toggle_modes, '<leader>v', function () nvterm.toggle('vertical') end)
--- map(toggle_modes, "<leader>hh", function()
--- 	nvterm.toggle("horizontal_1")
--- end)
--- map(toggle_modes, "<leader>h1", function()
--- 	nvterm.toggle("horizontal_1")
--- end)
--- map(toggle_modes, "<leader>h2", function()
--- 	nvterm.toggle("horizontal_2")
--- end)
--- map(toggle_modes, "<leader>h3", function()
--- 	nvterm.toggle("horizontal_3")
--- end)
--- map(toggle_modes, "<leader>h4", function()
--- 	nvterm.toggle("horizontal_4")
--- end)
--- map(toggle_modes, "<leader>h5", function()
--- 	nvterm.toggle("horizontal_5")
--- end)
 --终端toogleterm.nvim
+local toggle_modes = { "n", "t" }
 map(toggle_modes, "<A-f>", "<Cmd>6ToggleTerm direction=float<CR>")
 map(toggle_modes, "<A-1>", "<Cmd>1ToggleTerm<CR>")
 map(toggle_modes, "<A-2>", "<Cmd>2ToggleTerm<CR>")
@@ -168,7 +146,9 @@ map("n", "<F9>", dap.continue, { desc = "dap continue" })
 map("n", "<leader>db", dap.toggle_breakpoint, { desc = "dap toggle breakpoint" })
 map("n", "B", dap.toggle_breakpoint, { desc = "dap toggle breakpoint" })
 map("n", "<leader>dB", dap.clear_breakpoints, { desc = "dap clear breakpoints" })
-map("n", "<leader>dl", function() dap.list_breakpoints(true) end, { desc = "dap list breakpoints" })
+map("n", "<leader>dl", function()
+	dap.list_breakpoints(true)
+end, { desc = "dap list breakpoints" })
 map("n", "<leader>dq", dap.terminate, { desc = "dap quit" })
 map("n", "<leader>dr", dap.continue, { desc = "dap continue(start)" })
 map("n", "<leader>dR", dap.restart, { desc = "dap restart" })
@@ -214,18 +194,18 @@ map({ "n", "x", "o" }, "F", require("flash").treesitter, { desc = "Flash.nvim" }
 ----------------------------
 -- codeium
 if vim.g.loaded_codeium ~= nil then
-  map("n", "<leader>cc", "<cmd>Codeium Chat<CR>")
+	map("n", "<leader>cc", "<cmd>Codeium Chat<CR>")
 end
 -- codecompanion
 local ok, _ = pcall(require, "codecompanion")
 if ok then
-  map(nx, "<leader>cc", "<cmd>CodeCompanionChat alibailian<CR>")
-  map(nx, "<leader>ca", "<cmd>Telescope codecompanion<CR>")
+	map(nx, "<leader>cc", "<cmd>CodeCompanionChat Toggle<CR>")
+	map(nx, "<leader>ca", "<cmd>Telescope codecompanion<CR>")
 	map(nx, "<leader>cl", "<cmd>CodeCompanion /lsp<CR>")
 	map(nx, "<leader>cb", "<cmd>CodeCompanion /fix<CR>")
 	map(n, "<leader>ce", "<cmd>CodeCompanion /buffer<CR>")
 	map(nx, "<leader>ct", "<cmd>CodeCompanion /tests<CR>")
-	map(n, "<leader>cm", "<cmd>CodeCompanion /commit<CR>")
+	map(n, "<leader>cm", "<cmd>CodeCompanionChangeModel<CR>", { desc = "CodeCompanion 修改AI模型" })
 	map(nx, "<leader>cx", "<cmd>CodeCompanion /explain<CR>")
 	map(n, "<leader>cw", "<cmd>CodeCompanion /workflow<CR>")
 	map(nx, "<leader>cs", "<cmd>CodeCompanion /translate<CR>")

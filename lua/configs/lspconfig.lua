@@ -98,10 +98,7 @@ lspconfig.gradle_ls.setup({
 -- 		},
 -- 	},
 -- })
-lspconfig.kotlin_language_server.setup({
-	on_attach = M.on_attach,
-	capabilities = M.capabilities,
-})
+lspconfig.kotlin_language_server.setup({})
 lspconfig.dockerls.setup({})
 lspconfig.docker_compose_language_service.setup({
 	cmd = { "docker-compose-langserver", "--stdio" },

@@ -66,18 +66,22 @@ M.setup = function()
 			mappings = {
 				n = { ["q"] = require("telescope.actions").close },
 				i = {
-					["<CR>"] = function(prompt_bufnr)
-						local entry = require("telescope.actions.state").get_selected_entry(prompt_bufnr)
-						local command = entry.value
-						if entry.nargs == "0" then
-							-- 不需要参数的命令执行，避免再次进入cmdline导致冲突
-              require("telescope.actions").close(prompt_bufnr)
-							vim.cmd(command.name)
-						else
-							-- 默认的handler
-							require("telescope.actions").select_default(prompt_bufnr, true)
-						end
-					end,
+          -- 如果cmdline重写了:键映射
+          -- 当命令无参数时使用默认的handler处理
+          -- 有参数时使用cmdline进行下一步处理（方便输入参数）
+					-- ["<CR>"] = function(prompt_bufnr)
+					-- 	local entry = require("telescope.actions.state").get_selected_entry(prompt_bufnr)
+					-- 	local command = entry.value
+     --        print(vim.insepct(entry))
+					-- 	if entry.nargs == "0" then
+					-- 		-- 不需要参数的命令执行，避免再次进入cmdline导致冲突
+     --          require("telescope.actions").close(prompt_bufnr)
+					-- 		vim.cmd(command.name)
+					-- 	else
+					-- 		-- 默认的handler
+					-- 		require("telescope.actions").select_default(prompt_bufnr, true)
+					-- 	end
+					-- end,
 				},
 			},
 		},

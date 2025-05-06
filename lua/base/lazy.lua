@@ -12,12 +12,13 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- AI代码插件
-local ai_coder = require("configs.ai_coder")
-
 -- 插件列表
 local plugins = {
-	"folke/which-key.nvim",
+	-- 输入快捷键时显示提示
+	{
+		"folke/which-key.nvim",
+		event = "VeryLazy",
+	},
 	{
 		"folke/neoconf.nvim",
 		cmd = "Neoconf",
@@ -44,7 +45,7 @@ local plugins = {
 			require("configs/treesitter")
 		end,
 	},
-	-- 在编辑器顶部常驻显示当前函数的名称
+	-- 在编辑器顶部常驻显示当前函数的名称，类似Idea的面包屑功能（breadcrumbs）
 	{
 		"nvim-treesitter/nvim-treesitter-context",
 		dependencies = { "nvim-treesitter/nvim-treesitter" },
@@ -296,7 +297,7 @@ local plugins = {
 			require("overseer").setup({
 				templates = require("overseer.template.user.tasks"),
 			})
-      -- 添加一个再次执行上一次任务的命令
+			-- 添加一个再次执行上一次任务的命令
 			vim.api.nvim_create_user_command("OverseerRestartLast", function()
 				local overseer = require("overseer")
 				local tasks = overseer.list_tasks({ recent_first = true })
@@ -435,19 +436,23 @@ local plugins = {
 	-- adb dumpsys分析
 	"JefferyBoy/adb_dumpsys.nvim",
 	-- 内建终端
-	{
-		"JefferyBoy/nvterm",
-		dependencies = "akinsho/toggleterm.nvim",
-		config = function()
-			-- require("configs.nvterm")
-		end,
-	},
+	"akinsho/toggleterm.nvim",
+	-- {
+	-- 	"JefferyBoy/nvterm",
+	-- 	dependencies = "akinsho/toggleterm.nvim",
+	-- 	config = function()
+	-- 		require("toggleterm").setup({
+	-- 			command = "zsh",
+	-- 		})
+	-- 	end,
+	-- },
 	-- 代码提示速度快，准确度、其它功能不强
-	ai_coder.fittencode,
-	-- ai_coder.codeium,
+	require("configs.ai.fittencode"),
 	-- 支持openai、ollama、deepseek、qwen等各模型，功能强大、可定制化
-	ai_coder.codecompanion,
-	-- ai_coder.avante,
+	require("configs.ai.codecompanion").lazy_config,
+	-- require("configs.ai.codeium"),
+	-- require("configs.ai.avante"),
+  --
 }
 
 -- table.insert(plugins, ai_coder.codecompanion)
