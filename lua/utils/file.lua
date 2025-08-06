@@ -27,4 +27,13 @@ M.get_extension = function(filename)
 	return filename:match(".+%.(%w+)$")
 end
 
+M.file_exists = function(path)
+    local file = io.open(path, "r")
+    if file then
+        io.close(file)
+        return true
+    end
+    return false
+end
+
 return M

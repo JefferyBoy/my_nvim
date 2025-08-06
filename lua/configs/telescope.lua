@@ -1,4 +1,7 @@
 local M = {}
+local file_utils = require("utils.file")
+local telescope_last_search = ""
+local telescope_last_results = ""
 
 M.find_files_in_word = function()
 	-- local z = vim.fn.eval("@z")
@@ -14,6 +17,31 @@ end
 
 M.find_string_in_word = function()
 	require("telescope.builtin").grep_string({})
+end
+
+M.show_last_results = function()
+    if telescope_last_results then
+        require("telescope.builtin").find_files({
+            search_file = telescope_last_search,
+            results = telescope_last_results
+        })
+    else
+        print("没有上次的搜索结果")
+    end
+end
+
+-- 内容过滤忽略的目录
+local get_livegrep_ignore_patterns = function()
+  local isAospDir = file_utils.file_exists(vim.fn.getcwd() .. "/Android.bp")
+  local basicIgnorePatterns = {}
+  if isAospDir then
+    table.insert(basicIgnorePatterns, "!out/")
+    table.insert(basicIgnorePatterns, "!test/")
+    table.insert(basicIgnorePatterns, "!build/")
+    table.insert(basicIgnorePatterns, "!system/")
+    table.insert(basicIgnorePatterns, "!toolchain/")
+  end
+  return basicIgnorePatterns
 end
 
 M.setup = function()
@@ -66,28 +94,25 @@ M.setup = function()
 			mappings = {
 				n = { ["q"] = require("telescope.actions").close },
 				i = {
-          -- 如果cmdline重写了:键映射
-          -- 当命令无参数时使用默认的handler处理
-          -- 有参数时使用cmdline进行下一步处理（方便输入参数）
-					-- ["<CR>"] = function(prompt_bufnr)
-					-- 	local entry = require("telescope.actions.state").get_selected_entry(prompt_bufnr)
-					-- 	local command = entry.value
-     --        print(vim.insepct(entry))
-					-- 	if entry.nargs == "0" then
-					-- 		-- 不需要参数的命令执行，避免再次进入cmdline导致冲突
-     --          require("telescope.actions").close(prompt_bufnr)
-					-- 		vim.cmd(command.name)
-					-- 	else
-					-- 		-- 默认的handler
-					-- 		require("telescope.actions").select_default(prompt_bufnr, true)
-					-- 	end
-					-- end,
+					["<CR>"] = function(prompt_bufnr)
+            local actions_state = require("telescope.actions.state")
+            local picker = actions_state.get_current_picker(prompt_bufnr)
+						require("telescope.actions").select_default(prompt_bufnr)
+					end,
 				},
 			},
 		},
 
-		extensions_list = { "themes", "terms", "recent_files", "cmdline" },
+		extensions_list = { "themes", "terms", "recent_files", "cmdline", "persisted" },
 	}
+
+  -- todo 设置忽略目录后，无法搜索到任何内容
+  -- local ignore_patterns = get_livegrep_ignore_patterns()
+  -- for _,pattern in ipairs(ignore_patterns) do
+  --   table.insert(options.defaults.vimgrep_arguments, "--glob='" .. pattern .. "'")
+  -- end
+  -- print(vim.inspect(options.defaults.vimgrep_arguments))
+
 	-- 配置telescope
 	local telescope = require("telescope")
 	telescope.setup(options)

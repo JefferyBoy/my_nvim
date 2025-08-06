@@ -172,10 +172,9 @@ M.lazy_config = {
 				log_level = "ERROR", -- TRACE|DEBUG|ERROR|INFO
 				send_code = true,
 				language = "Chinese",
-				system_prompt = "",
-				-- system_prompt = function()
-				-- 	return 'You are an AI programming assistant named "雷总". Your all non-code responses must be in Chinese.'
-				-- end,
+				system_prompt = function()
+					return 'You are an AI programming assistant named "雷总". Your all non-code responses must be in Chinese.'
+				end,
 			},
 			strategies = {
 				chat = {

@@ -96,28 +96,28 @@ map("n", "<leader>gb", "<cmd>GitDiffFileByBranch<CR>", { desc = "git file diff b
 
 --lspconfig
 local lsp = vim.lsp
+map("n", "K", lsp.buf.hover)
 map("n", "gd", lsp.buf.definition)
 map("n", "gi", lsp.buf.implementation)
 map("n", "gr", lsp.buf.references)
-map("n", "K", lsp.buf.hover)
+map("n", "gq", vim.diagnostic.setloclist)
+map("n", "gh", function()
+	lsp.buf.typehierarchy("supertypes")
+end, { desc = "super type hierarchy" })
+map("n", "gl", function()
+	lsp.buf.typehierarchy("subtypes")
+end, { desc = "sub type hierarchy" })
 map("n", "<A-CR>", lsp.buf.code_action)
 map("n", "<A-i>", lsp.buf.incoming_calls)
 map("n", "<A-o>", lsp.buf.outgoing_calls)
-map("n", "<A-s>", lsp.buf.signature_help)
-map("n", "<A-q>", vim.diagnostic.setloclist)
-map("n", "<leader>h", function()
-	lsp.buf.typehierarchy("supertypes")
-end, { desc = "super type hierarchy" })
-map("n", "<leader>l", function()
-	lsp.buf.typehierarchy("subtypes")
-end, { desc = "sub type hierarchy" })
+-- map("n", "<A-s>", lsp.buf.signature_help)
 -- map("n", "<leader>fs", lsp.buf.workspace_symbol, tbl_extend(ops, { desc = 'workspace symbol' }))
 -- map('n', '<leader>fm', lsp.buf.format, tbl_extend(ops, { desc = 'format' }))
-map("n", "<leader>wa", lsp.buf.add_workspace_folder, { desc = "add workspace folder" })
-map("n", "<leader>wr", lsp.buf.remove_workspace_folder, { desc = "remove workspace folder" })
-map("n", "<leader>wl", function()
-	print(vim.inspect(lsp.buf.list_workspace_folders()))
-end, { desc = "list workspace folders" })
+-- map("n", "<leader>wa", lsp.buf.add_workspace_folder, { desc = "add workspace folder" })
+-- map("n", "<leader>wr", lsp.buf.remove_workspace_folder, { desc = "remove workspace folder" })
+-- map("n", "<leader>wl", function()
+-- 	print(vim.inspect(lsp.buf.list_workspace_folders()))
+-- end, { desc = "list workspace folders" })
 
 --终端toogleterm.nvim
 local toggle_modes = { "n", "t" }
@@ -141,11 +141,19 @@ local dap = require("dap")
 local dapui = require("dapui")
 map("n", "<F7>", dap.step_into, { desc = "dap step into" })
 map("n", "<F8>", dap.step_over, { desc = "dap step over" })
-map("n", "<SHIFT-F8>", dap.step_out, { desc = "dap step out" })
 map("n", "<F9>", dap.continue, { desc = "dap continue" })
+map("n", "<F10>", dap.step_out, { desc = "dap step out" })
 map("n", "<leader>db", dap.toggle_breakpoint, { desc = "dap toggle breakpoint" })
-map("n", "B", dap.toggle_breakpoint, { desc = "dap toggle breakpoint" })
-map("n", "<leader>dB", dap.clear_breakpoints, { desc = "dap clear breakpoints" })
+map("n", "<leader>dB", function() 
+  -- 条件断点表达式
+  local condition = vim.fn.input("Breakpoint Condition: ")
+  -- 条件触发多少次后再触发断点
+  local condition_hit = nil
+  -- 触发后打印日志（可以用{}包裹变量）
+  local logMsg = vim.fn.input("Breakpoint Message: ")
+  dap.set_breakpoint(condition, condition_hit, logMsg)
+end, { desc = "dap toggle breakpoint" })
+-- map("n", "<leader>dB", dap.clear_breakpoints, { desc = "dap clear breakpoints" })
 map("n", "<leader>dl", function()
 	dap.list_breakpoints(true)
 end, { desc = "dap list breakpoints" })
@@ -186,8 +194,8 @@ map("n", "<leader>tc", "<CMD>OverseerRunCmd<CR>")
 -- map("n", "<C-A-o>", require("jdtls").organize_imports)
 
 --flash.nvim跳转
-map({ "n", "x", "o" }, "f", require("flash").jump, { desc = "Flash.nvim" })
-map({ "n", "x", "o" }, "F", require("flash").treesitter, { desc = "Flash.nvim" })
+map({ "n", "x", "o" }, "F", require("flash").jump, { desc = "Flash.nvim" })
+-- map({ "n", "x", "o" }, "F", require("flash").treesitter, { desc = "Flash.nvim" })
 
 ----------------------------
 ------ AI编程辅助工具 ------
