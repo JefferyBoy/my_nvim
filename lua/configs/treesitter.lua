@@ -6,31 +6,46 @@ end
 
 local options = {
 	ensure_installed = {
-		"lua",
+		"asm",
 		"c",
 		"cpp",
-		"java",
-		"kotlin",
 		"make",
 		"cmake",
+
+		"lua",
+		"java",
+		"kotlin",
+		"python",
+		"rust",
+		"dart",
+		"groovy",
+		"javascript",
+		"typescript",
+		"smali",
+
 		"html",
 		"xml",
 		"yaml",
+		"toml",
 		"css",
+		"csv",
+		"http",
+		"vue",
+
 		"bash",
 		"awk",
 		"json",
-		"python",
-		"rust",
 		"diff",
-		"asm",
-		"bash",
-		"http",
-		"javascript",
 		"markdown",
-		"toml",
 		"vim",
 		"sql",
+		"ini",
+		"nginx",
+		"strace",
+		"kconfig",
+		"git_config",
+		"ssh_config",
+		"udev",
 	},
 	auto_install = true,
 
@@ -42,11 +57,6 @@ local options = {
 	indent = {
 		enable = true,
 	},
-  parse_config = {
-    "android_log",
-    install_info = {
-    }
-  }
 }
 
 treesitter.setup(options)
