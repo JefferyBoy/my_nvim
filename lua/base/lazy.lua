@@ -11,6 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 	})
 end
 vim.opt.rtp:prepend(lazypath)
+local fileutil = require("utils.file")
 
 -- 插件列表
 local plugins = {
@@ -88,18 +89,37 @@ local plugins = {
 			require("configs/mason")
 		end,
 	},
-	"williamboman/mason-lspconfig.nvim",
+	{
+    "williamboman/mason-lspconfig.nvim",
+  },
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
 			require("configs/lspconfig")
 		end,
 	},
+	-- 颜色串显示，打开大文件会导致很慢，大文件时不要加载这个插件
+	{
+		"norcalli/nvim-colorizer.lua",
+    support_large_file = false,
+		config = function()
+			require("colorizer").setup(nil, {
+				RGB = true,
+				RRGGBB = true,
+				names = true,
+				RRGGBBAA = false,
+				rgb_fn = true,
+				hsl_fn = true,
+				css = true,
+				css_fn = true,
+				mode = "background",
+			})
+		end,
+	},
 	-- 主题
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
-		priority = 1000,
 		config = function()
 			require("configs/catppuccin")
 		end,
@@ -256,23 +276,6 @@ local plugins = {
 	-- 消息提示
 	{
 		"rcarriga/nvim-notify",
-	},
-	-- 颜色串显示
-	{
-		"norcalli/nvim-colorizer.lua",
-		config = function()
-			require("colorizer").setup(nil, {
-				RGB = true,
-				RRGGBB = true,
-				names = true,
-				RRGGBBAA = false,
-				rgb_fn = true,
-				hsl_fn = true,
-				css = true,
-				css_fn = true,
-				mode = "background",
-			})
-		end,
 	},
 	-- 翻译
 	{
@@ -490,5 +493,29 @@ local plugins = {
 	--
 }
 
--- table.insert(plugins, ai_coder.codecompanion)
+-- 当打开大文件时，移除一些插件，避免打开文件缓慢
+if fileutil.current_file_size_mb() > 50 then
+  -- 从后往前遍历，避免索引错乱
+  for i = #plugins, 1, -1 do
+    local plugin = plugins[i]
+    
+    -- 判断是否应该删除
+    local should_remove = false
+    
+    if type(plugin) == "string" then
+      -- 字符串形式的插件，没有 support_large_file 字段，应该删除
+      should_remove = false
+    elseif type(plugin) == "table" then
+      -- 表形式的插件，检查 support_large_file 字段
+      if plugin.support_large_file == false then
+        should_remove = true
+      end
+    end
+    
+    if should_remove then
+      table.remove(plugins, i)
+    end
+  end
+end
+
 require("lazy").setup(plugins)

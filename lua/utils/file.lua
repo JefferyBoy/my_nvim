@@ -36,4 +36,11 @@ M.file_exists = function(path)
     return false
 end
 
+-- 检查文件大小
+function M.current_file_size_mb()
+  local size = vim.fn.getfsize(vim.fn.expand('%'))
+  if size <= 0 then return 0 end
+  return math.floor(size / 1024 / 1024)
+end
+
 return M

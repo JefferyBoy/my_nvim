@@ -11,6 +11,9 @@ opt.clipboard = "unnamedplus"
 -- 光标高亮
 opt.cursorline = true
 opt.cursorcolumn = false
+opt.termguicolors = true
+opt.synmaxcol = 500   -- 只高亮前 500 列
+opt.synmaxcol = 3000  -- 正常文件的高亮列数
 
 -- 缩进
 opt.expandtab = true

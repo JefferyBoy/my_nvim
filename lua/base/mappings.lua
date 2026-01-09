@@ -66,24 +66,26 @@ map("n", "sn", "<cmd>SearcheCurrentBufferToNew<CR>")
 map("n", "sN", "<cmd>SearcheAllFilesToNew<CR>")
 
 --telescope
-local builtin = require("telescope.builtin")
-map("n", "<leader>ff", builtin.find_files, { desc = "find files" })
-map("n", "<leader>fF", require("configs.telescope").find_files_in_word, { desc = "find files in word" })
-map("n", "<leader>fw", builtin.live_grep, { desc = "live grep" })
-map("n", "<leader>fW", builtin.grep_string, { desc = "grep string in word" })
-map("n", "<leader>fg", builtin.git_files, { desc = "find git files" })
-map("n", "<leader>fb", builtin.buffers, { desc = "find buffers" })
-map("n", "<leader>fh", builtin.help_tags, { desc = "find help tags" })
-map("n", "<leader>ft", "<cmd>Telescope colorscheme<CR>")
-map("n", "<leader>fp", "<cmd>Telescope projects<CR>")
-map("n", "<leader>fB", "<cmd>Telescope bookmarks<CR>")
--- map("n", "<leader>fm", builtin.marks)
-map("n", "<f1>", builtin.commands)
-map("n", "<f2>", builtin.keymaps)
-map("n", "<f11>", builtin.buffers)
-map("n", "<f12>", builtin.lsp_document_symbols)
-map("n", "<C-e>", builtin.oldfiles)
-map("n", ";", "<cmd>Telescope cmdline<CR>")
+local ok, builtin = pcall(require, "telescope.builtin")
+if ok then
+	map("n", "<leader>ff", builtin.find_files, { desc = "find files" })
+	map("n", "<leader>fF", require("configs.telescope").find_files_in_word, { desc = "find files in word" })
+	map("n", "<leader>fw", builtin.live_grep, { desc = "live grep" })
+	map("n", "<leader>fW", builtin.grep_string, { desc = "grep string in word" })
+	map("n", "<leader>fg", builtin.git_files, { desc = "find git files" })
+	map("n", "<leader>fb", builtin.buffers, { desc = "find buffers" })
+	map("n", "<leader>fh", builtin.help_tags, { desc = "find help tags" })
+	map("n", "<leader>ft", "<cmd>Telescope colorscheme<CR>")
+	map("n", "<leader>fp", "<cmd>Telescope projects<CR>")
+	map("n", "<leader>fB", "<cmd>Telescope bookmarks<CR>")
+	-- map("n", "<leader>fm", builtin.marks)
+	map("n", "<f1>", builtin.commands)
+	map("n", "<f2>", builtin.keymaps)
+	map("n", "<f11>", builtin.buffers)
+	map("n", "<f12>", builtin.lsp_document_symbols)
+	map("n", "<C-e>", builtin.oldfiles)
+	map("n", ";", "<cmd>Telescope cmdline<CR>")
+end
 
 --nvimtree
 map("n", "<C-n>", "<cmd> NvimTreeToggle <CR>")
@@ -137,33 +139,35 @@ map("n", "<leader>rn", "<cmd>RenameCurrentCursorField<CR>")
 map("n", "<leader>fm", "<cmd>Format<cr>")
 
 --nvim-dap
-local dap = require("dap")
-local dapui = require("dapui")
-map("n", "<F7>", dap.step_into, { desc = "dap step into" })
-map("n", "<F8>", dap.step_over, { desc = "dap step over" })
-map("n", "<F9>", dap.continue, { desc = "dap continue" })
-map("n", "<F10>", dap.step_out, { desc = "dap step out" })
-map("n", "<leader>db", dap.toggle_breakpoint, { desc = "dap toggle breakpoint" })
-map("n", "<leader>dB", function() 
-  -- 条件断点表达式
-  local condition = vim.fn.input("Breakpoint Condition: ")
-  -- 条件触发多少次后再触发断点
-  local condition_hit = nil
-  -- 触发后打印日志（可以用{}包裹变量）
-  local logMsg = vim.fn.input("Breakpoint Message: ")
-  dap.set_breakpoint(condition, condition_hit, logMsg)
-end, { desc = "dap toggle breakpoint" })
--- map("n", "<leader>dB", dap.clear_breakpoints, { desc = "dap clear breakpoints" })
-map("n", "<leader>dl", function()
-	dap.list_breakpoints(true)
-end, { desc = "dap list breakpoints" })
-map("n", "<leader>dq", dap.terminate, { desc = "dap quit" })
-map("n", "<leader>dr", dap.continue, { desc = "dap continue(start)" })
-map("n", "<leader>dR", dap.restart, { desc = "dap restart" })
-map("n", "<leader>dt", dapui.toggle, { desc = "dap ui toggle" })
-map("n", "<leader>de", dapui.eval, { desc = "dap ui eval expression" })
-map("n", "<leader>dc", dap.run_to_cursor, { desc = "dap run to cursor" })
-map("n", "<leader>dd", "<cmd>Telescop dap commands<CR>", { desc = "dap commands" })
+local ok, dap = pcall(require, "dap")
+if ok then
+	local dapui = require("dapui")
+	map("n", "<F7>", dap.step_into, { desc = "dap step into" })
+	map("n", "<F8>", dap.step_over, { desc = "dap step over" })
+	map("n", "<F9>", dap.continue, { desc = "dap continue" })
+	map("n", "<F10>", dap.step_out, { desc = "dap step out" })
+	map("n", "<leader>db", dap.toggle_breakpoint, { desc = "dap toggle breakpoint" })
+	map("n", "<leader>dB", function()
+		-- 条件断点表达式
+		local condition = vim.fn.input("Breakpoint Condition: ")
+		-- 条件触发多少次后再触发断点
+		local condition_hit = nil
+		-- 触发后打印日志（可以用{}包裹变量）
+		local logMsg = vim.fn.input("Breakpoint Message: ")
+		dap.set_breakpoint(condition, condition_hit, logMsg)
+	end, { desc = "dap toggle breakpoint" })
+	-- map("n", "<leader>dB", dap.clear_breakpoints, { desc = "dap clear breakpoints" })
+	map("n", "<leader>dl", function()
+		dap.list_breakpoints(true)
+	end, { desc = "dap list breakpoints" })
+	map("n", "<leader>dq", dap.terminate, { desc = "dap quit" })
+	map("n", "<leader>dr", dap.continue, { desc = "dap continue(start)" })
+	map("n", "<leader>dR", dap.restart, { desc = "dap restart" })
+	map("n", "<leader>dt", dapui.toggle, { desc = "dap ui toggle" })
+	map("n", "<leader>de", dapui.eval, { desc = "dap ui eval expression" })
+	map("n", "<leader>dc", dap.run_to_cursor, { desc = "dap run to cursor" })
+	map("n", "<leader>dd", "<cmd>Telescop dap commands<CR>", { desc = "dap commands" })
+end
 
 --todo
 map("n", "<leader>td", "<cmd>TodoTelescope<cr>")
@@ -194,8 +198,11 @@ map("n", "<leader>tc", "<CMD>OverseerRunCmd<CR>")
 -- map("n", "<C-A-o>", require("jdtls").organize_imports)
 
 --flash.nvim跳转
-map({ "n", "x", "o" }, "F", require("flash").jump, { desc = "Flash.nvim" })
--- map({ "n", "x", "o" }, "F", require("flash").treesitter, { desc = "Flash.nvim" })
+local ok, _ = pcall(require, "flash")
+if ok then
+	map({ "n", "x", "o" }, "F", require("flash").jump, { desc = "Flash.nvim" })
+	-- map({ "n", "x", "o" }, "F", require("flash").treesitter, { desc = "Flash.nvim" })
+end
 
 ----------------------------
 ------ AI编程辅助工具 ------
