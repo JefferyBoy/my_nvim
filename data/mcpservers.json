@@ -1,0 +1,91 @@
+{
+  "mcpServers": {
+    "browser_tools": {
+      "args": ["@agentdeskai/browser-tools-mcp@latest"],
+      "command": "npx",
+      "disabled": true
+    },
+    "fetch": {
+      "args": ["mcp-server-fetch"],
+      "command": "uvx",
+      "disabled": true
+    },
+    "filesystem": {
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${ALLOWED_DIRECTORY}"
+      ],
+      "command": "npx",
+      "disabled": true
+    },
+    "git": {
+      "args": ["mcp-server-git", "--repository", "${REPOSITORY_PATH}"],
+      "command": "uvx",
+      "disabled": false
+    },
+    "github": {
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      },
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "memory": {
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "command": "npx"
+    },
+    "playwright": {
+      "args": ["@playwright/mcp@latest"],
+      "command": "npx"
+    },
+    "postgres": {
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "${POSTGRESQL_URL}"
+      ],
+      "command": "npx",
+      "disabled": true
+    },
+    "redis": {
+      "args": ["mcp-server-redis", "--url", "${REDIS_URL}"],
+      "command": "uvx",
+      "disabled": true
+    },
+    "sequentialthinking": {
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "command": "npx"
+    },
+    "sqlite": {
+      "args": ["mcp-server-sqlite", "--db-path", "${DB_PATH}"],
+      "command": "uvx",
+      "disabled": true
+    },
+    "time": {
+      "args": ["mcp-server-time"],
+      "command": "uvx"
+    },
+    "mysql": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "path/to/mysql_mcp_server",
+        "run",
+        "mysql_mcp_server"
+      ],
+      "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "your_username",
+        "MYSQL_PASSWORD": "your_password",
+        "MYSQL_DATABASE": "your_database"
+      }
+    },
+    "baidu-maps": {
+      "command": "bash ~/bin/mcp-baidumaps.sh",
+      "env": {
+        "BAIDU_MAPS_API_KEY": "<YOUR_API_KEY>"
+      }
+    }
+  }
+}

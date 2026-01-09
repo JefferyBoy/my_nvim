@@ -351,6 +351,19 @@ local plugins = {
 		end,
 		ft = { "markdown" },
 	},
+  -- 粘贴图片 :PasteImage
+	{
+		"HakonHarnes/img-clip.nvim",
+		opts = {
+			filetypes = {
+				codecompanion = {
+					prompt_for_file_name = false,
+					template = "[Image]($FILE_PATH)",
+					use_absolute_path = true,
+				},
+			},
+		},
+	},
 	-- 启动页
 	-- {
 	-- 	"nvimdev/dashboard-nvim",
@@ -412,6 +425,18 @@ local plugins = {
 					hide_if_all_visible = true,
 				},
 			})
+		end,
+	},
+	-- 支持mcp
+	{
+		"ravitemer/mcphub.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"nvim-telescope/telescope.nvim",
+		},
+		build = "npm install -g mcp-hub@latest",
+		config = function()
+			require("configs.mcphub")
 		end,
 	},
 	-- 书签管理

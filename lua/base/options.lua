@@ -31,9 +31,7 @@ opt.relativenumber = true
 opt.ruler = true
 
 -- Neovim default updatetime is 4000
-vim.opt.updatetime = 200
+vim.opt.updatetime = 500
 
 -- 编码 utf-8,ucs-bom,gb18030,gbk,cp936,latin1
-opt.encoding = "utf-8"
--- opt.fileencoding = "utf-8"
-opt.fileencodings = "utf-8,cp936"
+opt.fileencodings = "utf-8"

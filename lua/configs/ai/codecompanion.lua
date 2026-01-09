@@ -74,8 +74,8 @@ local yi_models = {
 }
 local zhipu_models = {
 	"glm-4-plus",
-	"glm-4-air",
-	"glm-4-long",
+	"glm-4.6",
+	"glm-4.7",
 }
 local gemini_models = {
 	"gemini-2.5-pro",
@@ -83,37 +83,39 @@ local gemini_models = {
 	"gemini-2.5-flash-lite",
 	"gemini-3-pro-preview",
 }
+local openai_models = {
+	"gpt-3.5-turbo",
+	"gpt-4",
+	"gpt-4o",
+	"gpt-4-turbo",
+	"gpt-4o-mini",
+	"gpt-5.1-2025-11-13",
+	"gpt-5-2025-08-07",
+	"gpt-5-mini-2025-08-07",
+}
 local openrouter_models = {
 	"openai/gpt-3.5-turbo",
 	"openai/chatgpt-4o-latest",
 	"openai/o1",
-	"openai/o1-preview",
-	"openai/o1-mini",
 	"openai/o3-mini",
 	"google/gemini-2.0-flash-001",
 	"google/gemini-2.0-flash-thinking-exp:free",
 	"google/gemini-2.0-flash-lite-preview-02-05:free",
 	"google/gemini-2.0-pro-exp-02-05:free",
 	"google/gemini-flash-1.5-8b",
+	"google/gemini-3-pro-preview",
+  "google/gemini-3-pro-image-preview",
 	"anthropic/claude-3.5-sonnet",
 	"anthropic/claude-3.5-haiku",
-	"deepseek/deepseek-r1:free",
-	"deepseek/deepseek-r1",
-	"qwen/qwen-vl-plus:free",
-	"deepseek/deepseek-chat-v3-0324:free",
-	"deepseek/deepseek-r1-0528:free",
-	"qwen/qwen3-coder:free",
-	"deepseek/deepseek-chat-v3.1:free",
 	"google/gemma-3-27b-it:free",
 	"anthropic/claude-sonnet-4.5",
 	"anthropic/claude-3.7-sonnet",
 	"openai/gpt-5-mini",
 	"openai/gpt-5",
-	"openai/gpt-4o",
 	"openai/gpt-5.1",
 	"openai/gpt-5.1-chat",
-	"openai/gpt-5-pro",
-	"z-ai/glm-4.6",
+	"openai/gpt-5.2",
+	"openai/gpt-5.2-chat",
 	"x-ai/grok-4-fast",
 	"X-ai/grok-code-fast-1",
 	"x-ai/grok-4",
@@ -124,7 +126,7 @@ local openrouter_models = {
 	"google/gemma-3n-e4b-it",
 }
 
-local oneapi_current_model = "qwen3-max"
+local oneapi_current_model = "deepseek-chat"
 local get_oneapi_current_model = function()
 	return oneapi_current_model
 end
@@ -155,6 +157,9 @@ for _, model in ipairs(openrouter_models) do
 end
 for _, model in ipairs(gemini_models) do
 	table.insert(oneapi_models, "Gemini: " .. model)
+end
+for _, model in ipairs(openai_models) do
+	table.insert(oneapi_models, "OpenAI: " .. model)
 end
 
 vim.api.nvim_create_user_command("CodeCompanionChangeModel", function()
@@ -220,17 +225,46 @@ M.lazy_config = {
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 		"nvim-treesitter/nvim-treesitter",
-		{ "MeanderingProgrammer/render-markdown.nvim", ft = { "markdown", "codecompanion" } },
+		-- 聊天界面使用markdown渲染
+		{
+			"MeanderingProgrammer/render-markdown.nvim",
+			ft = { "markdown", "codecompanion" },
+		},
+		-- 支持mcp
+		"ravitemer/mcphub.nvim",
+		-- 历史记录
+		"ravitemer/codecompanion-history.nvim",
+		-- 代码对比，使用 @insert_edit_into_file
+		{
+			"echasnovski/mini.diff",
+			config = function()
+				local diff = require("mini.diff")
+				diff.setup({
+					source = diff.gen_source.none(),
+				})
+			end,
+		},
+		-- 粘贴图片到buffer中
+		{
+			"HakonHarnes/img-clip.nvim",
+			opts = {
+				filetypes = {
+					codecompanion = {
+						prompt_for_file_name = false,
+						template = "[Image]($FILE_PATH)",
+						use_absolute_path = true,
+					},
+				},
+			},
+		},
 	},
 	config = function()
+    -- 系统提示词可以看codecompanion仓库init.lua中SYSTEM_PROMPT
 		require("codecompanion").setup({
 			opts = {
 				log_level = "ERROR", -- TRACE|DEBUG|ERROR|INFO
 				send_code = true,
 				language = "Chinese",
-				system_prompt = function()
-					return 'You are an AI programming assistant named "雷总". Your all non-code responses must be in Chinese.'
-				end,
 			},
 			strategies = {
 				chat = {
@@ -247,6 +281,15 @@ M.lazy_config = {
 					adapter = "oneapi",
 				},
 			},
+			display = {
+				inline = {
+					-- vertical|horizontal|buffer
+					layout = "vertical",
+				},
+				diff = {
+					enabled = false,
+				},
+			},
 			adapters = {
 				http = {
 					-- 融合各大模型API
@@ -255,7 +298,7 @@ M.lazy_config = {
 							name = "oneapi",
 							formatted_name = "oneapi",
 							env = {
-								api_key = "ONE_API_KEY",
+								api_key = vim.env.ONE_API_KEY,
 							},
 							url = "http://127.0.0.1:3000/v1/chat/completions",
 							schema = {
@@ -269,7 +312,7 @@ M.lazy_config = {
 					deepseek = function()
 						return require("codecompanion.adapters").extend("deepseek", {
 							env = {
-								api_key = "DEEPSEEK_API_KEY",
+								api_key = vim.env.DEEPSEEK_API_KEY,
 							},
 						})
 					end,
@@ -278,7 +321,7 @@ M.lazy_config = {
 							name = "siliconflow",
 							formatted_name = "siliconflow",
 							env = {
-								api_key = "SILICONFLOW_API_KEY",
+								api_key = vim.env.SILICONFLOW_API_KEY,
 							},
 							url = "https://api.siliconflow.cn/v1/chat/completions",
 							schema = {
@@ -294,7 +337,7 @@ M.lazy_config = {
 							name = "aliyun_bailian",
 							formatted_name = "aliyun_bailian",
 							env = {
-								api_key = "ALIBAILIAN_API_KEY",
+								api_key = vim.env.ALIYUN_BAILIAN_API_KEY,
 							},
 							url = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
 							schema = {
@@ -346,6 +389,30 @@ M.lazy_config = {
 								contains_code = true,
 							},
 						},
+					},
+				},
+				-- 在命令行中读取API_kEY的配置方式，更安全
+				acp = {},
+			},
+			extensions = {
+				mcphub = {
+					callback = "mcphub.extensions.codecompanion",
+					opts = {
+						make_vars = true,
+						make_slash_commands = true,
+						show_result_in_chat = true,
+					},
+				},
+				history = {
+					enabled = true,
+					opts = {
+						-- 打开历史记录buffer
+						keymap = "gh",
+						save_chat_keymap = "sc",
+						auto_save = true,
+						picker = "telescope",
+						expiration_days = 0,
+						dir_to_save = vim.fn.stdpath("data") .. "/codecompanion-history",
 					},
 				},
 			},
